@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Slider from '../components/Slider'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Row, Col, Card} from 'react-bootstrap'
+import {Container, Row, Col, Card, Image, Button} from 'react-bootstrap'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -143,17 +143,19 @@ export default class IndexPage extends React.Component {
             </Row>
             </Container>
           </div>
-          <Container fluid={false}>
+          <Container fluid={false} className="my-5">
             <Row>
               <Col xs={8}>
                 <h1 className="has-text-weight-bold is-size-2">ABOUT US</h1>
                 <br/>
                 <h2>A little history</h2>
                 <p>We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.</p>
+                <h3>A little history is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of</h3>
                 <p>Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.</p>
+                <Button className="float-right" variant="warning">Read More</Button>
               </Col>
               <Col xs={4}>
-                test
+              <Image src="https://via.placeholder.com/450x700" fluid />
               </Col>
             </Row>
           </Container>
