@@ -9,6 +9,8 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 
+$breakpoint-small: 520px;
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -64,6 +66,10 @@ $body-color: #333
 
 .text-black
   color: black !important
+
+@media (min-width: $breakpoint-small) 
+  .navbar-brand 
+    width: 50%  
 
 
 @import "~bulma"
