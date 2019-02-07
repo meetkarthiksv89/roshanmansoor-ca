@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Slider from '../components/Slider'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Row, Col, Card} from 'react-bootstrap'
+import {Container, Row, Col, Card, Image, Button} from 'react-bootstrap'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <Slider/>
-        <section className="section">
+        <section className="mt-5">
           <div className="content">
           <Container>
             <Row>
@@ -29,56 +29,136 @@ export default class IndexPage extends React.Component {
           </div>
           <div>
           <Row className="text-center">
-          <Card style={{ width: '33%' }}>
-            <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
-            <Card.Body className="my-4 py-4">
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                <br/>
-                <a style={{color:'orange'}}>Read More </a>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: '34%' }}>
-            <Card.Body className="my-4 py-4">
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                <br/>
-                <a style={{color:'orange'}}>Read More </a>
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
-          </Card>
-          <Card style={{ width: '33%' }}>
-            <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
-            <Card.Body className="my-4 py-4">
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                <br/>
-                <a style={{color:'orange'}}>Read More </a>
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Col className="p-0">
+            <Card>
+              <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
+              <Card.Body className="my-4 py-4">
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  <br/>
+                  <a style={{color:'orange'}}>Read More </a>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="p-0">
+            <Card>
+              <Card.Body className="my-4 py-4">
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  <br/>
+                  <a style={{color:'orange'}}>Read More </a>
+                </Card.Text>
+              </Card.Body>
+              <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
+            </Card>
+          </Col>
+          <Col className="p-0">
+            <Card>
+              <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
+              <Card.Body className="my-4 py-4">
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  <br/>
+                  <a style={{color:'orange'}}>Read More </a>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
           </Row>
           </div>
-          <div className="content mt-5">
-          <Container>
+          <div className="content mt-5 bg-dark">
+          <Container fluid={true} className="p-5">
             <Row>
                 <Col>
-                  <h1 className="has-text-weight-bold is-size-2">WHO WE SERVES</h1>
+                  <h1 className="has-text-weight-bold is-size-2 text-light">WHO WE SERVES</h1>
                 </Col>
                 <Col>
-                  <h1 className="d-flex justify-content-end">SEE ALL INDUSTRIES</h1>
+                  <h1 className="d-flex justify-content-end text-light">SEE ALL INDUSTRIES</h1>
                 </Col>
               </Row>
+              <Row className="text-center">
+              <Col>
+              <Card>
+                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                <Card.Body className="my-4 py-4">
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                    <br/>
+                    <a style={{color:'orange'}}>Read More </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Col>
+              <Col>
+              <Card>
+                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                <Card.Body className="my-4 py-4">
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                    <br/>
+                    <a style={{color:'orange'}}>Read More </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Col>
+              <Col>
+              <Card>
+                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                <Card.Body className="my-4 py-4">
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                    <br/>
+                    <a style={{color:'orange'}}>Read More </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Col>
+              <Col>
+              <Card>
+                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                <Card.Body className="my-4 py-4">
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                    <br/>
+                    <a style={{color:'orange'}}>Read More </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Col>
+            </Row>
             </Container>
           </div>
+          <Container fluid={false} className="my-5">
+            <Row>
+              <Col xs={8}>
+                <h1 className="has-text-weight-bold is-size-2">ABOUT US</h1>
+                <br/>
+                <h2>A little history</h2>
+                <p>We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.</p>
+                <h3>A little history is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of</h3>
+                <p>Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.</p>
+                <Button className="float-right" variant="warning">Read More</Button>
+              </Col>
+              <Col xs={4}>
+              <Image src="https://via.placeholder.com/450x700" fluid />
+              </Col>
+            </Row>
+          </Container>
           <div className="container">  
             {posts
               .map(({ node: post }) => (
