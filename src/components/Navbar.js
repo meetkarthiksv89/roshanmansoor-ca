@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 import logo from '../img/header.png'
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, Form } from 'react-bootstrap';
 
 const Header = class extends React.Component {
 

@@ -10,6 +10,7 @@ export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    console.log(posts)
 
     return (
       <Layout>
@@ -38,7 +39,7 @@ export default class IndexPage extends React.Component {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   <br/>
-                  <a style={{color:'orange'}}>Read More </a>
+                  <a href="#" style={{color:'orange'}}>Read More </a>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -51,7 +52,7 @@ export default class IndexPage extends React.Component {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   <br/>
-                  <a style={{color:'orange'}}>Read More </a>
+                  <a href="#" style={{color:'orange'}}>Read More </a>
                 </Card.Text>
               </Card.Body>
               <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
@@ -66,7 +67,7 @@ export default class IndexPage extends React.Component {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   <br/>
-                  <a style={{color:'orange'}}>Read More </a>
+                  <a href="#" style={{color:'orange'}}>Read More </a>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -93,7 +94,7 @@ export default class IndexPage extends React.Component {
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
                     <br/>
-                    <a style={{color:'orange'}}>Read More </a>
+                    <a href="#" style={{color:'orange'}}>Read More </a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -107,7 +108,7 @@ export default class IndexPage extends React.Component {
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
                     <br/>
-                    <a style={{color:'orange'}}>Read More </a>
+                    <a href="#" style={{color:'orange'}}>Read More </a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -121,7 +122,7 @@ export default class IndexPage extends React.Component {
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
                     <br/>
-                    <a style={{color:'orange'}}>Read More </a>
+                    <a href="#" style={{color:'orange'}}>Read More </a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -135,7 +136,7 @@ export default class IndexPage extends React.Component {
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
                     <br/>
-                    <a style={{color:'orange'}}>Read More </a>
+                    <a href="#" style={{color:'orange'}}>Read More </a>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -159,7 +160,50 @@ export default class IndexPage extends React.Component {
               </Col>
             </Row>
           </Container>
-          <div className="container">  
+          <div className="bg-darkblue my-5 p-5 text-light">
+          <Container fluid={false} className="" >
+              <Row>
+                <Col>
+                  <h1 className="has-text-weight-bold is-size-2">LATEST INSIGHTS</h1>
+                </Col>
+                <Col>
+                  <h4 className="d-flex justify-content-end">SEE ALL LATEST INSIGHTS</h4>
+                </Col>
+              </Row>
+            <Row className="my-5">
+              <Col xs={7}>
+                <h1 className="has-text-weight-bold is-size-1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
+              </Col>
+              <Col xs={5}>
+              {posts[0] ? (
+              <Card className="bg-lightblue">
+              <Link className="text-black" to={posts[0].node.fields.slug}>
+                <Card.Body >
+                  <Card.Title className="text-black">{posts[0].node.frontmatter.title}</Card.Title>
+                  <Card.Text className="text-light">
+                    {posts[0].node.excerpt.substring(0,200) + '...'}
+                  </Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>) : null
+              }
+              {posts[1] ? (
+              <Card className="bg-lightblue mt-5">
+              <Link className="text-black" to={posts[0].node.fields.slug}>
+                <Card.Body >
+                  <Card.Title className="text-black">{posts[1].node.frontmatter.title}</Card.Title>
+                  <Card.Text className="text-light">
+                  {posts[1].node.excerpt.substring(0,200)+ '...'}
+                  </Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>) : null
+              }
+              </Col>
+            </Row>
+          </Container>
+          </div>
+          {/* <div className="container">  
             {posts
               .map(({ node: post }) => (
                 <div
@@ -184,7 +228,7 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
-          </div>
+          </div> */}
         </section>
       </Layout>
     )
