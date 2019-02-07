@@ -31,7 +31,7 @@ export default class IndexPage extends React.Component {
           <Row className="text-center">
           <Card style={{ width: '33%' }}>
             <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
-            <Card.Body>
+            <Card.Body className="my-4 py-4">
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
@@ -42,7 +42,7 @@ export default class IndexPage extends React.Component {
             </Card.Body>
           </Card>
           <Card style={{ width: '34%' }}>
-            <Card.Body>
+            <Card.Body className="my-4 py-4">
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
@@ -55,7 +55,7 @@ export default class IndexPage extends React.Component {
           </Card>
           <Card style={{ width: '33%' }}>
             <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
-            <Card.Body>
+            <Card.Body className="my-4 py-4">
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
