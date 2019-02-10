@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Slider from '../components/Slider'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import '../assets/style/all.sass'
+import '../assets/style/bootstrap.css'
 import {Container, Row, Col, Card, Image, Button} from 'react-bootstrap'
 
 export default class IndexPage extends React.Component {
