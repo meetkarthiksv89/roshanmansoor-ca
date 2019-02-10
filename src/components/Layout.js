@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from '../components/Navbar'
 import Footer from '../components/Footer'
-import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
