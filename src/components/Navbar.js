@@ -33,7 +33,7 @@ const Header = class extends React.Component {
             <Link className="navbar-item" to="/services">
               SERVICES
             </Link>
-            <Link className="navbar-item" to="/products">
+            <Link className="navbar-item" to="/industries">
               INDUSTRIES
             </Link>
             <Link className="navbar-item" to="/contact">
