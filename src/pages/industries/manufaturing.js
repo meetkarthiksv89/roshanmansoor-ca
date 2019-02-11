@@ -2,11 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
-import orangeArrow from '../../img/orange-arrow.png'
-
-const OrangeArrowComp = (props) => (
-  <img className="ml-2" width={props.width} src={orangeArrow} alt="arrow-btn"/>
-)
 
 export const RealEstatePage = () => {
   return (
