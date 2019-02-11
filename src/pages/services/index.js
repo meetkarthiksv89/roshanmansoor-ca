@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
 import orangeArrow from '../../img/orange-arrow.png'
@@ -24,9 +24,9 @@ export const ServicesPage = () => {
       <Row>
         <Col>
         <Breadcrumb>
-          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-          <Breadcrumb.Item href="/about">
-            Services
+          <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
+          <Breadcrumb.Item>
+            <Link to="/services">Services</Link>
           </Breadcrumb.Item>
         </Breadcrumb>
         </Col>
