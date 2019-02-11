@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
@@ -22,9 +22,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <Row>
         <Col>
         <Breadcrumb>
-          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-          <Breadcrumb.Item href="/about">
-            About Us
+          <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
+          <Breadcrumb.Item>
+            <Link to="/about">About Us</Link>
           </Breadcrumb.Item>
         </Breadcrumb>
         </Col>

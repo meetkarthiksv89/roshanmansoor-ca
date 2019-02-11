@@ -19,9 +19,9 @@ export const InformationTechnologyPage = () => {
       <Row>
         <Col>
         <Breadcrumb>
-          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-          <Breadcrumb.Item href="/about">
-            Industries
+          <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
+          <Breadcrumb.Item>
+            <Link to="/industries">Industries</Link>
           </Breadcrumb.Item>
         </Breadcrumb>
         </Col>
