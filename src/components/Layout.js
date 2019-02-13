@@ -1,9 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
-
 import Header from '../components/Navbar'
 import Footer from '../components/Footer'
+import '../assets/style/all.sass'
+import '../assets/style/bootstrap.css'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
