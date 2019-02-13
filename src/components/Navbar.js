@@ -13,13 +13,15 @@ const Header = class extends React.Component {
    return (
      <Navbar bg="white" expand="lg">
        <div className="container">
-        <Navbar.Brand href="#home">
-        <img
-        src={logo}
-        height="30"
-        className="d-inline-block align-top"
-        alt="React Bootstrap logo"
-      />
+        <Navbar.Brand >
+        <Link to="/">
+          <img
+            src={logo}
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Link>
       </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
