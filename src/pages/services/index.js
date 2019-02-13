@@ -35,7 +35,8 @@ export const ServicesPage = () => {
       <Col className="p-0">
         <img src="https://via.placeholder.com/400x500" alt=""/>
         </Col>
-        <Col className="p-5">
+        <Col className="p-5 service-link">
+        <Link to="services/auditing">
           <h4>
             AUDITING
             <OrangeArrowComp width="20px"/>
@@ -43,15 +44,17 @@ export const ServicesPage = () => {
           <p>
           We are committed to serving our clients with highest possible assurance through our systematic ap- proach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehen- sive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.
           </p>
+        </Link>
         </Col>
-        <Col className="p-5 mt-5">
+        <Col className="p-5 mt-5 ervice-link">
           <h6 style={{"width":"150px"}}>Internal Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 style={{"width":"150px"}}>Statutory Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 style={{"width":"150px"}}>Bank Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
       <Row className="bg-white mt-5">        
-        <Col className="py-5 pl-5 pr-4 col-md-5">
+        <Col className="py-5 pl-5 pr-4 col-md-5 service-link">
+        <Link to="services/taxation">
           <h4>
             TAXATION
             <OrangeArrowComp width="20px"/>
@@ -60,6 +63,7 @@ export const ServicesPage = () => {
           We offer end to end solutions for all your taxation needs from tax planning, documentation to representations. Our clients for tax preparation service include individuals, firms, Indians sta- tioned overseas, non-Indian nationals, among others.
           We also represent our clients at various offices including that of the assessing officer, Appellate authorities and Tribunal. Our tax planning and assistance services span across personal and corporate entities in terms of acquiring Permanent Ac- count Number (PAN), Tax Deduction Account Number, TDS or withholding taxes, filing of e-Income tax and e-TDS returns. We also offer international tax planning services to obtain inbound
           </p>
+          </Link>
         </Col>
         <Col className="py-5 mt-5 col-md-3">
           <h6 style={{"width":"150px"}}>Income Tax  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
@@ -73,7 +77,8 @@ export const ServicesPage = () => {
       <Col className="p-0 col-md-4">
         <img src="https://via.placeholder.com/400x530" alt=""/>
         </Col>
-        <Col className="py-5 pl-5 col-md-5">
+        <Col className="py-5 pl-5 col-md-5 service-link">
+        <Link to="services/advisory">
           <h4>
             ADVISORY
             <OrangeArrowComp width="20px"/>
@@ -83,6 +88,7 @@ export const ServicesPage = () => {
           Apart from assessing the extent of damages, we also support in pro- viding testimonies in cases involving our clients. Our state of art forensic accounting service extricates complicated financial transac- tions.
           Our independent information collection methods are presented in digital formats easing the analysis of data. Our real time responsive team ensures hundred percent confidentiality and addressing the
           </p>
+          </Link>
         </Col>
         <Col className="py-5 mt-5 col-md-3">
           <h6 style={{"width":"220px"}}>Due diligence  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>

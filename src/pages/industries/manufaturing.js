@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
-import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
+import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
+import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 
 export const RealEstatePage = () => {
   return (
@@ -54,62 +55,20 @@ export const RealEstatePage = () => {
         </Col>
       </Row>
     </Container>
-    <div className="bg-dark text-light py-5">
-    <Container>
-    <Row>
-        <Col className="col-md-12 my-3">
-        <h1>OTHER INDUSTRIES YOU MAY LIKE</h1>
-        </Col>
-        <Col>
-        <Card>
-        <Link to="/industries/realestate">
-          <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-          <Card.Body style={{"min-height":"290px"}}className="my-4 py-4">
-            <Card.Title>REAL ESTATE ENGINEERING & CONSTRUCTION</Card.Title>
-            <Card.Text>
-              Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...
-              <br/>
-              <a href="#" style={{color:'orange'}}>Read More </a>
-            </Card.Text>
-          </Card.Body>
-          </Link>
-        </Card>
-        </Col>
-        <Col>
-        <Card>
-        <Link to="/industries/informationtechnology">
-          <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-          <Card.Body style={{"min-height":"290px"}}className="my-4 py-4">
-            <Card.Title>INFORMATION TECHNOLOGY</Card.Title>
-            <Card.Text>
-              Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
-              <br/>
-              <a href="#" style={{color:'orange'}}>Read More </a>
-            </Card.Text>
-          </Card.Body>
-        </Link>
-        </Card>
-        </Col>
-        <Col>
-        <Card>
-          <Link to="/industries/retail">
-          <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-          <Card.Body style={{"min-height":"290px"}}className="my-4 py-4">
-            <Card.Title>RETAIL</Card.Title>
-            <Card.Text>
-            Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
-            and tax planning and better management of cash flow
-              <br/>
-              <a href="#" style={{color:'orange'}}>Read More </a>
-            </Card.Text>
-          </Card.Body>
-          </Link>
-        </Card>
-        </Col>
-      </Row>
-    </Container>
     </div>
-    </div>
+    <OtherStaticPagesRow
+      mainHeader="OTHER INDUSTRIES YOU MAY LIKE"
+      link1="/industries/realestate"
+      link2="/industries/informationtechnology"
+      link3="/industries/retail"
+      cardHeader1="REAL ESTATE ENGINEERING & CONSTRUCTION"
+      cardHeader2="INFORMATION TECHNOLOGY"
+      cardHeader3="RETAIL"
+      cardText1="Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry..."
+      cardText2="Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical...."
+      cardText3="Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
+      and tax planning and better management of cash flow..."
+    />
     </Layout>
   )
 }
