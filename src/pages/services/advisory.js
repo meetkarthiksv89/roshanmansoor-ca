@@ -13,7 +13,7 @@ export const InformationTechnologyPage = () => {
       <Card className="bg-dark text-white text-center">
         <Card.Img src="https://via.placeholder.com/1200x650" alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>Taxation</h1></Card.Title>
+          <Card.Title className="page-image-card-header"><h1>Advisory</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
@@ -82,11 +82,11 @@ export const InformationTechnologyPage = () => {
     </div>
     <OtherStaticPagesRow
       mainHeader="OTHER SERVICES YOU MAY LIKE"
-      link1="/services/foresnicaudit"
-      link2="/services/auditing"
+      link1="/services/taxation"
+      link2="/services/foresnicaudit"
       link3="/services/duedeligance"
-      cardHeader1="FORESNSIC AUDIT"
-      cardHeader2="AUDITING"
+      cardHeader1="TAXATION"
+      cardHeader2="FORESNSIC AUDIT"
       cardHeader3="DUE DELIGANCE"
       cardText1="We undertake evaluation services of a company’s or individual’s financial information which can be produced
       as evidence in court..."
