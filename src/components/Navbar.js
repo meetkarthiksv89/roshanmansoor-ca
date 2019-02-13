@@ -36,13 +36,13 @@ const Header = class extends React.Component {
             <Link className="navbar-item" to="/industries">
               INDUSTRIES
             </Link>
-            <Link className="navbar-item" to="/contact">
+            <Link className="navbar-item" to="/contact/examples">
               CLIENTS
             </Link>
             <Link className="navbar-item" to="/contact/examples">
               CAREERS
             </Link>
-            <Link className="navbar-item" to="/contact/examples">
+            <Link className="navbar-item" to="/contact">
               CONTACT US
             </Link>
           </Nav>
