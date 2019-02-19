@@ -13,7 +13,7 @@ const Header = class extends React.Component {
    return (
      <Navbar bg="white" expand="lg">
        <div className="container">
-        <Navbar.Brand >
+        <Navbar.Brand className="navbar-custom-brand">
         <Link to="/">
           <img
             src={logo}

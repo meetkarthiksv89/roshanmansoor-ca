@@ -103,9 +103,15 @@ $breakpoint-small: 520px;
 .bullet-list
   list-style-type: disc
 
-@media (min-width: $breakpoint-small) 
-  .navbar-brand 
-    width: 50%  
+@media screen and (max-width: $breakpoint-small) 
+  .navbar-custom-brand
+    width: 70%
+  
+  .custom-carousel-caption
+    display: none
+
+  .carousel-indicators
+    display: none
 
 
 @import "~bulma"
