@@ -26,8 +26,8 @@ export default class IndexPage extends React.Component {
             </Container>
           </div>
           <div>
-          <Row className="text-center">
-          <Col className="p-0">
+          <Row className="text-center mx-0">
+          <Col xs={12} md={4} className="px-0">
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
               <Card.Body className="my-4 py-4">
@@ -41,7 +41,7 @@ export default class IndexPage extends React.Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="p-0">
+          <Col xs={12} md={4} className="px-0">
             <Card>
               <Card.Body className="my-4 py-4">
                 <Card.Title>Card Title</Card.Title>
@@ -55,7 +55,7 @@ export default class IndexPage extends React.Component {
               <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
             </Card>
           </Col>
-          <Col className="p-0">
+          <Col xs={12} md={4} className="px-0">
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/300x180" />
               <Card.Body className="my-4 py-4">
@@ -72,7 +72,7 @@ export default class IndexPage extends React.Component {
           </Row>
           </div>
           <div className="content mt-5 bg-dark">
-          <Container fluid={true} className="p-5">
+          <Container fluid={true} className="p-5" >
             <Row>
                 <Col>
                   <h1 className="has-text-weight-bold is-size-2 text-light">WHO WE SERVES</h1>
@@ -86,7 +86,7 @@ export default class IndexPage extends React.Component {
               <Card>
               <Link to="/industries/informationtechnology">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"385px"}}className="my-4 py-4">
+                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
                   <Card.Title>INFORMATION TECHNOLOGY</Card.Title>
                   <Card.Text>
                     Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
@@ -101,7 +101,7 @@ export default class IndexPage extends React.Component {
               <Card>
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"385px"}}className="my-4 py-4">
+                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
                   <Card.Title>REAL ESTATE ENGINEERING & CONSTRUCTION</Card.Title>
                   <Card.Text>
                     Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...
@@ -116,7 +116,7 @@ export default class IndexPage extends React.Component {
               <Card>
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"385px"}}className="my-4 py-4">
+                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
                   <Card.Title>MANUFATURING</Card.Title>
                   <Card.Text>
                     We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...
@@ -131,7 +131,7 @@ export default class IndexPage extends React.Component {
               <Card>
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"385px"}}className="my-4 py-4">
+                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
                   <Card.Title>RETAIL</Card.Title>
                   <Card.Text>
                   Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
@@ -148,7 +148,7 @@ export default class IndexPage extends React.Component {
           </div>
           <Container fluid={false} className="my-5">
             <Row>
-              <Col xs={8}>
+              <Col xs={12} md={8}>
                 <h1 className="has-text-weight-bold is-size-2">ABOUT US</h1>
                 <br/>
                 <h2>A little history</h2>
@@ -157,7 +157,7 @@ export default class IndexPage extends React.Component {
                 <p>Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.</p>
                 <Button className="float-right" variant="warning">Read More</Button>
               </Col>
-              <Col xs={4}>
+              <Col xs={12} md={4} className="mt-4">
               <Image src="https://via.placeholder.com/450x700" fluid />
               </Col>
             </Row>
@@ -174,7 +174,7 @@ export default class IndexPage extends React.Component {
               </Row>
             <Row className="my-5">
               <Col className="col-xs-12 col-md-7">
-                <h1 className="has-text-weight-bold is-size-1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
+                <h1 className="has-text-weight-bold">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
               </Col>
               <Col className="col-xs-12 col-md-5">
               {posts[0] ? (

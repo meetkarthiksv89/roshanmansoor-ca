@@ -558,7 +558,7 @@ pre code {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
-  }
+  } 
 }
 
 @media (min-width: 768px) {
@@ -1754,6 +1754,9 @@ pre code {
   }
   .table-responsive-sm > .table-bordered {
     border: 0;
+  }
+  .carousel-indicators{
+    display: none !important;
   }
 }
 
