@@ -28,7 +28,7 @@ export const AboutPageTemplate = () => {
       </Row>
       <Row>
         <Col className="col-xs-12 col-md-8">
-        <Card>
+        <Card style={{minHeight:"420px"}}>
         <Card.Img variant="top" src="https://via.placeholder.com/840x300" />
           <Card.ImgOverlay>
             <Card.Title>OVERVIEW</Card.Title>
@@ -41,7 +41,7 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col className="col-xs-12 col-md-4">
-        <Card>
+        <Card style={{minHeight:"420px"}}>
           <Card.Img variant="top" src="https://via.placeholder.com/400x300" />
           <Card.Body>
             <Card.Text className="pb-4">
