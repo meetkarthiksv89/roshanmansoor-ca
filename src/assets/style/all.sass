@@ -11,6 +11,10 @@ $body-color: #333
 
 $breakpoint-small: 520px;
 
+a 
+  &hover
+  text-decoration: none !important
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -84,11 +88,18 @@ $breakpoint-small: 520px;
   position: relative !important
   top:40% !important
 
-.card a 
-  color: #4a4a4a
+.card a
+  color: white
   &:hover
     text-decoration: none
-    background: orange
+    color: white
+
+.text-orange
+  color: orange !important
+  &:hover
+    background-color:orange !important
+    color:white !important
+    text-decoration: none
 
 .service-link a
   text-decoration: none !important
@@ -112,8 +123,21 @@ $breakpoint-small: 520px;
     color: orange
     text-decoration: none
 
+.search-icon
+  &:hover
+    color: orange
+
+.hidden-sm-up
+    display: none
+
 .bg-footer h5, .bg-footer h6 
   font-weight: 600 
+
+.border-none
+  border: none
+
+.box-shadow-none
+  box-shadow: none !important
 
 @media screen and (max-width: $breakpoint-small) 
   .navbar-custom-brand
@@ -124,6 +148,9 @@ $breakpoint-small: 520px;
 
   .carousel-indicators
     display: none
+  
+  .hidden-sm-up
+    display: block
 
 
 @import "~bulma"

@@ -4380,9 +4380,6 @@ input[type="button"].btn-block {
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
 }
 
 .card > hr {
@@ -4480,14 +4477,10 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .card-img-bottom {
   width: 100%;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
 .card-deck {
@@ -4640,7 +4633,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0;
   margin-bottom: 1rem;
   list-style: none;
   border-radius: 0.25rem;
@@ -4667,6 +4660,10 @@ input[type="button"].btn-block {
 
 .breadcrumb-item.active {
   color: #6c757d;
+}
+
+.breadcrumb a {
+  color: black
 }
 
 .pagination {
@@ -6011,7 +6008,11 @@ button.close {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(143, 77, 77, 0.5);
+  border-radius: 14px;
+  width: 14px;
+  height: 14px;
+  margin-right: 4%;
 }
 
 .carousel-indicators li::before {
@@ -6035,7 +6036,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  background-color: orange;
 }
 
 .carousel-caption {

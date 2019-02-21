@@ -22,7 +22,7 @@ export const ServicesPage = () => {
     </Container>
     <Container className="mt-3 pb-5">
       <Row>
-        <Col>
+        <Col className="px-0">
         <Breadcrumb>
           <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
           <Breadcrumb.Item>
@@ -32,12 +32,12 @@ export const ServicesPage = () => {
         </Col>
       </Row>
       <Row className="bg-white">
-      <Col className="p-0">
-        <img src="https://via.placeholder.com/400x500" alt=""/>
+      <Col className="p-0 col-md-4">
+        <img src="https://via.placeholder.com/400x360" alt=""/>
         </Col>
-        <Col className="p-5 service-link">
+        <Col className="p-5 service-link col-md-5">
         <Link to="services/auditing">
-          <h4>
+          <h4 className="font-weight-bold">
             AUDITING
             <OrangeArrowComp width="20px"/>
           </h4>
@@ -46,16 +46,16 @@ export const ServicesPage = () => {
           </p>
         </Link>
         </Col>
-        <Col className="p-5 mt-5 ervice-link">
-          <h6 style={{"width":"150px"}}>Internal Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 style={{"width":"150px"}}>Statutory Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 style={{"width":"150px"}}>Bank Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+        <Col className="p-5 mt-5 ervice-link col-md-3">
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>Internal Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>Statutory Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>Bank Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
       <Row className="bg-white mt-5">        
         <Col className="py-5 pl-5 pr-4 col-md-5 service-link">
         <Link to="services/taxation">
-          <h4>
+          <h4 className="font-weight-bold">
             TAXATION
             <OrangeArrowComp width="20px"/>
           </h4>
@@ -66,11 +66,11 @@ export const ServicesPage = () => {
           </Link>
         </Col>
         <Col className="py-5 mt-5 col-md-3">
-          <h6 style={{"width":"150px"}}>Income Tax  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 style={{"width":"150px"}}>GST  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>Income Tax  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>GST  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
         <Col className="p-0 col-md-4 ">
-          <img src="https://via.placeholder.com/400x500" alt=""/>
+          <img src="https://via.placeholder.com/400x480" alt=""/>
         </Col>
       </Row>
       <Row className="bg-white mt-5">
@@ -79,7 +79,7 @@ export const ServicesPage = () => {
         </Col>
         <Col className="py-5 pl-5 col-md-5 service-link">
         <Link to="services/advisory">
-          <h4>
+          <h4 className="font-weight-bold">
             ADVISORY
             <OrangeArrowComp width="20px"/>
           </h4>
@@ -91,10 +91,10 @@ export const ServicesPage = () => {
           </Link>
         </Col>
         <Col className="py-5 mt-5 col-md-3">
-          <h6 style={{"width":"220px"}}>Due diligence  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 style={{"width":"220px"}}>FEMA  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 style={{"width":"220px"}}>Corporate Restructuring  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 style={{"width":"220px"}}>Valuation  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"220px"}}>Due diligence  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"220px"}}>FEMA  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"220px"}}>Corporate Restructuring  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"220px"}}>Valuation  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
     </Container>
