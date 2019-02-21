@@ -6,7 +6,7 @@ import Content, { HTMLContent } from '../components/Content'
 import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
 import linkedinBlueImg from '../img/linkedin-blue.png'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
