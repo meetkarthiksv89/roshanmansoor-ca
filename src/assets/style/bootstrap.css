@@ -6011,7 +6011,11 @@ button.close {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(143, 77, 77, 0.5);
+  border-radius: 14px;
+  width: 14px;
+  height: 14px;
+  margin-right: 4%;
 }
 
 .carousel-indicators li::before {
@@ -6035,7 +6039,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  background-color: orange;
 }
 
 .carousel-caption {

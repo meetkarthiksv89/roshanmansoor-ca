@@ -18,7 +18,6 @@ export default () => (
             <Link to="/"><h5>HOME</h5></Link>
             <Link to="/about"><h5>ABOUT</h5></Link>
             <Link to="/services"><h5>SERVICES</h5></Link>
-            <Link to="/clients"><h5>CLIENTS</h5></Link>
             <Link to="/career"><h5>CAREERS</h5></Link>
             <Link to="/contact"><h5>CONTACT US</h5></Link>
           </Col>

@@ -5,46 +5,39 @@ import { Navbar, Nav, Form } from 'react-bootstrap';
 
 const Header = class extends React.Component {
 
-  componentDidMount() {
-  
- }
- 
- render() {
-   return (
-     <Navbar bg="white" expand="lg">
-       <div className="container">
-        <Navbar.Brand className="navbar-custom-brand">
-        <Link to="/">
+render() {
+  return (
+    <Navbar bg="white" expand="lg" className="p-0 font-weight-bold">
+      <div className="container">
+        <Navbar.Brand className="navbar-custom-brand py-0">
+          <Link to="/">
           <img
             src={logo}
             height="30"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
-          />
+           />
         </Link>
-      </Navbar.Brand>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Link className="navbar-item" to="/">
+            <Link className="navbar-item py-3" to="/">
               HOME
             </Link>
-            <Link className="navbar-item" to="/about">
+            <Link className="navbar-item py-3" to="/about">
               ABOUT US
             </Link>
-            <Link className="navbar-item" to="/services">
+            <Link className="navbar-item py-3" to="/services">
               SERVICES
             </Link>
-            <Link className="navbar-item" to="/industries">
+            <Link className="navbar-item py-3" to="/industries">
               INDUSTRIES
             </Link>
-            <Link className="navbar-item" to="/contact/examples">
-              CLIENTS
-            </Link>
-            <Link className="navbar-item" to="/career">
+            <Link className="navbar-item py-3" to="/career">
               CAREERS
             </Link>
-            <Link className="navbar-item" to="/contact">
+            <Link className="navbar-item py-3" to="/contact">
               CONTACT US
             </Link>
           </Nav>
