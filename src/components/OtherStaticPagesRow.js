@@ -14,7 +14,7 @@ const OtherStaticPagesRow = (props) => {
         <Card className="bg-dark box-shadow-none">
         <Link to={props.link1}>
           <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-          <Card.Body style={{"min-height":"290px"}}className="my-4 py-4">
+          <Card.Body style={{"min-height":"290px"}} className="my-4 py-4">
             <Card.Title className="font-weight-bold">{props.cardHeader1}</Card.Title>
             <Card.Text>
               {props.cardText1}
@@ -29,7 +29,7 @@ const OtherStaticPagesRow = (props) => {
         <Card className="bg-dark box-shadow-none">
         <Link to={props.link2}>
           <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-          <Card.Body style={{"min-height":"290px"}}className="my-4 py-4">
+          <Card.Body style={{"min-height":"290px"}} className="my-4 py-4">
             <Card.Title className="font-weight-bold">{props.cardHeader2}</Card.Title>
             <Card.Text>
               {props.cardText2}
@@ -44,7 +44,7 @@ const OtherStaticPagesRow = (props) => {
         <Card className="bg-dark box-shadow-none">
           <Link to={props.link3}>
           <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-          <Card.Body style={{"min-height":"290px"}}className="my-4 py-4">
+          <Card.Body style={{"min-height":"290px"}} className="my-4 py-4">
             <Card.Title className="font-weight-bold">{props.cardHeader3}</Card.Title>
             <Card.Text>
               {props.cardText3}
