@@ -182,7 +182,7 @@ export default class IndexPage extends React.Component {
               <Link className="text-black" to={posts[0].node.fields.slug}>
                 <Card.Body >
                   <Card.Title className="text-black">{posts[0].node.frontmatter.title}</Card.Title>
-                  <Card.Text className="text-light">
+                  <Card.Text className="text-light font-weight-bold">
                     {posts[0].node.excerpt.substring(0,200) + '...'}
                   </Card.Text>
                 </Card.Body>
@@ -194,7 +194,7 @@ export default class IndexPage extends React.Component {
               <Link className="text-black" to={posts[0].node.fields.slug}>
                 <Card.Body >
                   <Card.Title className="text-black">{posts[1].node.frontmatter.title}</Card.Title>
-                  <Card.Text className="text-light">
+                  <Card.Text className="text-light font-weight-bold">
                   {posts[1].node.excerpt.substring(0,200)+ '...'}
                   </Card.Text>
                 </Card.Body>
