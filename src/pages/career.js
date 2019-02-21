@@ -24,7 +24,7 @@ class CarrerPage extends React.Component{
       </Container>
       <Container className="mt-3 pb-5">
         <Row>
-          <Col>
+          <Col className="px-0">
           <Breadcrumb>
             <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
             <Breadcrumb.Item>

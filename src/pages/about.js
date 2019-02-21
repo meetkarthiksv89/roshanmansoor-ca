@@ -17,7 +17,7 @@ export const AboutPageTemplate = () => {
       </Card>
       <Container fluid={true} className="mt-3 px-5">
       <Row className="mx-3">
-        <Col>
+        <Col className="px-0">
         <Breadcrumb>
           <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
           <Breadcrumb.Item>

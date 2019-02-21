@@ -19,7 +19,7 @@ export const RealEstatePage = () => {
     <Container className="mt-3 pb-5">
       <Row>
         <Col>
-        <Breadcrumb>
+        <Breadcrumb className="px-0">
           <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
           <Breadcrumb.Item>
             <Link to="/industries">Industries</Link>

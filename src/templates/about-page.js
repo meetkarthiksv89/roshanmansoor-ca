@@ -18,7 +18,7 @@ export const AboutPageTemplate = () => {
       <Container fluid={true} className="mt-3 px-5">
       <Row className="mx-3">
         <Col>
-        <Breadcrumb>
+        <Breadcrumb className="px-0">
           <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
           <Breadcrumb.Item>
             <Link to="/about">About Us</Link>
