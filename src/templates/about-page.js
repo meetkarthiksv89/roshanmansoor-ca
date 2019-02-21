@@ -132,8 +132,6 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
       />
     </Layout>
   )
