@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
         <section className="pt-5 bg-lightgray">
           <div className="content">
           <Container fluid={true} className="px-5">
-            <Row>
+            <Row className="m-3">
                 <Col>
                   <h1 className="font-weight-bold is-size-2 ml-5">WHAT WE DO</h1>
                 </Col>
