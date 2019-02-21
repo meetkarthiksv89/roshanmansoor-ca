@@ -50,6 +50,8 @@ a
   margin-top: 0 !important
 
 .navbar-item 
+  padding-top: 20px
+  padding-bottom: 20px
   color:black
   &:hover 
     background-color:orange !important
@@ -123,6 +125,13 @@ a
     color: orange
     text-decoration: none
 
+.search-icon
+  &:hover
+    color: orange
+
+.hidden-sm-up
+    display: none
+
 .bg-footer h5, .bg-footer h6 
   font-weight: 600 
 
@@ -135,6 +144,13 @@ a
 
   .carousel-indicators
     display: none
+  
+  .hidden-sm-up
+    display: block
+
+  .navbar-item
+    padding-top: 1em
+    padding-bottom: 1em
 
 
 @import "~bulma"
