@@ -155,10 +155,10 @@ export default class IndexPage extends React.Component {
                 <p>We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.</p>
                 <h3>A little history is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of</h3>
                 <p>Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.</p>
-                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold" variant="warning">Know More</Button></Link>
+                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold" variant="warning">KNOW MORE</Button></Link>
               </Col>
               <Col xs={12} md={4} className="mt-4">
-              <Image src="https://via.placeholder.com/450x700" fluid />
+              <Image src="https://via.placeholder.com/450x430" fluid />
               </Col>
             </Row>
           </Container>
