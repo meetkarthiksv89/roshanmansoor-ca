@@ -40,40 +40,40 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <div className="bg-darkgray">
-      <Container fluid={true} className="px-0">
-        <Card className="bg-dark text-white text-center">
-          <Card.Img src="https://via.placeholder.com/1200x450" alt="Card image" />
-          <Card.ImgOverlay>
-            <Card.Title className="page-image-card-header"><h1>REACH US</h1></Card.Title>
-          </Card.ImgOverlay>
-        </Card>
-      </Container>
-      <Container className="mt-3 pb-5">
-        <Row>
-          <Col>
-          <Breadcrumb>
-            <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
-            <Breadcrumb.Item>
-              <Link to="/contact">Contact Us</Link>
-            </Breadcrumb.Item>
-          </Breadcrumb>
-          </Col>
-        </Row>  
-        <Row className="bg-white"> 
-        <Col className="col-md-8">
-          <div className="section">
-            <div className="container">
-              <div className="content">
-          <h1>Contact</h1>
-          <form
-            key="contact-form"
-            name="contact"
-            method="post"
-            action="/contact/thanks/"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            onSubmit={this.handleSubmit}
-          >
+          <Container fluid={true} className="px-0">
+            <Card className="bg-dark text-white text-center">
+              <Card.Img src="https://via.placeholder.com/1200x450" alt="Card image" />
+              <Card.ImgOverlay>
+                <Card.Title className="page-image-card-header"><h1>REACH US</h1></Card.Title>
+              </Card.ImgOverlay>
+            </Card>
+          </Container>
+          <Container className="mt-3 pb-5">
+            <Row>
+              <Col>
+              <Breadcrumb>
+                <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
+                <Breadcrumb.Item>
+                  <Link to="/contact">Contact Us</Link>
+                </Breadcrumb.Item>
+              </Breadcrumb>
+              </Col>
+            </Row>  
+            <Row className="bg-white"> 
+            <Col className="col-md-8">
+              <div className="section">
+                <div className="container">
+                  <div className="content">
+              <h1>Contact</h1>
+              <form
+                key="contact-form"
+                name="contact"
+                method="post"
+                action="/contact/thanks/"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                onSubmit={this.handleSubmit}
+              >
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
             <input type="hidden" name="form-name" value="contact" />
             <div hidden>
@@ -161,6 +161,9 @@ export default class Index extends React.Component {
             </div>
           </Col>
           </Row>
+          </Container>
+          <Container fluid={true} className="px-0 mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1594555297233!2d77.58364311493887!3d12.961646490862412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15ddc8849f59%3A0x227484e866104ca5!2sRoshan+mansoor+%26+Co!5e0!3m2!1str!2sde!4v1550791701577" width="100%" height="450" frameborder="0" style={{"border":"0"}} allowfullscreen></iframe>
           </Container>
         </div>
       </Layout>
