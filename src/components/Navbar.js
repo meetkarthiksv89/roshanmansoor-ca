@@ -37,7 +37,7 @@ render() {
             <Link className="navbar-item py-4" to="/career">
               CAREERS
             </Link>
-            <Link className="navbar-item py-3" to="/contact">
+            <Link className="navbar-item py-4" to="/contact">
               CONTACT US
             </Link>
           </Nav>
