@@ -117,7 +117,7 @@ export default class IndustriesPage extends React.Component {
               }
               {posts[1] ? (
               <Card className="bg-lightblue mt-5">
-              <Link className="text-black" to={posts[0].node.fields.slug}>
+              <Link className="text-black" to={posts[1].node.fields.slug}>
                 <Card.Body>
                   <Card.Title className="text-black">{posts[1].node.frontmatter.title}</Card.Title>
                   <Card.Text className="text-light">
