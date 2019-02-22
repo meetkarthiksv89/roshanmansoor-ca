@@ -71,7 +71,7 @@ export default class IndexPage extends React.Component {
           </Col>
           </Row>
           </div>
-          <div className="py-5  bg-dark">
+          <div className="py-5 bg-dark">
           <Container fluid={true} className="px-5">
             <Row className="mb-5 mt-3 mx-3">
                 <Col>
@@ -83,7 +83,7 @@ export default class IndexPage extends React.Component {
               </Row>
               <Row className="mx-3">
               <Col>
-              <Card className="bg-dark">
+              <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
@@ -98,7 +98,7 @@ export default class IndexPage extends React.Component {
                 </Card>
               </Col>
               <Col>
-              <Card className="bg-dark">
+              <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
@@ -113,7 +113,7 @@ export default class IndexPage extends React.Component {
               </Card>
               </Col>
               <Col>
-              <Card className="bg-dark">
+              <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
@@ -128,7 +128,7 @@ export default class IndexPage extends React.Component {
               </Card>
               </Col>
               <Col>
-              <Card className="bg-dark">
+              <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
