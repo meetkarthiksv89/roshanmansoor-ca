@@ -28,7 +28,7 @@ class CarrerPage extends React.Component{
           <Breadcrumb>
             <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
             <Breadcrumb.Item>
-              <Link to="/services">Services</Link>
+              <Link to="/career">Career</Link>
             </Breadcrumb.Item>
           </Breadcrumb>
           </Col>
