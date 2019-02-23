@@ -15,7 +15,7 @@ export const AboutPageTemplate = () => {
           <Card.Title className="page-image-card-header"><h1>ABOUT US</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
-      <Container fluid={true} className="mt-3 px-5">
+      <Container fluid={true} className="mt-3 px-sm-5">
       <Row className="mx-3">
         <Col className="px-0">
         <Breadcrumb>
@@ -26,8 +26,8 @@ export const AboutPageTemplate = () => {
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="mx-3">
-        <Col className="col-xs-12 col-md-8">
+      <Row className="mx-sm-3">
+        <Col className="col-12 col-sm-8 mb-3 mb-sm-3">
         <Card style={{minHeight:"450px"}}>
         <Card.Img className="p-2 bg-lightgray" variant="top" src="https://via.placeholder.com/840x300" />
           <Card.ImgOverlay>
@@ -51,8 +51,8 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
       </Row>
-      <Row className="mt-5 mb-3 px-5">
-        <Col className="col-xs-7 bg-lightgray p-5">
+      <Row className="mt-5 mb-3 px-sm-5">
+        <Col className="col-12 col-sm-7 bg-lightgray p-5">
           <h1 className="pt-5 mt-2 mb-3">
             WHAT WE PASSIONATE ABOUT
           </h1>
@@ -60,18 +60,18 @@ export const AboutPageTemplate = () => {
             As a firm that adheres to all the standard operational norms and practices as specified by ICAI and other statutory bodies, we are driven by the mission of creating an overall busi- ness impact for the clients we work with. As we partner with our clients in their organiza- tional finance planning and audit journey, our ultimate goal is to create make a wholesome difference in their bottom line. Buoyed by the overwhelming response from our clients in India, we have recently gone a step further and added to our portfolio Incorporation ser- vices for setting up business in Singapore and Hong Kong. We have partnered with a lead- ing consulting firm in Singapore to deliver this service.
           </p>
         </Col>
-        <Col className="col-xs-5 p-0">
+        <Col className="col-12 col-sm-5 p-0">
         <img src="https://via.placeholder.com/600x660" alt=""/>
         </Col>
       </Row>
     </Container>
     <Container fluid={true} className="bg-dark py-5 text-center text-light">
-    <Row className="mx-5 px-5">
+    <Row className="mx-sm-5 px-5">
       <Col xs={12}>
         <h3 className="my-3">MEET THE PILLARS OF OUR COMPANY</h3>
         <p className="mb-4 mx-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </Col>
-      <Col xs={6} md={4}>
+      <Col xs={12} sm={4} className="mb-4 mb-xs-0">
         <Image src="https://via.placeholder.com/300x300" roundedCircle />
         <div>
           <h4 className="mt-2">Roshan Mansoor</h4>
@@ -79,7 +79,7 @@ export const AboutPageTemplate = () => {
           <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
         </div>
       </Col>
-      <Col xs={6} md={4}>
+      <Col xs={12} sm={4} className="mb-4 mb-xs-0">
         <Image src="https://via.placeholder.com/300x300" roundedCircle />
         <div>
           <h4 className="mt-2">Prashant Bansal</h4>
@@ -87,7 +87,7 @@ export const AboutPageTemplate = () => {
           <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
         </div>
       </Col>
-      <Col xs={6} md={4}>
+      <Col xs={12} sm={4} className="mb-4 mb-xs-0">
         <Image src="https://via.placeholder.com/300x300" roundedCircle />
         <div>
           <h4 className="mt-2">Shahid Rokadiya</h4>
