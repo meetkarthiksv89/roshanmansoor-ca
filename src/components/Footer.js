@@ -7,21 +7,17 @@ export default () => (
   <div className="bg-footer p-5 text-light">
     <Container fluid={true} className="" >
         <Row>
-          <Col>
-            <Row>
-              <Col>
-                <SocialMediaImages/>
-              </Col>
-            </Row>
+          <Col className="col-12 col-sm-4 mb-5 mb-sm-0">
+            <SocialMediaImages/>
           </Col>
-          <Col className="pl-5 footer-links" style={{borderLeft:'1px solid white'}}>
+          <Col className="ol-12 col-sm-3 pl-sm-2 pl-md-3 pl-lg-5 pb-5 pb-sm-0 footer-links footer-text">
             <Link to="/"><h5>HOME</h5></Link>
             <Link to="/about"><h5>ABOUT</h5></Link>
             <Link to="/services"><h5>SERVICES</h5></Link>
             <Link to="/career"><h5>CAREERS</h5></Link>
             <Link to="/contact"><h5>CONTACT US</h5></Link>
           </Col>
-          <Col className="pl-5" style={{borderLeft:'1px solid white'}}>
+          <Col className="col-12 col-sm-5 pl-sm-2 pl-md-3 pl-lg-5 pb-5 pb-sm-0 footer-text">
             <h5 className="mb-3">LOCATE US</h5>
             <h6>
               Roshan Mansoor & Co.,

@@ -14,12 +14,12 @@ export default class IndexPage extends React.Component {
         <Slider/>
         <section className="pt-5 bg-lightgray">
           <div className="content">
-          <Container fluid={true} className="px-5">
+          <Container fluid={true} className="px-md-5 px-sm-0">
             <Row className="m-3">
-                <Col>
-                  <h1 className="font-weight-bold is-size-2 ml-5">WHAT WE DO</h1>
+                <Col className="col-sm-12 col-md-6">
+                  <h1 className="font-weight-bold">WHAT WE DO</h1>
                 </Col>
-                <Col>
+                <Col className="col-sm-12 col-md-6">
                   <Link to="/services"><h2 className="section-header-link d-flex justify-content-end">SEE ALL SERVICES</h2></Link>
                 </Col>
               </Row>
@@ -72,7 +72,7 @@ export default class IndexPage extends React.Component {
           </Row>
           </div>
           <div className="py-5 bg-dark">
-          <Container fluid={true} className="px-5">
+          <Container fluid={true} className="px-md-5">
             <Row className="mb-5 mt-3 mx-3">
                 <Col>
                   <h2 className="font-weight-bold is-size-2 text-light">WHO WE SERVES</h2>
@@ -81,8 +81,8 @@ export default class IndexPage extends React.Component {
                   <Link to="/industries"><h2 className="section-header-link d-flex justify-content-end text-light">SEE ALL INDUSTRIES</h2></Link>
                 </Col>
               </Row>
-              <Row className="mx-3">
-              <Col>
+              <Row className="mx-sm-3">
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -91,13 +91,13 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-3 py-1 float-right">Read More </a>
+                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
                   </Card.Text>
                 </Card.Body>
               </Link>
                 </Card>
               </Col>
-              <Col>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -106,13 +106,13 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-3 py-1 float-right">Read More </a>
+                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
                   </Card.Text>
                 </Card.Body>
                 </Link>
               </Card>
               </Col>
-              <Col>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -121,13 +121,13 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-3 py-1 float-right">Read More </a>
+                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
                   </Card.Text>
                 </Card.Body>
                 </Link>
               </Card>
               </Col>
-              <Col>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -137,7 +137,7 @@ export default class IndexPage extends React.Component {
                   Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
                   and tax planning and better management of cash flow
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-3 py-1 float-right">Read More </a>
+                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
                   </Card.Text>
                 </Card.Body>
                 </Link>
@@ -146,7 +146,7 @@ export default class IndexPage extends React.Component {
             </Row>
             </Container>
           </div>
-          <Container fluid={true} className="bg-white p-5">
+          <Container fluid={true} className="bg-white px-md-5 py-5">
             <Row className="m-3">
               <Col xs={12} md={8}>
                 <h1 className="font-weight-bold is-size-2">ABOUT US</h1>
@@ -162,7 +162,7 @@ export default class IndexPage extends React.Component {
               </Col>
             </Row>
           </Container>
-          <div className="bg-darkblue p-5 text-light">
+          <div className="bg-darkblue px-lg-5 py-5 text-light">
           <Container fluid={false} className="" >
               <Row>
                 <Col>
@@ -173,10 +173,10 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
             <Row className="my-5">
-              <Col className="col-xs-12 col-md-7">
+              <Col className="col-12 col-md-7 pb-5 pb-sm-0">
                 <h1 className="font-weight-bold">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
               </Col>
-              <Col className="col-xs-12 col-md-5">
+              <Col className="col-12 col-md-5">
               {posts[0] ? (
               <Card className="bg-lightblue">
               <Link className="text-black" to={posts[0].node.fields.slug}>
