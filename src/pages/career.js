@@ -30,44 +30,6 @@ const careerAds = [
   }
 ]
 
-class MyVerticallyCenteredModal extends React.Component {
-  render() {
-    return (
-      <Modal
-        {...this.props}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter" className="px-5">
-            APPLY NOW
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Row className="px-5">
-          <Col xs={12} sm={6}>
-          <label className="label" htmlFor={"name"} >Your name</label>
-            <input className="input py-3" type={"text"} name={"name"} onChange={this.props.handleChange} id={"name"} required={true} /> 
-          </Col>
-          <Col xs={12} sm={6}>
-            <label className="label" htmlFor={"email"} >Email</label>
-            <input className="input py-3" type={"text"} name={"email"} onChange={this.props.handleChange} id={"email"} required={true} /> 
-          </Col>
-          <Col xs={12} sm={6} className="mt-3">
-          <label className="label" htmlFor={"message"} >Message</label>
-          <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
-          </Col>
-          </Row>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button className="bg-orange" onClick={this.props.onHide}>SEND</Button>
-        </Modal.Footer>
-      </Modal>
-    );
-  }
-}
-
 class CareerPage extends React.Component{
 
   constructor(...args) {
@@ -85,11 +47,38 @@ class CareerPage extends React.Component{
     return (
       <Layout>
         <div>
-        <MyVerticallyCenteredModal
-          show={this.state.modalShow}
-          onHide={toggleModal}
-          handleChange={this.handleChange}
-        />
+          <Modal
+            show={this.state.modalShow}
+            onHide={toggleModal}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="contained-modal-title-vcenter" className="px-5">
+                APPLY NOW
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <Row className="px-5">
+              <Col xs={12} sm={6}>
+              <label className="label" htmlFor={"name"} >Your name</label>
+                <input className="input py-3" type={"text"} name={"name"} onChange={this.handleChange} id={"name"} required={true} /> 
+              </Col>
+              <Col xs={12} sm={6}>
+                <label className="label" htmlFor={"email"} >Email</label>
+                <input className="input py-3" type={"text"} name={"email"} onChange={this.handleChange} id={"email"} required={true} /> 
+              </Col>
+              <Col xs={12} className="mt-3">
+              <label className="label" htmlFor={"message"} >Message</label>
+              <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
+              </Col>
+              </Row>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button className="bg-orange" onClick={this.props.onHide}>SEND</Button>
+            </Modal.Footer>
+          </Modal>
         </div>
         <div className="bg-darkgray">
         <Container fluid={true} className="px-0">
@@ -104,10 +93,8 @@ class CareerPage extends React.Component{
           <Row>
             <Col className="px-0">
             <Breadcrumb>
-              <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
-              <Breadcrumb.Item>
-                <Link to="/career">Careers</Link>
-              </Breadcrumb.Item>
+              <Link to="/">Home&nbsp;></Link> 
+              <Link to="/career"> &nbsp;Careers</Link>
             </Breadcrumb>
             </Col>
           </Row>
@@ -151,8 +138,8 @@ class CareerPage extends React.Component{
                     <div id="example-collapse-text">
                     <h6 className="font-weight-bold">Responsibilities</h6>
                       <ul className="bullet-list text-secondary">
-                        { ad.requirements.map(requirement => (
-                          <li className="ml-4">{requirement}</li>
+                        { ad.requirements.map((requirement,index) => (
+                          <li key={`${index}-req`} className="ml-4">{requirement}</li>
                         ))}
                     </ul>
                     <Button className="float-right px-4 bg-orange"
