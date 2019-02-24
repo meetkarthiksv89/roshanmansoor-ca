@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
-import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
+import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
 import orangeArrow from '../../img/orange-arrow.png'
 
 const OrangeArrowComp = (props) => (
