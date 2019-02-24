@@ -20,10 +20,8 @@ export const RealEstatePage = () => {
       <Row>
         <Col className="px-0">
         <Breadcrumb>
-          <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
-          <Breadcrumb.Item>
-            <Link to="/industries">Industries</Link>
-          </Breadcrumb.Item>
+          <Link to="/">Home&nbsp;></Link> 
+          <Link to="/industries"> &nbsp;Industries</Link>
         </Breadcrumb>
         </Col>
       </Row>

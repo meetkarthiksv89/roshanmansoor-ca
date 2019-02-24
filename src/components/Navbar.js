@@ -19,12 +19,11 @@ class Header extends React.Component {
   }
 
   onKeyPressed = e => {
-    if(e.key == "Enter"){
+    if(e.key === "Enter"){
       console.log('search')
       console.log(e.target.value)
     }
   }
-
 
 render() {
   return (

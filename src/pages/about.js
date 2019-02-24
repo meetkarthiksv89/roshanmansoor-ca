@@ -19,10 +19,8 @@ export const AboutPageTemplate = () => {
       <Row className="mx-3">
         <Col className="px-0">
         <Breadcrumb>
-          <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
-          <Breadcrumb.Item>
-            <Link to="/about">About Us</Link>
-          </Breadcrumb.Item>
+          <Link to="/">Home&nbsp;></Link> 
+          <Link to="/about"> &nbsp;About Us</Link>
         </Breadcrumb>
         </Col>
       </Row>
@@ -33,7 +31,7 @@ export const AboutPageTemplate = () => {
             <h1>Testimonials</h1>
           </Col>
           <Col xs={3}>
-            <img src="https://via.placeholder.com/240x200"/>
+            <img src="https://via.placeholder.com/240x200" alt=""/>
           </Col>
           <Col xs={9}>
           Thanks to the team’s impeccable business acumen, the firm has been able to capture a niche market in India and overseas.
