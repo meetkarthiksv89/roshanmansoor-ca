@@ -46,15 +46,15 @@ class MyVerticallyCenteredModal extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <Row className="px-5">
-          <Col className="col-md-6">
+          <Col xs={12} sm={6}>
           <label className="label" htmlFor={"name"} >Your name</label>
             <input className="input py-3" type={"text"} name={"name"} onChange={this.props.handleChange} id={"name"} required={true} /> 
           </Col>
-          <Col className="col-md-6">
+          <Col xs={12} sm={6}>
             <label className="label" htmlFor={"email"} >Email</label>
             <input className="input py-3" type={"text"} name={"email"} onChange={this.props.handleChange} id={"email"} required={true} /> 
           </Col>
-          <Col className="col-md-12 mt-3">
+          <Col xs={12} sm={6} className="mt-3">
           <label className="label" htmlFor={"message"} >Message</label>
           <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
           </Col>
@@ -113,30 +113,30 @@ class CareerPage extends React.Component{
           </Row>
           <Row className="bg-white">        
             <Col className="py-4 px-0 col-md-12">
-              <h1 className="font-weight-bold mb-3 mx-5">
+              <h1 className="font-weight-bold mb-3 mx-3 mx-sm-5">
                 CAREERS
               </h1>
-              <h4 className="text-secondary mx-5">
+              <h4 className="text-secondary mx-3 mx-sm-5">
                 We are looking for brilliant, passionate people to join us. As a member of our team, we promise you an exciting journey building ground breaking technologies. Even if there is no openings that fits your profile, please reach out to us - we would love to hear from you!
               </h4>
               <br/>
               <h3 className="text-secondary font-weight-bold py-3 border-bottom-1">
-                <span className="mx-5">
+                <span className="mx-3 mx-sm-5">
                   We are Hiring
                 </span>
               </h3>
               { careerAds.map(ad=>(
                 <Row key={ad.id} className="my-4 pb-5 border-bottom-1 mx-0">
-                <Col xs={6} sm={7} md={9} className="px-5">
+                <Col xs={6} sm={7} md={9} className="px-sm-5">
                   <h5>
                     {ad.name}
                   </h5>
                   <p>{ad.type}</p>
                   </Col>
-                  <Col xs={4} sm={3} md={2}>
+                  <Col xs={3} sm={3} md={2}>
                     <h4 className="mr-3">{ad.location}</h4>
                   </Col>
-                  <Col xs={2} sm={2} md={1}>
+                  <Col xs={3} sm={2} md={1} className="text-center">
                     <Button
                       onClick={() => this.setState({ [`status_${ad.id}`]: !this.state[`status_${ad.id}`] })}
                       aria-controls="example-collapse-text"

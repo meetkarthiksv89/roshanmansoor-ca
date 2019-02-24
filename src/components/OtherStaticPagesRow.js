@@ -10,7 +10,7 @@ const OtherStaticPagesRow = (props) => {
         <Col className="col-md-12 my-3">
         <h1>{props.mainHeader}</h1>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
         <Card className="bg-dark box-shadow-none">
         <Link to={props.link1}>
           <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -19,13 +19,13 @@ const OtherStaticPagesRow = (props) => {
             <Card.Text>
               {props.cardText1}
               <br/>
-              <Link className="text-orange font-weight-bold px-3 py-1 float-right" to={props.link1}>Read More </Link>
+              <Link className="text-orange font-weight-bold px-sm-3 py-1 float-right" to={props.link1}>Read More </Link>
             </Card.Text>
           </Card.Body>
           </Link>
         </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
         <Card className="bg-dark box-shadow-none">
         <Link to={props.link2}>
           <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -34,13 +34,13 @@ const OtherStaticPagesRow = (props) => {
             <Card.Text>
               {props.cardText2}
               <br/>
-              <Link className="text-orange font-weight-bold px-3 py-1 float-right" to={props.link2}>Read More </Link>
+              <Link className="text-orange font-weight-bold px-sm-3 py-1 float-right" to={props.link2}>Read More </Link>
             </Card.Text>
           </Card.Body>
         </Link>
         </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={4}>
         <Card className="bg-dark box-shadow-none">
           <Link to={props.link3}>
           <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -49,7 +49,7 @@ const OtherStaticPagesRow = (props) => {
             <Card.Text>
               {props.cardText3}
               <br/>
-              <Link className="text-orange font-weight-bold px-3 py-1 float-right" to={props.link3}>Read More </Link>
+              <Link className="text-orange font-weight-bold px-sm-3 py-1 float-right" to={props.link3}>Read More </Link>
             </Card.Text>
           </Card.Body>
           </Link>

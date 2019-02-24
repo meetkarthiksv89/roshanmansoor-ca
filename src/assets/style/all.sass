@@ -76,6 +76,9 @@ a
 
 .bg-orange
   background-color: orange !important
+
+.bg-yellow
+  background-color: #fadf68
  
 .custom-carousel-caption
   left: 45% !important
@@ -142,13 +145,16 @@ a
 .border-bottom-1
   border-bottom: 1px solid #c3c3c3
 
+.footer-text
+  border-left: 1px solid #c3c3c3
+
 .modal-container
   position: fixed
   left: 0
   right: 0
   z-index: 1000
 
-@media screen and (max-width: $breakpoint-small) 
+@media only screen and (max-width: $breakpoint-small)
   .navbar-custom-brand
     width: 70%
   
@@ -161,5 +167,8 @@ a
   .hidden-sm-up
     display: block
 
+  .footer-text
+    border-left: none
+    text-align: center
 
 @import "~bulma"

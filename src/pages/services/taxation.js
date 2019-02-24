@@ -13,12 +13,12 @@ export const InformationTechnologyPage = () => {
       <Card className="bg-dark text-white text-center">
         <Card.Img src="https://via.placeholder.com/1200x650" alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>Taxation</h1></Card.Title>
+          <Card.Title className="page-image-card-header"><h1>Auditing</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
     <Container className="mt-3 pb-5">
-      <Row>
+      <Row className="mx-3">
         <Col className="px-0">
         <Breadcrumb>
           <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
@@ -28,8 +28,8 @@ export const InformationTechnologyPage = () => {
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="bg-white">        
-        <Col className="py-5 pl-5 pr-4 col-md-7">
+      <Row className="bg-white mx-3">        
+        <Col className="py-5 pl-sm-5 pr-sm-4">
           <h1 className="my-3">
             AUDITING
           </h1>
@@ -41,23 +41,23 @@ export const InformationTechnologyPage = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
           <Row>
-            <Col className="col-md-5 ml-4 bg-lightgray p-4 my-4">
+            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
             <h3>Internal Audit</h3>
             <p>Our independent, objective assurance and con- sulting service aims at adding value and improv- ing our clients’ internal operations through real- istic approaches that evaluate the effectiveness of risk management, control and governance processes currently deployed in their business- es.</p>
             <p>Our scalable risk assessment tactics offers an integrated solution that spans across initiating an internal audit function to auditing risk as- sessments, devising risk-based assurance plans, detecting Key Risk Indicators (KRI) among others.</p>
             </Col>
-            <Col className="col-md-5 ml-4 bg-lightgray p-4 my-4">
+            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
             <h3>Statutory Audit</h3>
             <p>We undertake a complete and comprehensive review of all your financial records to detect any glitches in terms of accuracy. Our endeavour is to ensure the most viable representation of our clients’ financial position through our in depth appraisal of information gathered from sources such as bank balances, bookkeeping records and financial transactions. Our internal audit reports, verification of financial information, and other documents are in accordance with the specifications of the Government. Our utmost effort is to minimise any possibilities of fraud and create maximum transparency.</p>
             </Col>
-            <Col className="col-md-5 ml-4 bg-lightgray p-4 my-4">
+            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
             <h3>Bank Audit</h3>
             <p>Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.</p>
             </Col>
           </Row>
         </Col>
-        <Col className="p-0 col-md-5 p-5">
-          <h3 className="my-5">STAY CONNECTED WITH US</h3>
+        <Col className="col-md-5 p-3 p-sm-5">
+          <h4 className="my-sm-5">STAY CONNECTED WITH US</h4>
           <img src="https://via.placeholder.com/400x300" alt=""/>
           <div className="m-4">
           <h5>Roshan Mansoor</h5>

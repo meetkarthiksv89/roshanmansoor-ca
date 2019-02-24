@@ -49,7 +49,7 @@ export default class Index extends React.Component {
             </Card>
           </Container>
           <Container className="mt-3 pb-5">
-            <Row>
+            <Row className="mx-3">
               <Col className="px-0">
               <Breadcrumb>
                 <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
@@ -59,7 +59,7 @@ export default class Index extends React.Component {
               </Breadcrumb>
               </Col>
             </Row>  
-            <Row className="bg-white pt-5 pb-4">
+            <Row className="bg-white pt-5 pb-4 mx-3">
               <Col className="col-md-12 ml-3">
                 <h1>LETS CONNECT</h1>
                 <p>
@@ -67,12 +67,11 @@ export default class Index extends React.Component {
                 </p>
               </Col>
             </Row>
-            <Row className="bg-white"> 
+            <Row className="bg-white mx-3"> 
             <Col className="col-md-8">
               <div className="pb-5">
                 <div className="container">
                   <div className="content">
-              
               <form
                 key="contact-form"
                 name="contact"
