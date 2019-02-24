@@ -46,15 +46,15 @@ class MyVerticallyCenteredModal extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <Row className="px-5">
-          <Col className="col-md-6">
+          <Col xs={12} sm={6}>
           <label className="label" htmlFor={"name"} >Your name</label>
             <input className="input py-3" type={"text"} name={"name"} onChange={this.props.handleChange} id={"name"} required={true} /> 
           </Col>
-          <Col className="col-md-6">
+          <Col xs={12} sm={6}>
             <label className="label" htmlFor={"email"} >Email</label>
             <input className="input py-3" type={"text"} name={"email"} onChange={this.props.handleChange} id={"email"} required={true} /> 
           </Col>
-          <Col className="col-md-12 mt-3">
+          <Col xs={12} sm={6} className="mt-3">
           <label className="label" htmlFor={"message"} >Message</label>
           <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
           </Col>
