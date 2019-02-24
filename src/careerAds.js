@@ -21,7 +21,7 @@ export default [
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
       "There are many variations of passages of Lorem Ipsum available",
     ],
-    location: "Istanbul"
+    location: "Seattle"
   },
   {
     id:3,

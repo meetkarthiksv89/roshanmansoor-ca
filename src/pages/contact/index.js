@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
 import SocialMediaImages from '../../components/SocialMediaImages'
+import TextContents from '../../TextContents';
 
 function encode(data) {
   return Object.keys(data)
@@ -59,9 +60,9 @@ export default class Index extends React.Component {
             </Row>  
             <Row className="bg-white pt-5 pb-4 mx-3">
               <Col className="col-md-12 ml-3">
-                <h1>LETS CONNECT</h1>
+                <h1>{TextContents.contact.connect}</h1>
                 <p>
-                Please call or email contact from and we will be happy to assist you
+                {TextContents.contact.please_call}
                 </p>
               </Col>
             </Row>
@@ -150,11 +151,11 @@ export default class Index extends React.Component {
           </Col>     
           <Col className="col-md-4 p-5 bg-orange">
             <div>
-              <h4 className="text-light">EMAIL</h4>
+              <h4 className="text-light">{TextContents.contact.email_header}</h4>
               <i className="py-3 text-light">
-              Info@roshanmansoor.com
+              {TextContents.contact.email_adress}
               </i>
-              <h5 className="py-3 text-light mt-4">STAY CONNECTED WITH US</h5>
+              <h5 className="py-3 text-light mt-4">{TextContents.contact.stay_connected}</h5>
               <SocialMediaImages/>
             </div>
           </Col>
