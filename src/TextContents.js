@@ -54,5 +54,28 @@ export default {
     "advisory_opt2": "FEMA",
     "advisory_opt3": "Corporate Restructuring",
     "advisory_opt4": "Valuation",
+  },
+  "services_auditing":{
+    "auditing":"AUDITING",
+    "maing_text1":"We are committed to serving our clients with highest possible assurance through our systematic approach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehensive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.",
+    "maing_text2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "internal_audit":"Internal Audit",
+    "internal_audit_text1":"Our independent, objective assurance and con- sulting service aims at adding value and improv- ing our clients’ internal operations through real- istic approaches that evaluate the effectiveness of risk management, control and governance processes currently deployed in their business- es.",
+    "internal_audit_text2":"Our scalable risk assessment tactics offers an integrated solution that spans across initiating an internal audit function to auditing risk as- sessments, devising risk-based assurance plans, detecting Key Risk Indicators (KRI) among others.",
+    "statutory_audit":"Statutory Audit",
+    "statutory_audit_text1":"We undertake a complete and comprehensive review of all your financial records to detect any glitches in terms of accuracy. Our endeavour is to ensure the most viable representation of our clients’ financial position through our in depth appraisal of information gathered from sources such as bank balances, bookkeeping records and financial transactions. Our internal audit reports, verification of financial information, and other documents are in accordance with the specifications of the Government. Our utmost effort is to minimise any possibilities of fraud and create maximum transparency.",
+    "bank_audit":"Bank Audit",
+    "bank_audit_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
+  },
+  "auditing_stay_connected":{
+    "stay_connected_us":"STAY CONNECTED WITH US",
+    "name":"Roshan Mansoor",
+    "title":"Managing Partner",
+    "list1":"Qualified Chartered Accountant in 2010 and Fellow Chartered Accountant in 2017",
+    "list2":"Graduated executive program from IIMB in Private equity & negotiations skills",
+    "list3":"Bachelors Degree from JAIN University and Diploma In Finance and Stock Market",
+    "list4":"Certification on Mergers and Acquisitions: Wharton University",
+    "list5":"Previously Worked for Big 4 Consulting firms like: E&Y and PWC.",
+    "list6":"Expertise in Corporate , International Taxation and Mergers & Acquisitions.",
   }
 }

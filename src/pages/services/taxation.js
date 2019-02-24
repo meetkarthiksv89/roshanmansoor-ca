@@ -4,6 +4,7 @@ import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
 import SocialMediaImages from '../../components/SocialMediaImages'
 import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
+import TextContents from '../../TextContents';
 
 export const InformationTechnologyPage = () => {
   return (
