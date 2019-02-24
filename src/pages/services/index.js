@@ -50,6 +50,8 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.auditing_opt1} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.auditing_opt2} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.auditing_opt3} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.auditing_opt4} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.auditing_opt5} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
       <Row className="mx-3 bg-white mt-5">        
