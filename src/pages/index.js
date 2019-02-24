@@ -89,7 +89,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_1}
                     <br/>
-                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
               </Link>
@@ -104,7 +104,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_2}
                     <br/>
-                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
                 </Link>
@@ -119,7 +119,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                   {TextContents.homepage.industries_card_text_3}
                     <br/>
-                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
                 </Link>
@@ -134,7 +134,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_4}
                     <br/>
-                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
                 </Link>
