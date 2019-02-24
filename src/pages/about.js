@@ -26,6 +26,21 @@ export const AboutPageTemplate = () => {
         </Breadcrumb>
         </Col>
       </Row>
+      </Container>
+      <Container fluid={true} className="bg-yellow">
+        <Row className="px-5 py-4 mx-sm-5 mb-sm-5">
+          <Col xs={12}>
+            <h1>Testimonials</h1>
+          </Col>
+          <Col xs={3}>
+            <img src="https://via.placeholder.com/240x200"/>
+          </Col>
+          <Col xs={9}>
+          Thanks to the team’s impeccable business acumen, the firm has been able to capture a niche market in India and overseas.
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid={true} className="mt-3 px-sm-5">
       <Row className="mx-0">
         <Col className="col-12 col-sm-8 mb-3 mb-sm-3">
         <Card style={{minHeight:"450px"}}>
