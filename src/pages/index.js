@@ -36,7 +36,7 @@ export default class IndexPage extends React.Component {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   <br/>
-                  <a href="#" className="px-3 py-1 text-orange font-weight-bold">Read More » </a>
+                  <Link to="/" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -49,7 +49,7 @@ export default class IndexPage extends React.Component {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   <br/>
-                  <a href="#" className="px-3 py-1 text-orange font-weight-bold">Read More » </a>
+                  <Link to="/" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                 </Card.Text>
               </Card.Body>
               <Card.Img variant="top" src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
@@ -64,7 +64,7 @@ export default class IndexPage extends React.Component {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   <br/>
-                  <a href="#" className="px-3 py-1 text-orange font-weight-bold">Read More » </a>
+                  <Link to="/" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -78,7 +78,7 @@ export default class IndexPage extends React.Component {
                   <h2 className="font-weight-bold is-size-2 text-light">WHO WE SERVES</h2>
                 </Col>
                 <Col>
-                  <Link to="/industries"><h2 className="section-header-link d-flex justify-content-end text-light">SEE ALL INDUSTRIES</h2></Link>
+                <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
                 </Col>
               </Row>
               <Row className="mx-sm-3">
@@ -86,12 +86,12 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
+                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
                   <Card.Title>INFORMATION TECHNOLOGY</Card.Title>
                   <Card.Text>
                     Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
+                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
                   </Card.Text>
                 </Card.Body>
               </Link>
@@ -101,12 +101,12 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
+                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
                   <Card.Title>REAL ESTATE ENGINEERING & CONSTRUCTION</Card.Title>
                   <Card.Text>
                     Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
+                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
                   </Card.Text>
                 </Card.Body>
                 </Link>
@@ -116,12 +116,12 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
+                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
                   <Card.Title>MANUFATURING</Card.Title>
                   <Card.Text>
                     We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
+                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
                   </Card.Text>
                 </Card.Body>
                 </Link>
@@ -131,13 +131,13 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"min-height":"400px"}}className="my-4 py-4">
+                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
                   <Card.Title>RETAIL</Card.Title>
                   <Card.Text>
                   Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
                   and tax planning and better management of cash flow
                     <br/>
-                    <a href="#" className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </a>
+                    <span className="text-orange font-weight-bold px-sm-3 py-1 float-right">Read More </span>
                   </Card.Text>
                 </Card.Body>
                 </Link>
