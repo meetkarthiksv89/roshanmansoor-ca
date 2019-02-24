@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Card } from 'react-bootstrap'
+import TextContents from '../../TextContents';
 
 export default class IndustriesPage extends React.Component {
   render() {
@@ -20,7 +21,7 @@ export default class IndustriesPage extends React.Component {
           <Container fluid={true} className="p-5">
             <Row>
                 <Col>
-                  <h1 className="has-text-weight-bold is-size-2">INDUSTRIES</h1>
+                  <h1 className="has-text-weight-bold is-size-2">{TextContents.industries_index.industries}</h1>
                 </Col>
               </Row>
               <Row>
@@ -33,7 +34,6 @@ export default class IndustriesPage extends React.Component {
                   <Card.Text className="text-dark">
                     Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
                     <br/>
-                    
                     <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Card.Text>
                 </Card.Body>
@@ -45,9 +45,9 @@ export default class IndustriesPage extends React.Component {
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
-                  <Card.Title className="font-weight-bold text-dark">REAL ESTATE ENGINEERING & CONSTRUCTION</Card.Title>
+                  <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.real_estate}</Card.Title>
                   <Card.Text className="text-dark">
-                    Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...
+                  {TextContents.industries_index.real_estate_text}
                     <br/>
                     <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Card.Text>
@@ -60,9 +60,9 @@ export default class IndustriesPage extends React.Component {
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
-                  <Card.Title className="font-weight-bold text-dark">MANUFATURING</Card.Title>
+                  <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufaturing}</Card.Title>
                   <Card.Text className="text-dark">
-                    We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...
+                  {TextContents.industries_index.manufaturing_text}
                     <br/>
                     <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Card.Text>
@@ -75,10 +75,9 @@ export default class IndustriesPage extends React.Component {
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
-                  <Card.Title className="font-weight-bold text-dark">RETAIL</Card.Title>
+                  <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.retail}</Card.Title>
                   <Card.Text className="text-dark">
-                  Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
-                  and tax planning and better management of cash flow
+                    {TextContents.industries_index.retail_text}
                     <br/>
                     <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Card.Text>
@@ -101,7 +100,7 @@ export default class IndustriesPage extends React.Component {
               </Row>
             <Row className="my-5">
               <Col className="col-xs-12 col-md-7">
-                <h1 className="has-text-weight-bold">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
+                <h1 className="has-text-weight-bold">{TextContents.industries_index.latest_insights_header}</h1>
               </Col>
               <Col className="col-xs-12 col-md-5">
               {posts[0] ? (
