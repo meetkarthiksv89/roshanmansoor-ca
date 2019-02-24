@@ -33,25 +33,25 @@ export const InformationTechnologyPage = () => {
             {TextContents.services_auditing.auditing}
           </h1>
           <p className="text-secondary">
-            {TextContents.services_auditing.maing_text1}
+            {TextContents.services_auditing.main_text1}
           </p>
           <br/>
           <p className="text-secondary">
-            {TextContents.services_auditing.maing_text2}
+            {TextContents.services_auditing.main_text2}
           </p>
           <Row>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-            <h3>{TextContents.services_auditing.internal_audit}</h3>
-            <p>{TextContents.services_auditing.internal_audit_text1}</p>
-            <p>{TextContents.services_auditing.internal_audit_text2}</p>
+            <h3>{TextContents.services_auditing.paragprah1_header}</h3>
+            <p>{TextContents.services_auditing.paragprah1_text1}</p>
+            <p>{TextContents.services_auditing.paragprah1_text2}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-            <h3>{TextContents.services_auditing.statutory_audit}</h3>
-            <p>{TextContents.services_auditing.statutory_audit_text1}</p>
+            <h3>{TextContents.services_auditing.paragprah2_header}</h3>
+            <p>{TextContents.services_auditing.paragprah2_text1}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-            <h3>{TextContents.services_auditing.bank_audit}</h3>
-            <p>{TextContents.services_auditing.bank_audit_text1}</p>
+            <h3>{TextContents.services_auditing.paragprah3_header}</h3>
+            <p>{TextContents.services_auditing.paragprah3_text1}</p>
             </Col>
           </Row>
         </Col>

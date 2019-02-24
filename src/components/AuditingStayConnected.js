@@ -1,8 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-import SocialMediaImages from './components/SocialMediaImages'
-import TextContents from '.././TextContents';
-
+import SocialMediaImages from '../components/SocialMediaImages'
+import TextContents from '../TextContents';
 
 export default () => (
   <Col className="col-md-5 p-3 p-sm-5">
