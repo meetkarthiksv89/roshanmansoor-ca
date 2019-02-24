@@ -2,33 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card, Button, Collapse, Modal} from 'react-bootstrap'
-
-const careerAds = [
-  {
-    id:1,
-    name:"RESEARCH ASSOCIATE",
-    type:"FULL TIME",
-    requirements:[
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-    ],
-    location: "Berlin"
-  },
-  {
-    id:2,
-    name:"SOFTWARE DEVELOPER",
-    type:"FREELANCER",
-    requirements:[
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-    ],
-    location: "Istanbul"
-  }
-]
+import CarrerAds from '../careerAds';
 
 class CareerPage extends React.Component{
 
@@ -112,7 +86,7 @@ class CareerPage extends React.Component{
                   We are Hiring
                 </span>
               </h3>
-              { careerAds.map(ad=>(
+              { CarrerAds.map(ad=>(
                 <Row key={ad.id} className="my-4 pb-5 border-bottom-1 mx-0">
                 <Col xs={6} sm={7} md={9} className="px-sm-5">
                   <h5>
