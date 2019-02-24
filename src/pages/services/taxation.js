@@ -30,28 +30,28 @@ export const InformationTechnologyPage = () => {
       <Row className="bg-white mx-3">        
         <Col className="py-5 pl-sm-5 pr-sm-4">
           <h1 className="my-3">
-            {TextContents.taxation.taxation}
+            {TextContents.services_taxation.taxation}
           </h1>
           <p className="text-secondary">
-            {TextContents.taxation.main_text1}
+            {TextContents.services_taxation.main_text1}
           </p>
           <br/>
           <p className="text-secondary">
-            {TextContents.taxation.main_text2}
+            {TextContents.services_taxation.main_text2}
           </p>
           <Row>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.taxation.paragprah1_header}</h3>
-              <p>{TextContents.taxation.paragprah1_text1}</p>
-              <p>{TextContents.taxation.paragprah1_text2}</p>
+              <h3>{TextContents.services_taxation.paragprah1_header}</h3>
+              <p>{TextContents.services_taxation.paragprah1_text1}</p>
+              <p>{TextContents.services_taxation.paragprah1_text2}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.taxation.paragprah2_header}</h3>
-              <p>{TextContents.taxation.paragprah2_text1}</p>
+              <h3>{TextContents.services_taxation.paragprah2_header}</h3>
+              <p>{TextContents.services_taxation.paragprah2_text1}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.taxation.paragprah3_header}</h3>
-              <p>{TextContents.taxation.paragprah3_text1}</p>
+              <h3>{TextContents.services_taxation.paragprah3_header}</h3>
+              <p>{TextContents.services_taxation.paragprah3_text1}</p>
             </Col>
           </Row>
         </Col>
