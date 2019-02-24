@@ -100,7 +100,7 @@ export default class IndustriesPage extends React.Component {
               </Row>
             <Row className="my-5">
               <Col className="col-xs-12 col-md-7">
-                <h1 className="has-text-weight-bold is-size-1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
+                <h1 className="has-text-weight-bold">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</h1>
               </Col>
               <Col className="col-xs-12 col-md-5">
               {posts[0] ? (
