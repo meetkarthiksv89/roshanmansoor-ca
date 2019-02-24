@@ -37,5 +37,22 @@ export default {
     "pillar_2_title": "Has previously worked for E&Y",
     "pillar_3_name": "Shahid Rokadiya",
     "pillar_3_title": "Partner - Hyderabad",
+  },
+  "services_index":{
+    "auditing":"AUDITING",
+    "auditing_text":"We are committed to serving our clients with highest possible assurance through our systematic ap- proach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehen- sive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.",
+    "auditing_opt1": "Internal Audit",
+    "auditing_opt2": "Statutory Audit",
+    "auditing_opt3": "Bank Audit",
+    "taxation":"TAXATION",
+    "taxation_text":"We offer end to end solutions for all your taxation needs from tax planning, documentation to representations. Our clients for tax preparation service include individuals, firms, Indians sta- tioned overseas, non-Indian nationals, among others. We also represent our clients at various offices including that of the assessing officer, Appellate authorities and Tribunal. Our tax planning and assistance services span across personal and corporate entities in terms of acquiring Permanent Ac- count Number (PAN), Tax Deduction Account Number, TDS or withholding taxes, filing of e-Income tax and e-TDS returns. We also offer international tax planning services to obtain inbound",
+    "taxation_opt1": "Income Tax",
+    "taxation_opt2": "GST",
+    "advisory":"ADVISORY",
+    "advisory_text":"We undertake evaluation services of a company’s or individual’s financial information which can be produced as evidence in court. Our multifaceted forensic audit consultancy assists our clients charged with litigations that have high stakes by rendering advisories across independent disputes, assistance in investigations, data ac- quisition and analysis. Apart from assessing the extent of damages, we also support in pro- viding testimonies in cases involving our clients. Our state of art forensic accounting service extricates complicated financial transac- tions.  Our independent information collection methods are presented in digital formats easing the analysis of data. Our real time responsive team ensures hundred percent confidentiality and addressing the",
+    "advisory_opt1": "Due diligence",
+    "advisory_opt2": "FEMA",
+    "advisory_opt3": "Corporate Restructuring",
+    "advisory_opt4": "Valuation",
   }
 }
