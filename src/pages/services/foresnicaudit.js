@@ -21,10 +21,8 @@ export const InformationTechnologyPage = () => {
       <Row className="mx-3">
         <Col className="px-0">
         <Breadcrumb>
-          <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
-          <Breadcrumb.Item>
-            <Link to="/services">Services</Link>
-          </Breadcrumb.Item>
+          <Link to="/">Home&nbsp;></Link> 
+          <Link to="/services"> &nbsp;Services</Link>
         </Breadcrumb>
         </Col>
       </Row>
