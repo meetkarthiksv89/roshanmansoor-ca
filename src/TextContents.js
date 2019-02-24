@@ -160,5 +160,10 @@ export default {
     "list3":"Listed and unlisted real estate investment trusts Insurers",
     "list4":"Providers of products and services to the financial",
     "list5":"services industry.",
+  },
+  "careers":{
+    "careers":"CAREERS",
+    "text1":"We are looking for brilliant, passionate people to join us. As a member of our team, we promise you an exciting journey building ground breaking technologies. Even if there is no openings that fits your profile, please reach out to us - we would love to hear from you!",
+    "text2":"We are Hiring"
   }
 }

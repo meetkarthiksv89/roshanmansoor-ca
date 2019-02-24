@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card, Button, Collapse, Modal} from 'react-bootstrap'
 import CarrerAds from '../careerAds';
+import TextContents from '../TextContents';
 
 class CareerPage extends React.Component{
 
@@ -75,15 +76,15 @@ class CareerPage extends React.Component{
           <Row className="bg-white">        
             <Col className="py-4 px-0 col-md-12">
               <h1 className="font-weight-bold mb-3 mx-3 mx-sm-5">
-                CAREERS
+              {TextContents.careers.careers}
               </h1>
               <h4 className="text-secondary mx-3 mx-sm-5">
-                We are looking for brilliant, passionate people to join us. As a member of our team, we promise you an exciting journey building ground breaking technologies. Even if there is no openings that fits your profile, please reach out to us - we would love to hear from you!
+              {TextContents.careers.text1}
               </h4>
               <br/>
               <h3 className="text-secondary font-weight-bold py-3 border-bottom-1">
                 <span className="mx-3 mx-sm-5">
-                  We are Hiring
+                {TextContents.careers.text2}
                 </span>
               </h3>
               { CarrerAds.map(ad=>(
