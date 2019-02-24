@@ -32,10 +32,10 @@ export const ServicesPage = () => {
         </Col>
       </Row>
       <Row className="mx-3 bg-white">
-        <Col xs={12} sm={4} className="px-5 pt-5 service-link">
-          <img src="https://via.placeholder.com/400x360" alt=""/>
+        <Col xs={12} sm={4} className="px-0">
+          <img src="https://via.placeholder.com/400x530" alt=""/>
         </Col>
-        <Col xs={12} sm={4} className="px-5 pt-5 service-link">
+        <Col xs={12} sm={5} className="px-3 px-sm-5 pt-5 service-link">
         <Link to="services/auditing">
           <h4 className="font-weight-bold">
             AUDITING
@@ -46,14 +46,14 @@ export const ServicesPage = () => {
           </p>
         </Link>
         </Col>
-        <Col xs={12} sm={4} className="p-5 mt-0 mt-sm-5">
+        <Col xs={12} sm={3} className="py-3 px-3 pt-5 mt-0 mt-sm-5">
           <h6 className="font-weight-bold" style={{"width":"150px"}}>Internal Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"150px"}}>Statutory Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"150px"}}>Bank Audit  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
       <Row className="mx-3 bg-white mt-5">        
-        <Col xs={12} sm={4} className="px-5 pt-5 service-link">
+        <Col xs={12} sm={5} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
         <Link to="services/taxation">
           <h4 className="font-weight-bold">
             TAXATION
@@ -65,19 +65,19 @@ export const ServicesPage = () => {
           </p>
           </Link>
         </Col>
-        <Col xs={12} sm={4} className="p-5 mt-0 mt-sm-5">
+        <Col xs={12} sm={3} className="py-sm-5 py-3 px-sm-5 px-3 mt-0 mt-sm-5">
           <h6 className="font-weight-bold" style={{"width":"150px"}}>Income Tax  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"150px"}}>GST  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
         <Col xs={12} sm={4} className="p-0 col-md-4 ">
-          <img src="https://via.placeholder.com/400x480" alt=""/>
+          <img src="https://via.placeholder.com/400x600" alt=""/>
         </Col>
       </Row>
       <Row className="mx-3 bg-white mt-5">
         <Col xs={12} sm={4} className="p-0 col-md-4">
-          <img src="https://via.placeholder.com/400x530" alt=""/>
+          <img src="https://via.placeholder.com/400x740" alt=""/>
         </Col>
-        <Col xs={12} sm={4} className="px-5 pt-5 service-link">
+        <Col xs={12} sm={4} className="pl-3 pl-sm-5 py-5 service-link">
         <Link to="services/advisory">
           <h4 className="font-weight-bold">
             ADVISORY
@@ -90,7 +90,7 @@ export const ServicesPage = () => {
           </p>
           </Link>
         </Col>
-        <Col xs={12} sm={4} className="p-5 mt-0 mt-sm-5">
+        <Col xs={12} sm={4} className="py-5 px-sm-0 px-3 mt-0 mt-sm-5">
           <h6 className="font-weight-bold" style={{"width":"220px"}}>Due diligence  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"220px"}}>FEMA  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"220px"}}>Corporate Restructuring  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>

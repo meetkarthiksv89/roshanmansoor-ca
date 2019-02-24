@@ -26,7 +26,7 @@ export const AboutPageTemplate = () => {
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="mx-sm-3">
+      <Row className="mx-0">
         <Col className="col-12 col-sm-8 mb-3 mb-sm-3">
         <Card style={{minHeight:"450px"}}>
         <Card.Img className="p-2 bg-lightgray" variant="top" src="https://via.placeholder.com/840x300" />
@@ -51,7 +51,7 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
       </Row>
-      <Row className="mt-5 mb-3 px-sm-5">
+      <Row className="mt-5 mb-3 mx-3 mx-sm-3">
         <Col className="col-12 col-sm-7 bg-lightgray p-5">
           <h1 className="pt-5 mt-2 mb-3">
             WHAT WE PASSIONATE ABOUT
@@ -61,7 +61,7 @@ export const AboutPageTemplate = () => {
           </p>
         </Col>
         <Col className="col-12 col-sm-5 p-0">
-        <img src="https://via.placeholder.com/600x660" alt=""/>
+        <img src="https://via.placeholder.com/600x840" alt=""/>
         </Col>
       </Row>
     </Container>
