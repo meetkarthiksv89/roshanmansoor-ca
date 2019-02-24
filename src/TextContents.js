@@ -20,5 +20,22 @@ export default {
     "about_us_text2": "A little history is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of",
     "about_us_text3": "Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.",
     "insights_header": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
+  },
+  "aboutpage":{
+    "testimonials": "Testimonials",
+    "testimonials_text": "Thanks to the team’s impeccable business acumen, the firm has been able to capture a niche market in India and overseas.",
+    "overview": "OVERVIEW",
+    "overview_text_1": "Roshan Mansoor & Co is a chartered accountancy firm delivering integrated consulting services across auditing, financial services, company legal matters, import & export and taxes. Headquartered in the Indian city of Bengaluru, Roshan & Mansoor is powered by a strong team of chartered accountants who have been placed at leading firms including PricewaterhouseCoopers, ING Group and Goldman Sachs.",
+    "overview_text_2": "Thanks to the team’s impeccable business acumen, the firm has been able to capture a niche market in India and overseas.",
+    "passionate": "WHAT WE PASSIONATE ABOUT",
+    "passionate_text": "As a firm that adheres to all the standard operational norms and practices as specified by ICAI and other statutory bodies, we are driven by the mission of creating an overall busi- ness impact for the clients we work with. As we partner with our clients in their organiza- tional finance planning and audit journey, our ultimate goal is to create make a wholesome difference in their bottom line. Buoyed by the overwhelming response from our clients in India, we have recently gone a step further and added to our portfolio Incorporation ser- vices for setting up business in Singapore and Hong Kong. We have partnered with a lead- ing consulting firm in Singapore to deliver this service.",
+    "meet_pillars": "MEET THE PILLARS OF OUR COMPANY",
+    "meet_pillars_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "pillar_1_name": "Roshan Mansoor",
+    "pillar_1_title": "Founder and Managing Partner",
+    "pillar_2_name": "Prashant Bansal",
+    "pillar_2_title": "Has previously worked for E&Y",
+    "pillar_3_name": "Shahid Rokadiya",
+    "pillar_3_title": "Partner - Hyderabad",
   }
 }
