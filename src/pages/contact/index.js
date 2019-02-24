@@ -52,10 +52,8 @@ export default class Index extends React.Component {
             <Row className="mx-3">
               <Col className="px-0">
               <Breadcrumb>
-                <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
-                <Breadcrumb.Item>
-                  <Link to="/contact">Contact Us</Link>
-                </Breadcrumb.Item>
+                <Link to="/">Home&nbsp;></Link> 
+                <Link to="/contact"> &nbsp;Contact Us</Link>
               </Breadcrumb>
               </Col>
             </Row>  
@@ -163,7 +161,7 @@ export default class Index extends React.Component {
           </Row>
           </Container>
           <Container fluid={true} className="px-0 mt-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1594555297233!2d77.58364311493887!3d12.961646490862412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15ddc8849f59%3A0x227484e866104ca5!2sRoshan+mansoor+%26+Co!5e0!3m2!1str!2sde!4v1550791701577" width="100%" height="450" frameborder="0" style={{"border":"0"}} allowfullscreen></iframe>
+            <iframe title="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1594555297233!2d77.58364311493887!3d12.961646490862412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15ddc8849f59%3A0x227484e866104ca5!2sRoshan+mansoor+%26+Co!5e0!3m2!1str!2sde!4v1550791701577" width="100%" height="450" frameBorder="0" style={{"border":"0"}} allowFullScreen></iframe>
           </Container>
         </div>
       </Layout>
