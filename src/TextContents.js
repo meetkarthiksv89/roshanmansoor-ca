@@ -165,5 +165,12 @@ export default {
     "careers":"CAREERS",
     "text1":"We are looking for brilliant, passionate people to join us. As a member of our team, we promise you an exciting journey building ground breaking technologies. Even if there is no openings that fits your profile, please reach out to us - we would love to hear from you!",
     "text2":"We are Hiring"
+  },
+  "contact":{
+    "connect": "LETS CONNECT",
+    "please_call": "Please call or email contact from and we will be happy to assist you",
+    "email_header":"EMAIL",
+    "email_adress":"Info@roshanmansoor.com",
+    "stay_connected":"STAY CONNECTED WITH US"
   }
 }
