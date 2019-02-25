@@ -36,7 +36,7 @@ export default class IndexPage extends React.Component {
                 <Card.Text className="text-black">
                   {TextContents.homepage.services_card_text_1}
                   <br/>
-                  <Link to="/" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
+                  <Link to="/services/auditing" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -48,7 +48,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text className="text-black">
                     {TextContents.homepage.services_card_text_2}
                     <br/>
-                    <Link to="/" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
+                    <Link to="/services/taxation" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                   </Card.Text>
                 </Card.Body>
               <Card.Img variant="top" src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
@@ -62,7 +62,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text className="text-black">
                     {TextContents.homepage.services_card_text_3}
                     <br/>
-                    <Link to="/" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
+                    <Link to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -80,7 +80,7 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mx-sm-3">
-              <Col xs={6} sm={3}>
+              <Col xs={6} sm={4}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -89,13 +89,13 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_1}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
               </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={6} sm={4}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -104,13 +104,13 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_2}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={6} sm={4}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -119,13 +119,13 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                   {TextContents.homepage.industries_card_text_3}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={6} sm={4}>
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -134,7 +134,37 @@ export default class IndexPage extends React.Component {
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_4}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 float-center">Read More </div>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
+                  </Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+              </Col>
+              <Col xs={6} sm={4}>
+              <Card className="bg-dark box-shadow-none">
+                <Link to="/industries/biotechnology">
+                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
+                  <Card.Title>{TextContents.homepage.industries_card_title_5}</Card.Title>
+                  <Card.Text>
+                    {TextContents.homepage.industries_card_text_5}
+                    <br/>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
+                  </Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+              </Col>
+              <Col xs={6} sm={4}>
+              <Card className="bg-dark box-shadow-none">
+                <Link to="/industries/media">
+                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
+                  <Card.Title>{TextContents.homepage.industries_card_title_6}</Card.Title>
+                  <Card.Text>
+                    {TextContents.homepage.industries_card_text_6}
+                    <br/>
+                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
                 </Card.Body>
                 </Link>
