@@ -60,6 +60,10 @@ export default {
     "advisory_opt2": "FEMA",
     "advisory_opt3": "Corporate Restructuring",
     "advisory_opt4": "Merger and Aquisitions",
+    "other_services":"Other Services",
+    "other_services_opt1":"Project  Finance-Debt and Equity",
+    "other_services_opt2":"Valuation",
+    "other_services_opt3":"Incorporation of entities (Companies/LLP)",
   },
   "services_auditing":{
     "auditing":"AUDITING",
