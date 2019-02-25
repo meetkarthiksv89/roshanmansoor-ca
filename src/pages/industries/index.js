@@ -98,38 +98,27 @@ export default class IndustriesPage extends React.Component {
                   <h4 className="d-flex justify-content-end">SEE ALL LATEST INSIGHTS</h4>
                 </Col>
               </Row>
-            <Row className="my-5">
-              <Col className="col-xs-12 col-md-7">
-                <h1 className="has-text-weight-bold">{TextContents.industries_index.latest_insights_header}</h1>
-              </Col>
-              <Col className="col-xs-12 col-md-5">
-              {posts[0] ? (
-              <Card className="bg-lightblue">
-              <Link className="text-black" to={posts[0].node.fields.slug}>
-                <Card.Body>
-                  <Card.Title className="text-black">{posts[0].node.frontmatter.title}</Card.Title>
-                  <Card.Text className="text-light">
-                    {posts[0].node.excerpt.substring(0,200) + '...'}
-                  </Card.Text>
-                </Card.Body>
-                </Link>
-              </Card>) : null
-              }
-              {posts[1] ? (
-              <Card className="bg-lightblue mt-5">
-              <Link className="text-black" to={posts[1].node.fields.slug}>
-                <Card.Body>
-                  <Card.Title className="text-black">{posts[1].node.frontmatter.title}</Card.Title>
-                  <Card.Text className="text-light">
-                  {posts[1].node.excerpt.substring(0,200)+ '...'}
-                  </Card.Text>
-                </Card.Body>
-                </Link>
-              </Card>) : null
-              }
-              </Col>
-            </Row>
-          </Container>
+              <Row className="mb-3">
+              {posts
+              .map(({ node: post }) => (
+                <Col xs={12} md={6} key={post.id}>
+                  <Card className="bg-lightblue mt-5">
+                    <Link className="text-black" to={post.fields.slug}>
+                      <Card.Body style={{minHeight:"250px"}}>
+                        <Card.Title className="text-black">
+                          <div>{post.frontmatter.title} </div>
+                          <div className="mt-2">{post.frontmatter.date}</div>
+                        </Card.Title>
+                        <Card.Text className="text-light font-weight-bold">
+                        { post.excerpt.substring(0,200)+ '...'}
+                        </Card.Text>
+                      </Card.Body>
+                    </Link>
+                  </Card>
+                </Col>
+              ))}
+              </Row>
+            </Container>
           </div>
         </section>
       </Layout>

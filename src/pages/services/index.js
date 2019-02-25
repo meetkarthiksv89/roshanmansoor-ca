@@ -33,7 +33,7 @@ export const ServicesPage = () => {
       </Row>
       <Row className="mx-3 bg-white">
         <Col xs={12} sm={4} className="px-0">
-          <img src="https://via.placeholder.com/400x530" alt=""/>
+          <img src="https://via.placeholder.com/400x400" alt=""/>
         </Col>
         <Col xs={12} sm={5} className="px-3 px-sm-5 pt-5 service-link">
         <Link to="services/auditing">
@@ -71,14 +71,14 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.taxation_opt2}  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
         <Col xs={12} sm={4} className="p-0 col-md-4 ">
-          <img src="https://via.placeholder.com/400x600" alt=""/>
+          <img src="https://via.placeholder.com/400x540" alt=""/>
         </Col>
       </Row>
       <Row className="mx-3 bg-white mt-5">
         <Col xs={12} sm={4} className="p-0 col-md-4">
-          <img src="https://via.placeholder.com/400x740" alt=""/>
+          <img src="https://via.placeholder.com/400x600" alt=""/>
         </Col>
-        <Col xs={12} sm={4} className="pl-3 pl-sm-5 py-5 service-link">
+        <Col xs={12} sm={5} className="pl-3 pl-sm-5 py-5 service-link">
         <Link to="services/advisory">
           <h4 className="font-weight-bold">
           {TextContents.services_index.advisory}
@@ -89,11 +89,29 @@ export const ServicesPage = () => {
           </p>
           </Link>
         </Col>
-        <Col xs={12} sm={4} className="py-5 px-sm-0 px-3 mt-0 mt-sm-5">
+        <Col xs={12} sm={3} className="py-5 px-sm-0 px-3 mt-0 mt-sm-5">
           <h6 className="font-weight-bold" style={{"width":"220px"}}>{TextContents.services_index.advisory_opt1} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"220px"}}>{TextContents.services_index.advisory_opt2} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"220px"}}>{TextContents.services_index.advisory_opt3} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           <h6 className="font-weight-bold" style={{"width":"220px"}}>{TextContents.services_index.advisory_opt4} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+        </Col>
+      </Row>
+      <Row className="mx-3 bg-white mt-5">        
+        <Col xs={12} sm={3} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
+          <Link to="services/otherservices">
+            <h4 className="font-weight-bold">
+              {TextContents.services_index.other_services}
+              <OrangeArrowComp width="20px"/>
+            </h4>
+          </Link>
+        </Col>
+        <Col xs={12} sm={5} className="py-sm-5 py-3 px-sm-5 px-3 mt-0 mt-sm-5">
+          <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt1} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt2} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt3} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+        </Col>
+        <Col xs={12} sm={4} className="p-0 col-md-4 ">
+          <img src="https://via.placeholder.com/400x400" alt=""/>
         </Col>
       </Row>
     </Container>

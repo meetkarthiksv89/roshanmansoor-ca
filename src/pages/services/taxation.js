@@ -61,12 +61,12 @@ export const InformationTechnologyPage = () => {
     </div>
     <OtherStaticPagesRow
       mainHeader="OTHER SERVICES YOU MAY LIKE"
-      link1="/services/foresnicaudit"
+      link1="/services/advisory"
       link2="/services/auditing"
-      link3="/services/duedeligance"
-      cardHeader1="FORESNSIC AUDIT"
+      link3="/services/otherservices"
+      cardHeader1="ADVISORY"
       cardHeader2="AUDITING"
-      cardHeader3="DUE DELIGANCE"
+      cardHeader3="OTHER SERVICES"
       cardText1="We undertake evaluation services of a company’s or individual’s financial information which can be produced
       as evidence in court..."
       cardText2="We help our clients take an informed decision while closing any large business deals such as merger and

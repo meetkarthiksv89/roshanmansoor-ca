@@ -14,6 +14,10 @@ export default {
     "industries_card_text_3":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
     "industries_card_title_4":"RETAIL",
     "industries_card_text_4":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
+    "industries_card_title_5":"BIO TECHNOLOGY",
+    "industries_card_text_5":"Bio Technology text",
+    "industries_card_title_6":"MEDIA",
+    "industries_card_text_6":"Media text",
     "about_us": "ABOUT US",
     "about_us_title": "A little history",
     "about_us_text1": "We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.",
@@ -56,6 +60,10 @@ export default {
     "advisory_opt2": "FEMA",
     "advisory_opt3": "Corporate Restructuring",
     "advisory_opt4": "Merger and Aquisitions",
+    "other_services":"Other Services",
+    "other_services_opt1":"Project  Finance-Debt and Equity",
+    "other_services_opt2":"Valuation",
+    "other_services_opt3":"Incorporation of entities (Companies/LLP)",
   },
   "services_auditing":{
     "auditing":"AUDITING",
@@ -93,20 +101,8 @@ export default {
     "paragprah3_header":"Bank Audit",
     "paragprah3_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
   },
-  "foresnic_audit":{
-    "foresnic_audit":"FORESNIC AUDIT",
-    "main_text1":"We are committed to serving our clients with highest possible assurance through our systematic approach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehensive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.",
-    "main_text2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "paragprah1_header":"Internal Audit",
-    "paragprah1_text1":"Our independent, objective assurance and con- sulting service aims at adding value and improv- ing our clients’ internal operations through real- istic approaches that evaluate the effectiveness of risk management, control and governance processes currently deployed in their business- es.",
-    "paragprah1_text2":"Our scalable risk assessment tactics offers an integrated solution that spans across initiating an internal audit function to auditing risk as- sessments, devising risk-based assurance plans, detecting Key Risk Indicators (KRI) among others.",
-    "paragprah2_header":"Statutory Audit",
-    "paragprah2_text1":"We undertake a complete and comprehensive review of all your financial records to detect any glitches in terms of accuracy. Our endeavour is to ensure the most viable representation of our clients’ financial position through our in depth appraisal of information gathered from sources such as bank balances, bookkeeping records and financial transactions. Our internal audit reports, verification of financial information, and other documents are in accordance with the specifications of the Government. Our utmost effort is to minimise any possibilities of fraud and create maximum transparency.",
-    "paragprah3_header":"Bank Audit",
-    "paragprah3_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
-  },
-  "due_deligance":{
-    "due_deligance":"DUE DELIGANCE",
+  "other_services":{
+    "other_services":"OTHER SERVICES",
     "main_text1":"We are committed to serving our clients with highest possible assurance through our systematic approach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehensive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.",
     "main_text2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "paragprah1_header":"Internal Audit",
@@ -142,6 +138,16 @@ export default {
   },
   "industries_information_tech":{
     "information_technology":"INFORMATION TECHNOLOGY",
+    "text1":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
+    "text2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  "industries_bio_tech":{
+    "bio_technology":"BIO TECHNOLOGY",
+    "text1":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
+    "text2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  "industries_media":{
+    "media":"MEDIA",
     "text1":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
     "text2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },

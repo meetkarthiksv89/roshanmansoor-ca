@@ -6,7 +6,6 @@ import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 import AuditingStayConnected from '../../components/AuditingStayConnected'
 import TextContents from '../../TextContents';
 
-
 export const InformationTechnologyPage = () => {
   return (
     <Layout>
@@ -31,28 +30,28 @@ export const InformationTechnologyPage = () => {
       <Row className="bg-white mx-3">        
         <Col className="py-5 pl-sm-5 pr-sm-4">
           <h1 className="my-3">
-            {TextContents.foresnic_audit.foresnic_audit}
+            {TextContents.other_services.other_services}
           </h1>
           <p className="text-secondary">
-            {TextContents.foresnic_audit.main_text1}
+            {TextContents.other_services.main_text1}
           </p>
           <br/>
           <p className="text-secondary">
-            {TextContents.foresnic_audit.main_text2}
+            {TextContents.other_services.main_text2}
           </p>
           <Row>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.foresnic_audit.paragprah1_header}</h3>
-              <p>{TextContents.foresnic_audit.paragprah1_text1}</p>
-              <p>{TextContents.foresnic_audit.paragprah1_text2}</p>
+              <h3>{TextContents.other_services.paragprah1_header}</h3>
+              <p>{TextContents.other_services.paragprah1_text1}</p>
+              <p>{TextContents.other_services.paragprah1_text2}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.foresnic_audit.paragprah2_header}</h3>
-              <p>{TextContents.foresnic_audit.paragprah2_text1}</p>
+              <h3>{TextContents.other_services.paragprah2_header}</h3>
+              <p>{TextContents.other_services.paragprah2_text1}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.foresnic_audit.paragprah3_header}</h3>
-              <p>{TextContents.foresnic_audit.paragprah3_text1}</p>
+              <h3>{TextContents.other_services.paragprah3_header}</h3>
+              <p>{TextContents.other_services.paragprah3_text1}</p>
             </Col>
           </Row>
         </Col>
@@ -62,12 +61,12 @@ export const InformationTechnologyPage = () => {
     </div>
     <OtherStaticPagesRow
       mainHeader="OTHER SERVICES YOU MAY LIKE"
-      link1="/services/taxation"
+      link1="/services/advisory"
       link2="/services/auditing"
-      link3="/services/duedeligance"
-      cardHeader1="TAXATION"
-      cardHeader2="AUDITING"
-      cardHeader3="DUE DELIGANCE"
+      link3="/services/taxation"
+      cardHeader1="ADVISORY"
+      cardHeader2="FORESNSIC AUDIT"
+      cardHeader3="TAXATION"
       cardText1="We undertake evaluation services of a company’s or individual’s financial information which can be produced
       as evidence in court..."
       cardText2="We help our clients take an informed decision while closing any large business deals such as merger and
