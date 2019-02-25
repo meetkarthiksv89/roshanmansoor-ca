@@ -101,20 +101,8 @@ export default {
     "paragprah3_header":"Bank Audit",
     "paragprah3_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
   },
-  "foresnic_audit":{
-    "foresnic_audit":"FORESNIC AUDIT",
-    "main_text1":"We are committed to serving our clients with highest possible assurance through our systematic approach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehensive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.",
-    "main_text2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "paragprah1_header":"Internal Audit",
-    "paragprah1_text1":"Our independent, objective assurance and con- sulting service aims at adding value and improv- ing our clients’ internal operations through real- istic approaches that evaluate the effectiveness of risk management, control and governance processes currently deployed in their business- es.",
-    "paragprah1_text2":"Our scalable risk assessment tactics offers an integrated solution that spans across initiating an internal audit function to auditing risk as- sessments, devising risk-based assurance plans, detecting Key Risk Indicators (KRI) among others.",
-    "paragprah2_header":"Statutory Audit",
-    "paragprah2_text1":"We undertake a complete and comprehensive review of all your financial records to detect any glitches in terms of accuracy. Our endeavour is to ensure the most viable representation of our clients’ financial position through our in depth appraisal of information gathered from sources such as bank balances, bookkeeping records and financial transactions. Our internal audit reports, verification of financial information, and other documents are in accordance with the specifications of the Government. Our utmost effort is to minimise any possibilities of fraud and create maximum transparency.",
-    "paragprah3_header":"Bank Audit",
-    "paragprah3_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
-  },
-  "due_deligance":{
-    "due_deligance":"DUE DELIGANCE",
+  "other_services":{
+    "other_services":"OTHER SERVICES",
     "main_text1":"We are committed to serving our clients with highest possible assurance through our systematic approach. Our relentless endeavour is to deploy newer methods and approaches to enhance the quality of our audit. We focus on by deciphering comprehensive and pertinent audit findings that not only help streamline but also create far reaching impact for our client businesses.",
     "main_text2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "paragprah1_header":"Internal Audit",
