@@ -63,13 +63,12 @@ render() {
             <div className="navbar-item py-4 search-icon">
               {!this.state.showInput && <span className="float-left mt-1" onClick={() => this.toggleSearch()}>Search btn</span> }
               {this.state.showInput && 
-              <input className="input" 
-                type={"text"} 
-                name={"search"} 
-                onChange={this.handleChange} 
-                onKeyDown={this.onKeyPressed} 
-                tabIndex="0" 
-                id={"search-bar"} />
+                <form method = "get" title = "Search Form" action="https://cse.google.com/cse/publicurl" >
+                <div>
+                   <input type="text" id="q" name="q" title="Search this site" alt="Search Text" style={{width:'80px'}} />
+                   <input type="hidden" id="cx" name="cx" value="013626029654558379071:ze3tw4csia4" />
+                </div>
+               </form>
               }
               <h6 className="hidden-sm-up float-left ml-4 font-weight-bold">SEARCH</h6>
             </div>
