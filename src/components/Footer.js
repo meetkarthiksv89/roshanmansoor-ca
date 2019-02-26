@@ -2,7 +2,6 @@ import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import { Link } from 'gatsby'
 import SocialMediaImages from '../components/SocialMediaImages'
-import TextContents from '../TextContents';
 
 export default () => (
   <div className="bg-footer p-5 text-light">
