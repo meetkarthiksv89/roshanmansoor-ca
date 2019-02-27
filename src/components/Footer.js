@@ -10,7 +10,7 @@ export default () => (
           <Col className="col-12 col-sm-4 mb-5 mb-sm-0">
             <SocialMediaImages/>
           </Col>
-          <Col className="ol-12 col-sm-3 pl-sm-2 pl-md-3 pl-lg-5 pb-5 pb-sm-0 footer-links footer-text">
+          <Col className="col-12 col-sm-3 pl-sm-2 pl-md-3 pl-lg-5 pb-5 pb-sm-0 footer-links footer-text">
             <Link to="/"><h5>HOME</h5></Link>
             <Link to="/about"><h5>ABOUT</h5></Link>
             <Link to="/services"><h5>SERVICES</h5></Link>

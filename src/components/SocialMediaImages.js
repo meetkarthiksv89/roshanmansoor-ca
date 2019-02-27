@@ -13,24 +13,23 @@ export default () => (
       width="60"
       className="d-inline-block align-top mx-3"
       alt="Facebook"
+      className="mr-4"
     />
-    </Col>
-    <Col>
       <img
       src={twitter}
       height="60"
       width="60"
       className="d-inline-block align-top mx-3"
       alt="Twitter"
+      className="mr-4"
     />
-    </Col>
-    <Col>
       <img
       src={linkedin}
       height="60"
       width="60"
       className="d-inline-block align-top mx-3"
       alt="Linkedin"
+      className="mr-4"
     />
     </Col>
  </Row>
