@@ -60,7 +60,7 @@ render() {
             <Link className="navbar-item py-4" to="/contact">
               CONTACT US
             </Link>
-            <div className="navbar-item py-4 search-icon">
+            {/* <div className="navbar-item py-4 search-icon">
               {!this.state.showInput && <span className="float-left mt-1" onClick={() => this.toggleSearch()}>Search btn</span> }
               {this.state.showInput && 
                 <form method = "get" title = "Search Form" action="https://cse.google.com/cse/publicurl" >
@@ -71,7 +71,7 @@ render() {
                </form>
               }
               <h6 className="hidden-sm-up float-left ml-4 font-weight-bold">SEARCH</h6>
-            </div>
+            </div> */}
           </Nav>
         </Navbar.Collapse>
       </div>
