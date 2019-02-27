@@ -80,7 +80,7 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mx-sm-3">
-              <Col xs={6} sm={4}>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -95,7 +95,7 @@ export default class IndexPage extends React.Component {
               </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4}>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -110,7 +110,7 @@ export default class IndexPage extends React.Component {
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={4}>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -125,7 +125,7 @@ export default class IndexPage extends React.Component {
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={4}>
+              <Col xs={6} sm={3}>
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -133,36 +133,6 @@ export default class IndexPage extends React.Component {
                   <Card.Title>{TextContents.homepage.industries_card_title_4}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_4}
-                    <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
-                  </Card.Text>
-                </Card.Body>
-                </Link>
-              </Card>
-              </Col>
-              <Col xs={6} sm={4}>
-              <Card className="bg-dark box-shadow-none">
-                <Link to="/industries/biotechnology">
-                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
-                  <Card.Title>{TextContents.homepage.industries_card_title_5}</Card.Title>
-                  <Card.Text>
-                    {TextContents.homepage.industries_card_text_5}
-                    <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
-                  </Card.Text>
-                </Card.Body>
-                </Link>
-              </Card>
-              </Col>
-              <Col xs={6} sm={4}>
-              <Card className="bg-dark box-shadow-none">
-                <Link to="/industries/media">
-                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
-                  <Card.Title>{TextContents.homepage.industries_card_title_6}</Card.Title>
-                  <Card.Text>
-                    {TextContents.homepage.industries_card_text_6}
                     <br/>
                     <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
@@ -182,7 +152,7 @@ export default class IndexPage extends React.Component {
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
                 <p>{TextContents.homepage.about_us_text3}</p>
-                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold" variant="warning">KNOW MORE</Button></Link>
+                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
               </Col>
               <Col xs={12} md={4} className="mt-4">
               <Image src="https://via.placeholder.com/450x430" fluid />

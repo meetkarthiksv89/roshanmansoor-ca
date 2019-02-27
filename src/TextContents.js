@@ -14,10 +14,6 @@ export default {
     "industries_card_text_3":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
     "industries_card_title_4":"RETAIL",
     "industries_card_text_4":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
-    "industries_card_title_5":"BIO TECHNOLOGY",
-    "industries_card_text_5":"Bio Technology text",
-    "industries_card_title_6":"MEDIA",
-    "industries_card_text_6":"Media text",
     "about_us": "ABOUT US",
     "about_us_title": "A little history",
     "about_us_text1": "We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.",
@@ -76,6 +72,10 @@ export default {
     "paragprah2_text1":"We undertake a complete and comprehensive review of all your financial records to detect any glitches in terms of accuracy. Our endeavour is to ensure the most viable representation of our clients’ financial position through our in depth appraisal of information gathered from sources such as bank balances, bookkeeping records and financial transactions. Our internal audit reports, verification of financial information, and other documents are in accordance with the specifications of the Government. Our utmost effort is to minimise any possibilities of fraud and create maximum transparency.",
     "paragprah3_header":"Bank Audit",
     "paragprah3_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
+    "paragprah4_header":"GST Audit",
+    "paragprah4_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
+    "paragprah5_header":"Foresnic Audit",
+    "paragprah5_text1":"Our bank audit service helps you comply with all the statutory requirement. In addition we also partner with you in getting a bird’s eye view of not only the complete gamut of procedures and services you offer but also the accuracy of all your records. Our review process encompasses examining of records such as financial transac- tions. Bank wires, bank account monetary flow among others to ascertain completeness of all your financial activities.",
   },
   "services_advisory":{
     "advisory":"ADVISORY",
@@ -134,6 +134,10 @@ export default {
     "manufaturing_text":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
     "retail":"RETAIL",
     "retail_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
+    "bio_technology":"BIO TECHNOLOGY",
+    "bio_technology_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
+    "media":"MEDIA",
+    "media_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
     "latest_insights_header":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
   },
   "industries_information_tech":{

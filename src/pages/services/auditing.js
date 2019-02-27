@@ -53,6 +53,14 @@ export const InformationTechnologyPage = () => {
             <h3>{TextContents.services_auditing.paragprah3_header}</h3>
             <p>{TextContents.services_auditing.paragprah3_text1}</p>
             </Col>
+            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
+            <h3>{TextContents.services_auditing.paragprah4_header}</h3>
+            <p>{TextContents.services_auditing.paragprah4_text1}</p>
+            </Col>
+            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
+            <h3>{TextContents.services_auditing.paragprah5_header}</h3>
+            <p>{TextContents.services_auditing.paragprah5_text1}</p>
+            </Col>
           </Row>
         </Col>
         <AuditingStayConnected />
