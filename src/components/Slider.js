@@ -8,7 +8,8 @@ const Slider = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/1200x450"
+          src="https://via.placeholder.com/1000x450"
+          srcSet="https://via.placeholder.com/400x450 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
           alt="First slide"
         />
         <Carousel.Caption className="custom-carousel-caption">
@@ -19,7 +20,8 @@ const Slider = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/1200x450"
+          src="https://via.placeholder.com/1000x450"
+          srcSet="https://via.placeholder.com/400x450 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
           alt="Second slide"
         />
         <Carousel.Caption className="custom-carousel-caption">
@@ -30,7 +32,8 @@ const Slider = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/1200x450"
+          src="https://via.placeholder.com/1000x450"
+          srcSet="https://via.placeholder.com/400x450 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
           alt="Third slide"
         />
 
