@@ -103,12 +103,14 @@ export const ServicesPage = () => {
               {TextContents.services_index.other_services}
               <OrangeArrowComp width="20px"/>
             </h4>
+            <br/>
+            <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt1} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+            <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt2} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+            <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt3} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
           </Link>
         </Col>
         <Col xs={12} sm={5} className="py-sm-5 py-3 px-sm-5 px-3 mt-0 mt-sm-5">
-          <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt1} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt2} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
-          <h6 className="font-weight-bold" style={{"width":"300px"}}>{TextContents.services_index.other_services_opt3} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
+          
         </Col>
         <Col xs={12} sm={4} className="p-0 col-md-4 ">
           <img src="https://via.placeholder.com/400x400" alt=""/>
