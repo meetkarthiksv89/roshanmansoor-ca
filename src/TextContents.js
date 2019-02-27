@@ -14,10 +14,6 @@ export default {
     "industries_card_text_3":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
     "industries_card_title_4":"RETAIL",
     "industries_card_text_4":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
-    "industries_card_title_5":"BIO TECHNOLOGY",
-    "industries_card_text_5":"Bio Technology text",
-    "industries_card_title_6":"MEDIA",
-    "industries_card_text_6":"Media text",
     "about_us": "ABOUT US",
     "about_us_title": "A little history",
     "about_us_text1": "We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.",
@@ -138,6 +134,10 @@ export default {
     "manufaturing_text":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
     "retail":"RETAIL",
     "retail_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
+    "bio_technology":"BIO TECHNOLOGY",
+    "bio_technology_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
+    "media":"MEDIA",
+    "media_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
     "latest_insights_header":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
   },
   "industries_information_tech":{
