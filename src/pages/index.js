@@ -182,7 +182,7 @@ export default class IndexPage extends React.Component {
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
                 <p>{TextContents.homepage.about_us_text3}</p>
-                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold" variant="warning">KNOW MORE</Button></Link>
+                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
               </Col>
               <Col xs={12} md={4} className="mt-4">
               <Image src="https://via.placeholder.com/450x430" fluid />
