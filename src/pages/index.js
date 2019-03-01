@@ -97,7 +97,7 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mx-sm-3">
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img src="https://via.placeholder.com/250x220" />
@@ -112,7 +112,7 @@ export default class IndexPage extends React.Component {
               </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img src="https://via.placeholder.com/250x220" />
@@ -127,7 +127,7 @@ export default class IndexPage extends React.Component {
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img src="https://via.placeholder.com/250x220" />
@@ -142,7 +142,7 @@ export default class IndexPage extends React.Component {
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img src="https://via.placeholder.com/250x220" />
