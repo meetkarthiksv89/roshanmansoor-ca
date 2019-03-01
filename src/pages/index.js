@@ -162,17 +162,19 @@ export default class IndexPage extends React.Component {
           </div>
           <Container fluid={true} className="bg-white px-md-5 py-5">
             <Row className="m-3">
-              <Col xs={12} md={8}>
+              <Col xs={12}>
                 <h1 className="font-weight-bold is-size-2">{TextContents.homepage.about_us}</h1>
+              </Col>
+              <Col xs={12} md={4} className="mt-4">
+                <Image src="https://via.placeholder.com/450x430" fluid />
+              </Col>
+              <Col xs={12} md={8}>
                 <br/>
                 <h2>{TextContents.homepage.about_us_title}</h2>
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
                 <p>{TextContents.homepage.about_us_text3}</p>
-                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
-              </Col>
-              <Col xs={12} md={4} className="mt-4">
-              <Image src="https://via.placeholder.com/450x430" fluid />
+                <Link to="/about"><Button className="float-right px-5 py-3 mr-4 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
               </Col>
             </Row>
           </Container>
