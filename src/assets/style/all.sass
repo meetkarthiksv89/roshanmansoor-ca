@@ -136,6 +136,9 @@ a
 .hidden-sm-up
     display: none
 
+.hidden-sm-up
+    display: block
+
 .bg-footer h5, .bg-footer h6 
   font-weight: 600 
 
@@ -157,6 +160,9 @@ a
   right: 0
   z-index: 1000
 
+.section-header-link
+  float: right
+
 @media only screen and (max-width: $breakpoint-small)
   .navbar-custom-brand
     width: 70%
@@ -170,8 +176,19 @@ a
   .hidden-sm-up
     display: block
 
+  .hidden-sm-up
+    display: none
+
   .footer-text
     border-left: none
+    text-align: center
+  
+  .section-header-link
+    font-size: 0.75em !important
+    float: none
+    text-align: center
+  
+  .section-header-main
     text-align: center
 
 @import "~bulma"
