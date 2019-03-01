@@ -125,7 +125,6 @@ export default {
     "list6":"Expertise in Corporate , International Taxation and Mergers & Acquisitions.",
   },
   "industries_index":{
-    "industries":"INDUSTRIES",
     "information_technology":"INFORMATION TECHNOLOGY",
     "information_technology_text":"Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....",
     "real_estate":"REAL ESTATE ENGINEERING & CONSTRUCTION",

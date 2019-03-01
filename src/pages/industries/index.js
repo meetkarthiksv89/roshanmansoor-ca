@@ -22,11 +22,6 @@ export default class IndustriesPage extends React.Component {
           <div>
           <Container fluid={true} className="p-5">
             <Row>
-                <Col>
-                  <h1 className="has-text-weight-bold is-size-2">{TextContents.industries_index.industries}</h1>
-                </Col>
-              </Row>
-              <Row>
               <Col xs={6} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/informationtechnology">
