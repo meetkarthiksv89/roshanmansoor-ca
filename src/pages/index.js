@@ -36,6 +36,7 @@ export default class IndexPage extends React.Component {
                 <Card.Text className="text-black">
                   {TextContents.homepage.services_card_text_1}
                   <br/>
+                  <br/>
                   <Link to="/services/auditing" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                 </Card.Text>
               </Card.Body>
@@ -49,6 +50,7 @@ export default class IndexPage extends React.Component {
                   <Card.Text className="text-black">
                     {TextContents.homepage.services_card_text_3}
                     <br/>
+                    <br/>
                     <Link to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                   </Card.Text>
                 </Card.Body>
@@ -60,6 +62,7 @@ export default class IndexPage extends React.Component {
                   <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
                   <Card.Text className="text-black">
                     {TextContents.homepage.services_card_text_3}
+                    <br/>
                     <br/>
                     <Link to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                   </Card.Text>
@@ -74,6 +77,7 @@ export default class IndexPage extends React.Component {
                   <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
                   <Card.Text className="text-black">
                     {TextContents.homepage.services_card_text_3}
+                    <br/>
                     <br/>
                     <Link to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
                   </Card.Text>
