@@ -12,24 +12,21 @@ export default class IndustriesPage extends React.Component {
       <Layout>
         <section>
           <Card className="bg-dark text-white text-center">
-            <Card.Img src="https://via.placeholder.com/1000x600" alt="Card image" />
+            <Card.Img src="https://via.placeholder.com/1000x600" 
+            srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+            alt="Card image" />
             <Card.ImgOverlay>
               <Card.Title className="page-image-card-header"><h1>INDUSTRIES</h1></Card.Title>
             </Card.ImgOverlay>
           </Card>
           <div>
-          <Container fluid={true} className="p-5">
+          <Container fluid={true} className="p-sm-5 p-2">
             <Row>
-                <Col>
-                  <h1 className="has-text-weight-bold is-size-2">{TextContents.industries_index.industries}</h1>
-                </Col>
-              </Row>
-              <Row>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/informationtechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
+                  <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">INFORMATION TECHNOLOGY</Card.Title>
                     <Card.Text className="text-dark">
                       Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
@@ -40,11 +37,11 @@ export default class IndustriesPage extends React.Component {
                 </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/realestate">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
+                  <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.real_estate}</Card.Title>
                     <Card.Text className="text-dark">
                     {TextContents.industries_index.real_estate_text}
@@ -55,11 +52,11 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/manufaturing">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
+                  <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufaturing}</Card.Title>
                     <Card.Text className="text-dark">
                     {TextContents.industries_index.manufaturing_text}
@@ -70,11 +67,11 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                   <Link to="/industries/retail">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
+                  <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.retail}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.retail_text}
@@ -85,11 +82,11 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
-                  <Link to="/industries/retail">
+                  <Link to="/industries/biotechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
+                  <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.bio_technology}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.bio_technology_text}
@@ -100,11 +97,11 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
-                  <Link to="/industries/retail">
+                  <Link to="/industries/media">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"400px"}} className="my-4 py-4">
+                  <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.media}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.media_text}

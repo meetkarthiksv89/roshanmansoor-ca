@@ -16,14 +16,16 @@ export const ServicesPage = () => {
     <div className="bg-darkgray">
     <Container fluid={true} className="px-0">
       <Card className="bg-dark text-white text-center">
-        <Card.Img src="https://via.placeholder.com/1200x300" alt="Card image" />
+        <Card.Img src="https://via.placeholder.com/1200x300" 
+          srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+          alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>SERVICES</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
-    <Container className="pb-5">
-      <Row className="mx-3">
+    <Container fluid={true} className="pb-5 px-0 px-sm-5">
+      <Row className="mx-4">
         <Col className="px-0">
         <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 
@@ -31,9 +33,9 @@ export const ServicesPage = () => {
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="mx-3 bg-white">
+      <Row className="mx-4 bg-white">
         <Col xs={12} sm={4} className="px-0">
-          <img src="https://via.placeholder.com/400x400" alt=""/>
+          <img src="https://via.placeholder.com/500x420" alt=""/>
         </Col>
         <Col xs={12} sm={5} className="px-3 px-sm-5 pt-5 service-link">
         <Link to="services/auditing">
@@ -54,7 +56,7 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.auditing_opt5} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
-      <Row className="mx-3 bg-white mt-5">        
+      <Row className="mx-4 bg-white mt-5">        
         <Col xs={12} sm={5} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
         <Link to="services/taxation">
           <h4 className="font-weight-bold">
@@ -71,12 +73,12 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.taxation_opt2}  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
         <Col xs={12} sm={4} className="p-0 col-md-4 ">
-          <img src="https://via.placeholder.com/400x540" alt=""/>
+          <img src="https://via.placeholder.com/500x420" alt=""/>
         </Col>
       </Row>
-      <Row className="mx-3 bg-white mt-5">
+      <Row className="mx-4 bg-white mt-5">
         <Col xs={12} sm={4} className="p-0 col-md-4">
-          <img src="https://via.placeholder.com/400x600" alt=""/>
+          <img src="https://via.placeholder.com/500x420" alt=""/>
         </Col>
         <Col xs={12} sm={5} className="pl-3 pl-sm-5 py-5 service-link">
         <Link to="services/advisory">
@@ -96,7 +98,7 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"220px"}}>{TextContents.services_index.advisory_opt4} <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
       </Row>
-      <Row className="mx-3 bg-white mt-5">        
+      <Row className="mx-4 bg-white mt-5">        
         <Col xs={12} sm={3} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
           <Link to="services/otherservices">
             <h4 className="font-weight-bold">
@@ -113,7 +115,7 @@ export const ServicesPage = () => {
           
         </Col>
         <Col xs={12} sm={4} className="p-0 col-md-4 ">
-          <img src="https://via.placeholder.com/400x400" alt=""/>
+          <img src="https://via.placeholder.com/500x420" alt=""/>
         </Col>
       </Row>
     </Container>

@@ -12,26 +12,28 @@ export const InformationTechnologyPage = () => {
     <div className="bg-darkgray">
     <Container fluid={true} className="px-0">
       <Card className="bg-dark text-white text-center">
-        <Card.Img src="https://via.placeholder.com/1200x650" alt="Card image" />
+        <Card.Img src="https://via.placeholder.com/1200x650" 
+        srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+        alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Media</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
     <Container className="mt-3 pb-5">
-      <Row>
-        <Col className="px-0">
+      <Row className="mx-1 mx-sm-0">
+        <Col>
         <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 
           <Link to="/industries"> &nbsp;Industries</Link>
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="bg-white">        
-        <Col className="py-5 pl-5 pr-4 col-md-8">
-          <h1 className="my-3">
+      <Row className="mx-1 mx-sm-0 bg-white">        
+        <Col className="py-5 px-sm-5 col-md-8">
+          <h2 className="my-3">
             {TextContents.industries_media.media}
-          </h1>
+          </h2>
           <p className="text-secondary">
           {TextContents.industries_media.text1}
           </p>

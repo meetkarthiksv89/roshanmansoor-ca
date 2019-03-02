@@ -134,7 +134,10 @@ a
     color: orange
 
 .hidden-sm-up
-    display: none
+    display: none !important
+
+.hidden-sm-down
+    display: block !important
 
 .bg-footer h5, .bg-footer h6 
   font-weight: 600 
@@ -157,9 +160,17 @@ a
   right: 0
   z-index: 1000
 
+.section-header-link
+  float: right
+
+.navbar-custom-brand span
+  color: #1a3f86
+  font-size: 24px
+  line-height: 46px
+
 @media only screen and (max-width: $breakpoint-small)
-  .navbar-custom-brand
-    width: 70%
+  .navbar-custom-brand span
+    font-size: 18px
   
   .custom-carousel-caption
     display: none
@@ -168,10 +179,21 @@ a
     display: none
   
   .hidden-sm-up
-    display: block
+    display: block !important
+
+  .hidden-sm-down
+    display: none !important
 
   .footer-text
     border-left: none
+    text-align: center
+  
+  .section-header-link
+    font-size: 0.75em !important
+    float: none
+    text-align: center
+  
+  .section-header-main
     text-align: center
 
 @import "~bulma"

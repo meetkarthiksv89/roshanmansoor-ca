@@ -6,30 +6,54 @@ import {Row, Col} from 'react-bootstrap';
 
 export default () => (
   <Row>
-    <Col>
+    <Col className="hidden-sm-down">
     <img
       src={facebook}
       height="60"
       width="60"
-      className="d-inline-block align-top mx-3"
+      className="d-inline-block align-top mx-3 mr-4"
       alt="Facebook"
-      className="mr-4"
     />
       <img
-      src={twitter}
-      height="60"
-      width="60"
-      className="d-inline-block align-top mx-3"
-      alt="Twitter"
-      className="mr-4"
-    />
+        src={twitter}
+        height="60"
+        width="60"
+        className="d-inline-block align-top mx-3 mr-4"
+        alt="Twitter"
+      />
       <img
       src={linkedin}
       height="60"
       width="60"
-      className="d-inline-block align-top mx-3"
+      className="d-inline-block align-top mx-3 mr-4"
       alt="Linkedin"
-      className="mr-4"
+    />
+    </Col>
+    <Col className="hidden-sm-up">
+      <img
+        src={facebook}
+        height="60"
+        width="60"
+        className="d-inline-block align-top mr-4"
+        alt="Facebook"
+      />
+    </Col>
+    <Col className="hidden-sm-up">
+      <img
+        src={twitter}
+        height="60"
+        width="60"
+        className="d-inline-block align-top mr-4"
+        alt="Twitter"
+      />
+    </Col>
+    <Col className="hidden-sm-up">
+    <img
+      src={linkedin}
+      height="60"
+      width="60"
+      className="d-inline-block align-top mr-4"
+      alt="Linkedin"
     />
     </Col>
  </Row>

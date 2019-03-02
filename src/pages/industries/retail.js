@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
 import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
+import TextContents from '../../TextContents';
 
 export const RealEstatePage = () => {
   return (
@@ -10,32 +11,33 @@ export const RealEstatePage = () => {
     <div className="bg-darkgray">
     <Container fluid={true} className="px-0">
       <Card className="bg-dark text-white text-center">
-        <Card.Img src="https://via.placeholder.com/1200x650" alt="Card image" />
+        <Card.Img src="https://via.placeholder.com/1200x650" 
+        srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+        alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Retails</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
     <Container className="mt-3 pb-5">
-      <Row>
+      <Row className="mx-1 mx-sm-0">
         <Col>
-        <Breadcrumb className="px-0">
+        <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 
           <Link to="/industries"> &nbsp;Industries</Link>
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="bg-white">        
-        <Col className="py-5 pl-5 pr-4 col-md-8">
-          <h1 className="my-3">
-            RETAILS
-          </h1>
+      <Row className="mx-1 mx-sm-0 bg-white">        
+        <Col className="py-5 px-sm-5 col-md-8">
+          <h2 className="my-3">
+          {TextContents.industries_retail.retail}
+          </h2>
           <p className="text-secondary">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            {TextContents.industries_retail.text1}
           </p>
-          <br/>
           <p className="text-secondary">
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            {TextContents.industries_retail.text2}
           </p>
         </Col>
         <Col className="p-0 col-md-4 p-5">

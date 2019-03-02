@@ -58,14 +58,16 @@ class CareerPage extends React.Component{
         <div className="bg-darkgray">
         <Container fluid={true} className="px-0">
           <Card className="bg-dark text-white text-center">
-            <Card.Img src="https://via.placeholder.com/1200x650" alt="Card image" />
+            <Card.Img src="https://via.placeholder.com/1200x650" 
+            srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+            alt="Card image" />
             <Card.ImgOverlay>
               <Card.Title className="page-image-card-header"><h1>Join our team!</h1></Card.Title>
             </Card.ImgOverlay>
           </Card>
         </Container>
-        <Container fluid={true} className="mt-3 p-5">
-          <Row>
+        <Container fluid={true} className="mt-3 p-sm-5">
+          <Row className="mx-1 mx-sm-0">
             <Col className="px-0">
             <Breadcrumb>
               <Link to="/">Home&nbsp;></Link> 
@@ -73,7 +75,7 @@ class CareerPage extends React.Component{
             </Breadcrumb>
             </Col>
           </Row>
-          <Row className="bg-white">        
+          <Row className="bg-white mx-1 mx-sm-0">        
             <Col className="py-4 px-0 col-md-12">
               <h1 className="font-weight-bold mb-3 mx-3 mx-sm-5">
               {TextContents.careers.careers}

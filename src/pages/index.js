@@ -13,65 +13,82 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <Slider/>
-        <section className="pt-5 bg-lightgray">
+        <section className="pt-3 pt-sm-5 bg-lightgray">
           <div className="content">
           <Container fluid={true} className="px-md-5 px-sm-0">
             <Row className="m-3">
-                <Col className="col-sm-12 col-md-6">
-                  <h1 className="font-weight-bold">WHAT WE DO</h1>
+                <Col className="col-12 col-md-6">
+                  <h1 className="font-weight-bold section-header-main">WHAT WE DO</h1>
                 </Col>
-                <Col className="col-sm-12 col-md-6">
-                  <Link to="/services"><h2 className="section-header-link d-flex justify-content-end">SEE ALL SERVICES</h2></Link>
+                <Col className="col-12 col-md-6">
+                  <Link to="/services"><h2 className="section-header-link">SEE ALL SERVICES</h2></Link>
                 </Col>
               </Row>
             </Container>
           </div>
           <div>
           <Row className="text-center mx-0">
-          <Col xs={12} md={4} className="px-0">
+          <Col xs={12} md={4} className="px-0 mb-4 mb-md-0">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
+              <Card.Img src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
               <Card.Body className="py-4" style={{height:'250px'}}>
                 <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_1}</Card.Title>
                 <Card.Text className="text-black">
                   {TextContents.homepage.services_card_text_1}
                   <br/>
-                  <Link to="/services/auditing" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
+                  <br/>
                 </Card.Text>
+                <p to="/services/auditing" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="px-0">
+          <Col xs={12} md={4} className="px-0 mb-4 mb-md-0 hidden-sm-up">
             <Card>
-              <Card.Body className="py-4" style={{height:'250px'}}>
-                <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_2}</Card.Title>
-                  <Card.Text className="text-black">
-                    {TextContents.homepage.services_card_text_2}
-                    <br/>
-                    <Link to="/services/taxation" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
-                  </Card.Text>
-                </Card.Body>
-              <Card.Img variant="top" src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
-            </Card>
-          </Col>
-          <Col xs={12} md={4} className="px-0">
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
+              <Card.Img src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
                 <Card.Body className="py-4" style={{height:'250px'}}>
                   <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
                   <Card.Text className="text-black">
                     {TextContents.homepage.services_card_text_3}
                     <br/>
-                    <Link to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </Link>
+                    <br/>
                   </Card.Text>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={4} className="px-0 mb-4 mb-md-0 hidden-sm-down">
+            <Card>
+                <Card.Body className="py-4" style={{height:'250px'}}>
+                  <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
+                  <Card.Text className="text-black">
+                    {TextContents.homepage.services_card_text_3}
+                    <br/>
+                    <br/>
+                  </Card.Text>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                </Card.Body>
+                <Card.Img src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
+            </Card>
+          </Col>
+          <Col xs={12} md={4} className="px-0 mb-4 mb-md-0 ">
+            <Card>
+              <Card.Img src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
+                <Card.Body className="py-4" style={{height:'250px'}}>
+                  <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
+                  <Card.Text className="text-black">
+                    {TextContents.homepage.services_card_text_3}
+                    <br/>
+                    <br/>
+                  </Card.Text>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
           </div>
-          <div className="py-5 bg-dark">
+          <div className="pt-5 pb-2 bg-dark">
           <Container fluid={true} className="px-md-5">
-            <Row className="mb-5 mt-3 mx-3">
+            <Row className="mt-3 mx-3">
                 <Col>
                   <h2 className="font-weight-bold is-size-2 text-light">WHO WE SERVES</h2>
                 </Col>
@@ -80,62 +97,62 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mx-sm-3">
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
-                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
-                  <Card.Title>{TextContents.homepage.industries_card_title_1}</Card.Title>
+                <Card.Img src="https://via.placeholder.com/250x220" />
+                <Card.Body style={{"minHeight":"400px"}}className="my-2">
+                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_1}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_1}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
+                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
               </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
-                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
-                  <Card.Title>{TextContents.homepage.industries_card_title_2}</Card.Title>
+                <Card.Img src="https://via.placeholder.com/250x220" />
+                <Card.Body style={{"minHeight":"400px"}}className="my-2">
+                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_2}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_2}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
+                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
-                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
-                  <Card.Title>{TextContents.homepage.industries_card_title_3}</Card.Title>
+                <Card.Img src="https://via.placeholder.com/250x220" />
+                <Card.Body style={{"minHeight":"400px"}}className="my-2">
+                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_3}</Card.Title>
                   <Card.Text>
                   {TextContents.homepage.industries_card_text_3}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
+                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
                 </Link>
               </Card>
               </Col>
-              <Col xs={6} sm={3}>
+              <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
-                <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"400px"}}className="my-4 py-4">
-                  <Card.Title>{TextContents.homepage.industries_card_title_4}</Card.Title>
+                <Card.Img src="https://via.placeholder.com/250x220" />
+                <Card.Body style={{"minHeight":"400px"}}className="my-2">
+                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_4}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_4}
                     <br/>
-                    <div className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </div>
                   </Card.Text>
+                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
                 </Link>
               </Card>
@@ -145,17 +162,19 @@ export default class IndexPage extends React.Component {
           </div>
           <Container fluid={true} className="bg-white px-md-5 py-5">
             <Row className="m-3">
-              <Col xs={12} md={8}>
+              <Col xs={12}>
                 <h1 className="font-weight-bold is-size-2">{TextContents.homepage.about_us}</h1>
+              </Col>
+              <Col xs={12} md={4} className="mt-4">
+                <Image src="https://via.placeholder.com/450x430" fluid />
+              </Col>
+              <Col xs={12} md={8}>
                 <br/>
                 <h2>{TextContents.homepage.about_us_title}</h2>
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
                 <p>{TextContents.homepage.about_us_text3}</p>
-                <Link to="/about"><Button className="float-right px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
-              </Col>
-              <Col xs={12} md={4} className="mt-4">
-              <Image src="https://via.placeholder.com/450x430" fluid />
+                <Link to="/about"><Button className="float-right px-5 py-3 mr-4 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
               </Col>
             </Row>
           </Container>
