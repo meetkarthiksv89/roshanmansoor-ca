@@ -37,6 +37,7 @@ render() {
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
+          <span className="ml-1">Roshan Mansoor & Co.</span>
         </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

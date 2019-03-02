@@ -34,15 +34,15 @@ export const AboutPageTemplate = () => {
           <Col xs={12}>
             <h1>{TextContents.aboutpage.testimonials}</h1>
           </Col>
-          <Col xs={3}>
+          <Col xs={12} sm={3}>
             <img src="https://via.placeholder.com/240x200" alt=""/>
           </Col>
-          <Col xs={9}>
+          <Col xs={12} sm={9}>
             {TextContents.aboutpage.testimonials_text}
           </Col>
         </Row>
       </Container>
-      <Container fluid={true} className="mt-3 px-sm-5">
+      <Container fluid={true} className="mt-3 px-0 px-sm-5">
       <Row className="mx-0">
         <Col className="col-12 col-sm-8 mb-3 mb-sm-3">
         <Card style={{minHeight:"450px"}}>
@@ -69,8 +69,8 @@ export const AboutPageTemplate = () => {
         </Col>
       </Row>
       <Row className="mt-5 mb-3 mx-3 mx-sm-3">
-        <Col className="col-12 col-sm-7 bg-lightgray p-5">
-          <h1 className="pt-5 mt-2 mb-3">
+        <Col className="col-12 col-sm-7 bg-lightgray p-3 p-sm-5">
+          <h1 className="pt-sm-5 pt-2 mt-2 mb-3">
           {TextContents.aboutpage.passionate}
           </h1>
           <p className="pb-5">
@@ -83,7 +83,7 @@ export const AboutPageTemplate = () => {
       </Row>
     </Container>
     <Container fluid={true} className="bg-dark py-5 text-center text-light">
-    <Row className="mx-sm-5 px-5">
+    <Row className="mx-sm-5 px-sm-5 px-2 ">
       <Col xs={12}>
         <h3 className="my-3">{TextContents.aboutpage.meet_pillars}</h3>
         <p className="mb-4 mx-5">{TextContents.aboutpage.meet_pillars_text}</p>
