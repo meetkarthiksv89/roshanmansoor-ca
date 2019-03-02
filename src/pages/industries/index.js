@@ -20,9 +20,9 @@ export default class IndustriesPage extends React.Component {
             </Card.ImgOverlay>
           </Card>
           <div>
-          <Container fluid={true} className="p-5">
+          <Container fluid={true} className="p-sm-5 p-2">
             <Row>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/informationtechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -37,7 +37,7 @@ export default class IndustriesPage extends React.Component {
                 </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/realestate">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -52,7 +52,7 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/manufaturing">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -67,7 +67,7 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
                   <Link to="/industries/retail">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
@@ -82,9 +82,9 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
-                  <Link to="/industries/retail">
+                  <Link to="/industries/biotechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                   <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.bio_technology}</Card.Title>
@@ -97,9 +97,9 @@ export default class IndustriesPage extends React.Component {
                   </Link>
                 </Card>
               </Col>
-              <Col xs={6} sm={4} className="mb-5">
+              <Col xs={12} sm={4} className="mb-5">
                 <Card>
-                  <Link to="/industries/retail">
+                  <Link to="/industries/media">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                   <Card.Body style={{"minHeight":"350px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.media}</Card.Title>

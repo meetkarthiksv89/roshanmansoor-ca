@@ -29,11 +29,11 @@ export const RealEstatePage = () => {
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="bg-white">        
-        <Col className="py-5 pl-5 pr-4 col-md-8">
-          <h1 className="my-3">
+      <Row className="mx-1 bg-white">        
+        <Col className="py-5 px-sm-5 col-md-8">
+          <h2 className="my-3">
             {TextContents.industries_manufaturing.manufaturing}
-          </h1>
+          </h2>
           <p className="text-secondary">
             {TextContents.industries_manufaturing.text1}
           </p>

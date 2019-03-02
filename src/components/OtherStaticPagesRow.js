@@ -4,7 +4,7 @@ import {Container, Row, Col, Card} from 'react-bootstrap'
 
 const OtherStaticPagesRow = (props) => {
   return (
-    <div className="bg-dark text-light py-5">
+    <div className="bg-dark text-light py-sm-5 py-3">
     <Container>
     <Row>
         <Col className="col-md-12 my-3">

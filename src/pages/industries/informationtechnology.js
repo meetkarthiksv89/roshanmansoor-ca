@@ -21,19 +21,19 @@ export const InformationTechnologyPage = () => {
       </Card>
     </Container>
     <Container className="mt-3 pb-5">
-      <Row>
-        <Col className="px-0">
+      <Row className="px-2">
+        <Col>
         <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 
           <Link to="/industries"> &nbsp;Industries</Link>
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="bg-white">        
-        <Col className="py-5 pl-5 pr-4 col-md-8">
-          <h1 className="my-3">
+      <Row className="mx-1 bg-white">        
+        <Col className="py-5 px-sm-5 col-md-8">
+          <h2 className="my-3">
             {TextContents.industries_information_tech.information_technology}
-          </h1>
+          </h2>
           <p className="text-secondary">
           {TextContents.industries_information_tech.text1}
           </p>
