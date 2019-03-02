@@ -66,8 +66,8 @@ class CareerPage extends React.Component{
             </Card.ImgOverlay>
           </Card>
         </Container>
-        <Container fluid={true} className="mt-3 p-5">
-          <Row>
+        <Container fluid={true} className="mt-3 p-sm-5">
+          <Row className="mx-1 mx-sm-0">
             <Col className="px-0">
             <Breadcrumb>
               <Link to="/">Home&nbsp;></Link> 
@@ -75,7 +75,7 @@ class CareerPage extends React.Component{
             </Breadcrumb>
             </Col>
           </Row>
-          <Row className="bg-white">        
+          <Row className="bg-white mx-1 mx-sm-0">        
             <Col className="py-4 px-0 col-md-12">
               <h1 className="font-weight-bold mb-3 mx-3 mx-sm-5">
               {TextContents.careers.careers}

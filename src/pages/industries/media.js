@@ -21,7 +21,7 @@ export const InformationTechnologyPage = () => {
       </Card>
     </Container>
     <Container className="mt-3 pb-5">
-      <Row className="px-2">
+      <Row className="mx-1 mx-sm-0">
         <Col>
         <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 
@@ -29,7 +29,7 @@ export const InformationTechnologyPage = () => {
         </Breadcrumb>
         </Col>
       </Row>
-      <Row className="mx-1 bg-white">        
+      <Row className="mx-1 mx-sm-0 bg-white">        
         <Col className="py-5 px-sm-5 col-md-8">
           <h2 className="my-3">
             {TextContents.industries_media.media}
