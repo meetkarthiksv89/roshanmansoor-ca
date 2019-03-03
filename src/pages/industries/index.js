@@ -115,7 +115,7 @@ export default class IndustriesPage extends React.Component {
             </Row>
             </Container>
           </div>
-          <div className="bg-darkblue p-5 text-light">
+          <div className="bg-darkblue p-sm-5 p-2 text-light">
           <Container fluid={false} >
               <Row>
                 <Col>
