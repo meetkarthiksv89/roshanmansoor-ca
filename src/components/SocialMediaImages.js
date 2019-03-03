@@ -5,56 +5,32 @@ import linkedin from '../img/linkedin.png'
 import {Row, Col} from 'react-bootstrap';
 
 export default () => (
-  <Row>
-    <Col className="hidden-sm-down">
-    <img
-      src={facebook}
-      height="60"
-      width="60"
-      className="d-inline-block align-top mx-3 mr-4"
-      alt="Facebook"
-    />
-      <img
-        src={twitter}
-        height="60"
-        width="60"
-        className="d-inline-block align-top mx-3 mr-4"
-        alt="Twitter"
-      />
-      <img
-      src={linkedin}
-      height="60"
-      width="60"
-      className="d-inline-block align-top mx-3 mr-4"
-      alt="Linkedin"
-    />
-    </Col>
-    <Col className="hidden-sm-up">
+  <Row className="text-center">
+    <Col sm={4} xs={0}></Col>
+    <Col sm={2} xs={4}>
       <img
         src={facebook}
-        height="60"
-        width="60"
-        className="d-inline-block align-top mr-4"
+        style={{width:'60px', height:'60px'}}
+        className="d-inline-block align-top float-right"
         alt="Facebook"
       />
     </Col>
-    <Col className="hidden-sm-up">
+    <Col sm={2} xs={4}>
       <img
         src={twitter}
-        height="60"
-        width="60"
-        className="d-inline-block align-top mr-4"
+        style={{width:'60px', height:'60px'}}
+        className="d-inline-block align-top"
         alt="Twitter"
       />
     </Col>
-    <Col className="hidden-sm-up">
+    <Col sm={2} xs={4}>
     <img
       src={linkedin}
-      height="60"
-      width="60"
-      className="d-inline-block align-top mr-4"
+      style={{width:'60px', height:'60px'}}
+      className="d-inline-block align-top float-left"
       alt="Linkedin"
     />
     </Col>
+    <Col sm={4} xs={0}></Col>
  </Row>
 )
