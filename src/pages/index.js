@@ -174,7 +174,9 @@ export default class IndexPage extends React.Component {
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
                 <p>{TextContents.homepage.about_us_text3}</p>
-                <Link to="/about"><Button className="float-right px-5 py-3 mr-4 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
+                <div className="text-center">
+                  <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
+                </div>
               </Col>
             </Row>
           </Container>

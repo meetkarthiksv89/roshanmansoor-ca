@@ -6,8 +6,8 @@ import {Row, Col} from 'react-bootstrap';
 
 export default () => (
   <Row className="text-center">
-    <Col sm={4} xs={0}></Col>
-    <Col sm={2} xs={4}>
+    <Col sm={1} xs={0}></Col>
+    <Col sm={3} xs={4}>
       <img
         src={facebook}
         style={{width:'60px', height:'60px'}}
@@ -15,7 +15,7 @@ export default () => (
         alt="Facebook"
       />
     </Col>
-    <Col sm={2} xs={4}>
+    <Col sm={3} xs={4}>
       <img
         src={twitter}
         style={{width:'60px', height:'60px'}}
@@ -23,7 +23,7 @@ export default () => (
         alt="Twitter"
       />
     </Col>
-    <Col sm={2} xs={4}>
+    <Col sm={3} xs={4}>
     <img
       src={linkedin}
       style={{width:'60px', height:'60px'}}
@@ -31,6 +31,6 @@ export default () => (
       alt="Linkedin"
     />
     </Col>
-    <Col sm={4} xs={0}></Col>
+    <Col sm={2} xs={0}></Col>
  </Row>
 )
