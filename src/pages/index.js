@@ -101,14 +101,14 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"350px"}}className="my-2">
+                <Card.Body style={{"minHeight":"260px"}}  className="my-2 px-0 text-center">
                   <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_1}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_1}
                     <br/>
                   </Card.Text>
-                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
+                <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
               </Link>
                 </Card>
               </Col>
@@ -116,14 +116,14 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"350px"}}className="my-2">
+                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0 text-center">
                   <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_2}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_2}
                     <br/>
                   </Card.Text>
-                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
+                <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Link>
               </Card>
               </Col>
@@ -131,14 +131,14 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"350px"}}className="my-2">
+                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0 text-center">
                   <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_3}</Card.Title>
                   <Card.Text>
                   {TextContents.homepage.industries_card_text_3}
                     <br/>
                   </Card.Text>
-                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
+                <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Link>
               </Card>
               </Col>
@@ -146,14 +146,14 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"350px"}}className="my-2">
+                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0 text-center">
                   <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_4}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_4}
                     <br/>
                   </Card.Text>
-                  <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Card.Body>
+                <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                 </Link>
               </Card>
               </Col>
@@ -173,8 +173,8 @@ export default class IndexPage extends React.Component {
                 <h2>{TextContents.homepage.about_us_title}</h2>
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
-                <p>{TextContents.homepage.about_us_text3}</p>
-                <div className="text-center">
+                <p style={{ minHeight:'170px' }}>{TextContents.homepage.about_us_text3}</p>
+                <div className="float-right">
                   <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
                 </div>
               </Col>
