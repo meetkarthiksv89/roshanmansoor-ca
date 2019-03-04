@@ -12,8 +12,13 @@ export const InformationTechnologyPage = () => {
     <div className="bg-darkgray">
     <Container fluid={true} className="px-0">
       <Card className="bg-dark text-white text-center">
-        <Card.Img src="https://via.placeholder.com/1200x650" 
-        srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+        <Card.Img 
+        className="hidden-sm-down"
+        src="https://via.placeholder.com/1200x650" 
+        alt="Card image" />
+        <Card.Img 
+        className="hidden-sm-up"
+        src="https://via.placeholder.com/400x450" 
         alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Auditing</h1></Card.Title>
