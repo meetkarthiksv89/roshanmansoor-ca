@@ -1,20 +1,48 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { navigate } from "gatsby-link";
 import Layout from '../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card, Button, Collapse, Modal} from 'react-bootstrap'
 import CarrerAds from '../careerAds';
 import TextContents from '../TextContents';
 
+
+function encode(data) {
+  const formData = new FormData();
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key]);
+  }
+
+  return formData;
+}
+
 class CareerPage extends React.Component{
 
-  constructor(...args) {
-    super(...args);
-
+  constructor(props) {
+    super(props);
     this.state = { modalShow: false };
   }
 
   handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value }, console.log(this.state));
+    this.setState({ [e.target.name]: e.target.value });
+  };
+  handleAttachment = e => {
+    this.setState({ [e.target.name]: e.target.files[0] });
+  };
+
+  handleSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...this.state
+      })
+    })
+      .then(() => navigate(form.getAttribute("action")))
+      .catch(error => alert(error));
   };
 
   render(){
@@ -36,23 +64,59 @@ class CareerPage extends React.Component{
             </Modal.Header>
             <Modal.Body>
               <Row className="px-5">
-              <Col xs={12} sm={6}>
-              <label className="label" htmlFor={"name"} >Your name</label>
-                <input className="input py-3" type={"text"} name={"name"} onChange={this.handleChange} id={"name"} required={true} /> 
-              </Col>
-              <Col xs={12} sm={6}>
-                <label className="label" htmlFor={"email"} >Email</label>
-                <input className="input py-3" type={"text"} name={"email"} onChange={this.handleChange} id={"email"} required={true} /> 
-              </Col>
-              <Col xs={12} className="mt-3">
-              <label className="label" htmlFor={"message"} >Message</label>
-              <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
-              </Col>
+              <form
+                name="file-upload"
+                method="post"
+                action="/contact/thanks/"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                onSubmit={this.handleSubmit}
+                style={{width:"100%"}}
+              >
+                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                <input type="hidden" name="form-name" value="file-upload" />
+                <div hidden>
+                  <label>
+                    Don’t fill this out:{" "}
+                    <input name="bot-field" onChange={this.handleChange} />
+                  </label>
+                </div>
+                <Row>
+                  <Col xs={12} sm={6}>
+                  <label className="label" htmlFor={"name"} >Your name</label>
+                    <input className="input py-3" type={"text"} name={"name"} onChange={this.handleChange} id={"name"} required={true} /> 
+                  </Col>
+                  <Col xs={12} sm={6}>
+                    <label className="label" htmlFor={"email"} >Email</label>
+                    <input className="input py-3" type={"text"} name={"email"} onChange={this.handleChange} id={"email"} required={true} /> 
+                  </Col>
+                  <Col xs={12} className="mt-3">
+                  <label className="label" htmlFor={"message"} >Message</label>
+                  <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
+                  </Col>
+                </Row>
+                <div className="file mt-2">
+                  <label className="file-label">
+                    <input
+                      className="file-input"
+                      type="file"
+                      name="attachment"
+                      onChange={this.handleAttachment}
+                    />
+                    <span className="file-cta">
+                      <span className="file-label">
+                        Choose a file…
+                      </span>
+                    </span>
+                  </label>
+                </div>
+                <Modal.Footer>
+                  <Button className="bg-orange" type="submit" onClick={this.props.onHide}>SEND</Button>
+                </Modal.Footer>
+              </form>
               </Row>
             </Modal.Body>
-            <Modal.Footer>
-              <Button className="bg-orange" onClick={this.props.onHide}>SEND</Button>
-            </Modal.Footer>
+            
           </Modal>
         </div>
         <div className="bg-darkgray">
