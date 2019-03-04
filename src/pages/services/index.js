@@ -73,7 +73,7 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.taxation_opt2}  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
         <Col xs={12} sm={4} className="p-0">
-          <img src="https://via.placeholder.com/500x420" alt=""/>
+          <img src="https://via.placeholder.com/500x540" alt=""/>
         </Col>
       </Row>
       <Row className="mx-4 bg-white mt-5 hidden-sm-up">
@@ -98,7 +98,7 @@ export const ServicesPage = () => {
       </Row>
       <Row className="mx-4 bg-white mt-5">
         <Col xs={12} sm={4} className="p-0 col-md-4">
-          <img src="https://via.placeholder.com/500x420" alt=""/>
+          <img src="https://via.placeholder.com/500x600" alt=""/>
         </Col>
         <Col xs={12} sm={5} className="pl-3 pl-sm-5 py-5 service-link">
         <Link to="services/advisory">
