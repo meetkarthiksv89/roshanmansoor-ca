@@ -101,8 +101,8 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/informationtechnology">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"260px"}}  className="my-2 px-0 text-center">
-                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_1}</Card.Title>
+                <Card.Body style={{"minHeight":"260px"}}  className="my-2 px-0">
+                  <Card.Title style={{minHeight:"44px"}} className="text-center">{TextContents.homepage.industries_card_title_1}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_1}
                     <br/>
@@ -116,8 +116,8 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/realestate">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0 text-center">
-                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_2}</Card.Title>
+                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0">
+                  <Card.Title style={{minHeight:"44px"}} className="text-center">{TextContents.homepage.industries_card_title_2}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_2}
                     <br/>
@@ -131,8 +131,8 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
               <Link to="/industries/manufaturing">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0 text-center">
-                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_3}</Card.Title>
+                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0">
+                  <Card.Title style={{minHeight:"44px"}} className="text-center">{TextContents.homepage.industries_card_title_3}</Card.Title>
                   <Card.Text>
                   {TextContents.homepage.industries_card_text_3}
                     <br/>
@@ -146,8 +146,8 @@ export default class IndexPage extends React.Component {
               <Card className="bg-dark box-shadow-none">
                 <Link to="/industries/retail">
                 <Card.Img src="https://via.placeholder.com/250x220" />
-                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0 text-center">
-                  <Card.Title style={{minHeight:"44px"}}>{TextContents.homepage.industries_card_title_4}</Card.Title>
+                <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0">
+                  <Card.Title style={{minHeight:"44px"}} className="text-center">{TextContents.homepage.industries_card_title_4}</Card.Title>
                   <Card.Text>
                     {TextContents.homepage.industries_card_text_4}
                     <br/>
