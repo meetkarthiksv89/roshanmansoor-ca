@@ -171,7 +171,7 @@ export default class IndexPage extends React.Component {
             </Container>
           </div>
           <Container fluid={true} className="bg-white px-md-5 py-5">
-            <Row className="m-3">
+            <Row className="m-sm-3">
               <Col xs={12}>
                 <h1 className="font-weight-bold">{TextContents.homepage.about_us}</h1>
               </Col>

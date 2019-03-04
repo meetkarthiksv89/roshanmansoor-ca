@@ -31,7 +31,7 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                 <Link to="/industries/informationtechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"320px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">INFORMATION TECHNOLOGY</Card.Title>
                     <Card.Text className="text-dark">
                       Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
@@ -46,7 +46,7 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                 <Link to="/industries/realestate">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"320px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.real_estate}</Card.Title>
                     <Card.Text className="text-dark">
                     {TextContents.industries_index.real_estate_text}
@@ -61,7 +61,7 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                 <Link to="/industries/manufaturing">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"320px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufaturing}</Card.Title>
                     <Card.Text className="text-dark">
                     {TextContents.industries_index.manufaturing_text}
@@ -76,7 +76,7 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                   <Link to="/industries/retail">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"320px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.retail}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.retail_text}
@@ -91,7 +91,7 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                   <Link to="/industries/biotechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"320px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.bio_technology}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.bio_technology_text}
@@ -106,7 +106,7 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                   <Link to="/industries/media">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"320px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.media}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.media_text}
