@@ -25,7 +25,7 @@ export const ServicesPage = () => {
       </Card>
     </Container>
     <Container fluid={true} className="pb-5 px-0 px-sm-5">
-      <Row className="mx-4">
+      <Row className="mx-4 hidden-sm-down">
         <Col className="px-0">
         <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 

@@ -174,7 +174,10 @@ export default class IndexPage extends React.Component {
                 <p>{TextContents.homepage.about_us_text1}</p>
                 <h3>{TextContents.homepage.about_us_text2}</h3>
                 <p style={{ minHeight:'170px' }}>{TextContents.homepage.about_us_text3}</p>
-                <div className="float-right">
+                <div className="float-right hidden-sm-down">
+                  <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
+                </div>
+                <div className="text-center hidden-sm-up">
                   <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
                 </div>
               </Col>
