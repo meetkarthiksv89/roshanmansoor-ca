@@ -3,8 +3,10 @@ import { navigate } from "gatsby-link"
 import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
-import SocialMediaImages from '../../components/SocialMediaImages'
 import TextContents from '../../TextContents';
+import facebook from '../../img/facebook.png'
+import twitter from '../../img/twitter.png'
+import linkedin from '../../img/linkedin.png'
 
 function encode(data) {
   return Object.keys(data)
@@ -43,8 +45,13 @@ export default class Index extends React.Component {
         <div className="bg-darkgray">
           <Container fluid={true} className="px-0">
             <Card className="bg-dark text-white text-center">
-              <Card.Img src="https://via.placeholder.com/1200x450" 
-              srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+              <Card.Img 
+              className="hidden-sm-down"
+              src="https://via.placeholder.com/1200x450" 
+              alt="Card image" />
+              <Card.Img 
+              className="hidden-sm-up"
+              src="https://via.placeholder.com/400x450" 
               alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title className="page-image-card-header"><h1>REACH US</h1></Card.Title>
@@ -52,7 +59,7 @@ export default class Index extends React.Component {
             </Card>
           </Container>
           <Container className="mt-3 pb-5">
-            <Row className="mx-3">
+            <Row className="mx-sm-3 mx-1">
               <Col className="px-0">
               <Breadcrumb>
                 <Link to="/">Home&nbsp;></Link> 
@@ -60,7 +67,7 @@ export default class Index extends React.Component {
               </Breadcrumb>
               </Col>
             </Row>  
-            <Row className="bg-white pt-5 pb-4 mx-3">
+            <Row className="bg-white pt-5 pb-sm-4 mx-sm-3 mx-1">
               <Col className="col-md-12 ml-3">
                 <h1>{TextContents.contact.connect}</h1>
                 <p>
@@ -68,7 +75,7 @@ export default class Index extends React.Component {
                 </p>
               </Col>
             </Row>
-            <Row className="bg-white mx-3"> 
+            <Row className="bg-white mx-sm-3 mx-1 px-sm-3"> 
             <Col className="col-md-8">
               <div className="pb-5">
                 <div className="container">
@@ -151,14 +158,39 @@ export default class Index extends React.Component {
           </div>
           </div>
           </Col>     
-          <Col className="col-md-4 p-5 bg-orange">
+          <Col className="p-5 mb-sm-5 bg-orange">
             <div>
               <h4 className="text-light">{TextContents.contact.email_header}</h4>
               <i className="py-3 text-light">
               {TextContents.contact.email_adress}
               </i>
               <h5 className="py-3 text-light mt-4">{TextContents.contact.stay_connected}</h5>
-              <SocialMediaImages/>
+              <Row className="text-center">
+              <Col>
+                <img
+                  src={facebook}
+                  style={{width:'60px', height:'60px'}}
+                  className="d-inline-block align-top float-right"
+                  alt="Facebook"
+                />
+              </Col>
+              <Col>
+                <img
+                  src={twitter}
+                  style={{width:'60px', height:'60px'}}
+                  className="d-inline-block align-top"
+                  alt="Twitter"
+                />
+              </Col>
+              <Col>
+              <img
+                src={linkedin}
+                style={{width:'60px', height:'60px'}}
+                className="d-inline-block align-top float-left"
+                alt="Linkedin"
+              />
+              </Col>
+          </Row>
             </div>
           </Col>
           </Row>

@@ -16,8 +16,13 @@ export const ServicesPage = () => {
     <div className="bg-darkgray">
     <Container fluid={true} className="px-0">
       <Card className="bg-dark text-white text-center">
-        <Card.Img src="https://via.placeholder.com/1200x300" 
-          srcSet="https://via.placeholder.com/400x350 568w, https://via.placeholder.com/700x450 780w , https://via.placeholder.com/1000x450 1000w"
+        <Card.Img 
+          className="hidden-sm-down"
+          src="https://via.placeholder.com/1200x300" 
+          alt="Card image" />
+        <Card.Img 
+          className="hidden-sm-up"
+          src="https://via.placeholder.com/400x450" 
           alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>SERVICES</h1></Card.Title>
@@ -25,7 +30,7 @@ export const ServicesPage = () => {
       </Card>
     </Container>
     <Container fluid={true} className="pb-5 px-0 px-sm-5">
-      <Row className="mx-4">
+      <Row className="mx-4 hidden-sm-down">
         <Col className="px-0">
         <Breadcrumb>
           <Link to="/">Home&nbsp;></Link> 
@@ -73,7 +78,7 @@ export const ServicesPage = () => {
           <h6 className="font-weight-bold" style={{"width":"150px"}}>{TextContents.services_index.taxation_opt2}  <span className="float-right"> <OrangeArrowComp width="18px"/></span></h6>
         </Col>
         <Col xs={12} sm={4} className="p-0">
-          <img src="https://via.placeholder.com/500x420" alt=""/>
+          <img src="https://via.placeholder.com/500x540" alt=""/>
         </Col>
       </Row>
       <Row className="mx-4 bg-white mt-5 hidden-sm-up">
@@ -98,7 +103,7 @@ export const ServicesPage = () => {
       </Row>
       <Row className="mx-4 bg-white mt-5">
         <Col xs={12} sm={4} className="p-0 col-md-4">
-          <img src="https://via.placeholder.com/500x420" alt=""/>
+          <img src="https://via.placeholder.com/500x600" alt=""/>
         </Col>
         <Col xs={12} sm={5} className="pl-3 pl-sm-5 py-5 service-link">
         <Link to="services/advisory">
