@@ -176,14 +176,14 @@ export default class IndexPage extends React.Component {
                 <h1 className="font-weight-bold">{TextContents.homepage.about_us}</h1>
               </Col>
               <Col xs={12} md={4} className="mt-4">
-                <Image src="https://via.placeholder.com/450x430" fluid />
+                <Image src="https://via.placeholder.com/450x500" fluid />
               </Col>
               <Col xs={12} md={8} className="mobile-header">
                 <br/>
-                <h2>{TextContents.homepage.about_us_title}</h2>
+                <h6>{TextContents.homepage.about_us_title}</h6>
                 <p>{TextContents.homepage.about_us_text1}</p>
-                <h3>{TextContents.homepage.about_us_text2}</h3>
-                <p style={{ minHeight:'170px' }}>{TextContents.homepage.about_us_text3}</p>
+                <h6>{TextContents.homepage.about_us_text2}</h6>
+                <p>{TextContents.homepage.about_us_text3}</p>
                 <div className="float-right hidden-sm-down">
                   <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
                 </div>
