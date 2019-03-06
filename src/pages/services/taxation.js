@@ -50,15 +50,10 @@ export const InformationTechnologyPage = () => {
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
               <h3>{TextContents.services_taxation.paragprah1_header}</h3>
               <p>{TextContents.services_taxation.paragprah1_text1}</p>
-              <p>{TextContents.services_taxation.paragprah1_text2}</p>
             </Col>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
               <h3>{TextContents.services_taxation.paragprah2_header}</h3>
               <p>{TextContents.services_taxation.paragprah2_text1}</p>
-            </Col>
-            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
-              <h3>{TextContents.services_taxation.paragprah3_header}</h3>
-              <p>{TextContents.services_taxation.paragprah3_text1}</p>
             </Col>
           </Row>
         </Col>
