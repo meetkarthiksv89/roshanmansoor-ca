@@ -131,7 +131,7 @@ export default class IndustriesPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mb-3">
-              {posts
+              {posts.length > 0 && posts
               .map(({ node: post }) => (
                 <Col xs={12} md={6} key={post.id}>
                   <Card className="bg-lightblue mt-5">

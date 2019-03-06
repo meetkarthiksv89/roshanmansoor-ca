@@ -15,10 +15,10 @@ export default {
     "industries_card_title_4":"RETAIL",
     "industries_card_text_4":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
     "about_us": "ABOUT US",
-    "about_us_title": "A little history",
-    "about_us_text1": "We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.",
-    "about_us_text2": "A little history is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of",
-    "about_us_text3": "Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.",
+    "about_us_title": "Roshan Mansoor & Co is a Chartered Accountancy Firm in Bangalore, founded by Roshan T Mansoor in the year 2012. The firm delivers integrated consulting services across Auditing, Financial Services, Company Law Matters, Corporate Restructuring, and Taxes. Roshan Mansoor & Co is powered by a strong team of Chartered Accountants who have prior experience with leading firms including PricewaterhouseCoopers, ING Group and Goldman Sachs.",
+    "about_us_text1": "Thanks to the team’s impeccable business acumen, the firm has been able to capture a niche market in India and overseas.",
+    "about_us_text2": "As a firm that adheres to all the standard operational norms and practices as specified by ICAI and other statutory bodies, we are driven by the mission of creating an overall business impact for the clients we work with. As we partner with our clients in their organizational financial planning and audit journey, our ultimate goal is to make a wholesome difference in their bottom line.",
+    "about_us_text3": "Buoyed by the overwhelming response from our clients in India, we have recently gone a step further and added to our portfolio Incorporation services for setting up business in Singapore and Hong Kong. We have partnered with a leading consulting firm in Singapore to deliver this service.",
     "insights_header": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
   },
   "aboutpage":{
