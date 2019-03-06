@@ -29,7 +29,7 @@ export const ServicesPage = () => {
         </Card.ImgOverlay>
       </Card>
     </Container>
-    <Container fluid={true} className="pb-5 px-0 px-sm-5">
+    <Container fluid={true} className="pb-5 px-0 px-sm-5 mt-3 mt-sm-0">
       <Row className="mx-4 hidden-sm-down">
         <Col className="px-0">
         <Breadcrumb>
