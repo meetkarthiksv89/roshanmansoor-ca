@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
                   <br/>
                   <br/>
                 </Card.Text>
-                <p to="/services/auditing" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                <p to="/services/auditing" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
               </Card.Body>
             </Card>
           </Col>
@@ -52,7 +52,7 @@ export default class IndexPage extends React.Component {
                     <br/>
                     <br/>
                   </Card.Text>
-                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                 </Card.Body>
             </Card>
           </Col>
@@ -65,7 +65,7 @@ export default class IndexPage extends React.Component {
                     <br/>
                     <br/>
                   </Card.Text>
-                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                 </Card.Body>
                 <Card.Img src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
             </Card>
@@ -80,7 +80,7 @@ export default class IndexPage extends React.Component {
                     <br/>
                     <br/>
                   </Card.Text>
-                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                 </Card.Body>
               </Card>
             </Col>
