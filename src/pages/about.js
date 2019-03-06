@@ -65,19 +65,6 @@ export const AboutPageTemplate = () => {
       </Col>
       </Row>
     </Container>
-      <Container fluid={true} className="bg-yellow">
-        <Row className="px-5 py-4 mx-sm-5 mb-sm-5">
-          <Col xs={12}>
-            <h1>{TextContents.aboutpage.testimonials}</h1>
-          </Col>
-          <Col xs={12} sm={3}>
-            <img src="https://via.placeholder.com/240x200" alt=""/>
-          </Col>
-          <Col xs={12} sm={9}>
-            {TextContents.aboutpage.testimonials_text}
-          </Col>
-        </Row>
-      </Container>
       <Container fluid={true} className="mt-3 px-0 px-sm-5">
       <Row className="mx-0">
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
@@ -181,6 +168,19 @@ export const AboutPageTemplate = () => {
       </Row>
     </Container>
     </Container>
+    <Container fluid={true} className="bg-yellow mt-sm-5">
+        <Row className="px-5 py-4 mx-sm-5">
+          <Col xs={12}>
+            <h1>{TextContents.aboutpage.testimonials}</h1>
+          </Col>
+          <Col xs={12} sm={3}>
+            <img src="https://via.placeholder.com/240x200" alt=""/>
+          </Col>
+          <Col xs={12} sm={9}>
+            {TextContents.aboutpage.testimonials_text}
+          </Col>
+        </Row>
+      </Container>
     </div>
   )
 }
