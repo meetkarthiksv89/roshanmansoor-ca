@@ -134,7 +134,7 @@ export default class IndexPage extends React.Component {
               </Col>
               <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
-              <Link to="/industries/manufaturing">
+              <Link to="/industries/manufacturing">
                 <Card.Img src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0">
                   <Card.Title style={{minHeight:"44px"}} className="text-center">{TextContents.homepage.industries_card_title_3}</Card.Title>

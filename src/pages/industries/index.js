@@ -59,12 +59,12 @@ export default class IndustriesPage extends React.Component {
               </Col>
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
-                <Link to="/industries/manufaturing">
+                <Link to="/industries/manufacturing">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
                   <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
-                    <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufaturing}</Card.Title>
+                    <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufacturing}</Card.Title>
                     <Card.Text className="text-dark">
-                    {TextContents.industries_index.manufaturing_text}
+                    {TextContents.industries_index.manufacturing_text}
                       <br/>
                       <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>

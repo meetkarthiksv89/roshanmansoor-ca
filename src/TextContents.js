@@ -10,7 +10,7 @@ export default {
     "industries_card_text_1":"Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....",
     "industries_card_title_2":"REAL ESTATE ENGINEERING & CONSTRUCTION",
     "industries_card_text_2":"Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...",
-    "industries_card_title_3":"MANUFATURING",
+    "industries_card_title_3":"manufacturing",
     "industries_card_text_3":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
     "industries_card_title_4":"RETAIL",
     "industries_card_text_4":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
@@ -135,18 +135,18 @@ export default {
     "list6":"Expertise in Corporate , International Taxation and Mergers & Acquisitions.",
   },
   "industries_index":{
-    "information_technology":"INFORMATION TECHNOLOGY",
-    "information_technology_text":"Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....",
-    "real_estate":"REAL ESTATE ENGINEERING & CONSTRUCTION",
-    "real_estate_text":"Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry...",
-    "manufaturing":"MANUFATURING",
-    "manufaturing_text":"We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives...",
-    "retail":"RETAIL",
-    "retail_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
-    "bio_technology":"BIO TECHNOLOGY",
-    "bio_technology_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
-    "media":"MEDIA",
-    "media_text":"Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial and tax planning and better management of cash flow",
+    "information_technology":"Information Technology",
+    "information_technology_text":"nformation Technology is the most dynamic industry of today with constant transformations, growth, mergers, and acquisitions. Our expert team caters to this industry by keeping in mind the constantly changing dynamics of the companies operating in this vertical.",
+    "retail":"Retail",
+    "retail_text":"The retail industry has undergone enormous change after e-Commerce has disrupted the industry as a whole. This has enabled us to introduce robust ERP systems with our clients resulting in more efficient accounting and reliable data for financial and tax planning and better management of cash flows.",
+    "real_estate":"Real Estate",
+    "real_estate_text":" Engineering and construction companies have a need for on-going audits to ascertain if all the aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated resources catering to the needs of this industry",
+    "manufacturing":"Manufacturing",
+    "manufacturing_text":"Another highly complex sector, especially from auditing and accounting viewpoint, is Manufacturing. With this sector being a mix of organized and unorganized players, our focus for our manufacturing clients is to device customized solutions for each of the unique issues they come up with.",
+    "bio_technology":"Biotechnology",
+    "bio_technology_text":"New horizons are emerging from the discoveries and achievements in biotechnology, but the industry is highly volatile and unpredictable sector due to the scientifically intensive operations of companies that reside here. We have undertaken Financial Modeling and Financial Structuring for companies in the biotechnology sector.",
+    "media":"Media",
+    "media_text":"With high rising consumer demand, the Media industry has a strong growth rate. At Roshan Mansoor & Co, we have provided valuation services for a share acquisition deal for companies in the media sector.",
     "latest_insights_header":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
   },
   "industries_information_tech":{
@@ -164,8 +164,8 @@ export default {
     "text1":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
     "text2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },
-  "industries_manufaturing":{
-    "manufaturing":"MANUFATURING",
+  "industries_manufacturing":{
+    "manufacturing":"manufacturing",
     "text1":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
     "text2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },
