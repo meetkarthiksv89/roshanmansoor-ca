@@ -46,6 +46,9 @@ export const InformationTechnologyPage = () => {
           <p className="text-secondary">
             {TextContents.services_auditing.main_text2}
           </p>
+          <p className="text-secondary">
+            {TextContents.services_auditing.main_text3}
+          </p>
           <Row>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
             <h3>{TextContents.services_auditing.paragprah1_header}</h3>
