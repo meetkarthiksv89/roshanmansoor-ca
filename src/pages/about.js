@@ -68,10 +68,10 @@ export const AboutPageTemplate = () => {
       <Container fluid={true} className="mt-3 px-0 px-sm-5">
       <Row className="mx-0">
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_1}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_1}
@@ -80,10 +80,10 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_2}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_2}
@@ -92,10 +92,10 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_3}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_3}
@@ -104,10 +104,10 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_4}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_4}
@@ -118,10 +118,10 @@ export const AboutPageTemplate = () => {
       </Row>
       <Row className="mx-0">
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_5}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_5}
@@ -130,10 +130,10 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_6}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_6}
@@ -142,10 +142,10 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_7}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_7}
@@ -154,10 +154,10 @@ export const AboutPageTemplate = () => {
         </Card>
         </Col>
         <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
+        <Card style={{minHeight:"350px"}}>
           <Card.Body className="bg-lightgray">
             <Card.Title className="text-center">
-              <h3>Test1</h3>
+              <h3>{TextContents.aboutpage.overview_header_8}</h3>
             </Card.Title>
             <Card.Text >
               {TextContents.aboutpage.overview_text_8}
