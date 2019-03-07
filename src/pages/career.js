@@ -21,14 +21,21 @@ class CareerPage extends React.Component{
 
   constructor(props) {
     super(props);
-    this.state = { modalShow: false };
+    this.state = { 
+      modalShow: false,
+      attachmentInProgress: false,
+      attachmentName:false
+    };
   }
 
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
   handleAttachment = e => {
-    this.setState({ [e.target.name]: e.target.files[0] });
+    this.setState({ [e.target.name]: e.target.files[0], attachmentInProgress:true, attachmentName:e.target.files[0].name });
+    setTimeout((e) => {
+      this.setState({attachmentInProgress:false})
+    }, 3000);
   };
 
   handleSubmit = e => {
@@ -105,9 +112,10 @@ class CareerPage extends React.Component{
                     />
                     <span className="file-cta">
                       <span className="file-label">
-                        Choose a file…
+                        {this.state.attachmentInProgress ? "Uploading…": "Choose a file…" }
                       </span>
                     </span>
+                    <h5 className="mx-2 my-1">{this.state.attachmentName && !this.state.attachmentInProgress ? this.state.attachmentName: ''}</h5>
                   </label>
                 </div>
                 <Modal.Footer>
