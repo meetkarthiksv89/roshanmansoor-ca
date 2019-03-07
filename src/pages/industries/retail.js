@@ -63,10 +63,10 @@ export const RealEstatePage = () => {
     </div>
     <OtherStaticPagesRow
       mainHeader="OTHER INDUSTRIES YOU MAY LIKE"
-      link1="/industries/manufaturing"
+      link1="/industries/manufacturing"
       link2="/industries/informationtechnology"
       link3="/industries/realestate"
-      cardHeader1="MANUFATURING"
+      cardHeader1="manufacturing"
       cardHeader2="INFORMATION TECHNOLOGY"
       cardHeader3="REAL ESTATE ENGINEERING & CONSTRUCTION"
       cardText1="We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives..."

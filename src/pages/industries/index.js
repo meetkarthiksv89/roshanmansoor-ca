@@ -31,14 +31,14 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                 <Link to="/industries/informationtechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">INFORMATION TECHNOLOGY</Card.Title>
                     <Card.Text className="text-dark">
                       Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical....
                       <br/>
-                      <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>
                   </Card.Body>
+                  <span className="text-orange-black px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                 </Link>
                 </Card>
               </Col>
@@ -46,29 +46,29 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                 <Link to="/industries/realestate">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.real_estate}</Card.Title>
                     <Card.Text className="text-dark">
                     {TextContents.industries_index.real_estate_text}
                       <br/>
-                      <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>
                   </Card.Body>
+                  <span className="text-orange-black px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Link>
                 </Card>
               </Col>
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
-                <Link to="/industries/manufaturing">
+                <Link to="/industries/manufacturing">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
-                    <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufaturing}</Card.Title>
+                  <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
+                    <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufacturing}</Card.Title>
                     <Card.Text className="text-dark">
-                    {TextContents.industries_index.manufaturing_text}
+                    {TextContents.industries_index.manufacturing_text}
                       <br/>
-                      <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>
                   </Card.Body>
+                  <span className="text-orange-black px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Link>
                 </Card>
               </Col>
@@ -76,14 +76,14 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                   <Link to="/industries/retail">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.retail}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.retail_text}
                       <br/>
-                      <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>
                   </Card.Body>
+                  <span className="text-orange-black px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Link>
                 </Card>
               </Col>
@@ -91,14 +91,14 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                   <Link to="/industries/biotechnology">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.bio_technology}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.bio_technology_text}
                       <br/>
-                      <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>
                   </Card.Body>
+                  <span className="text-orange-black px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Link>
                 </Card>
               </Col>
@@ -106,14 +106,14 @@ export default class IndustriesPage extends React.Component {
                 <Card>
                   <Link to="/industries/media">
                   <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
-                  <Card.Body style={{"minHeight":"280px"}} className="my-3 py-2">
+                  <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.media}</Card.Title>
                     <Card.Text className="text-dark">
                       {TextContents.industries_index.media_text}
                       <br/>
-                      <span className="text-orange px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                     </Card.Text>
                   </Card.Body>
+                  <span className="text-orange-black px-3 py-2 font-weight-bold mt-2 float-right"> Read More </span>
                   </Link>
                 </Card>
               </Col>
@@ -131,7 +131,7 @@ export default class IndustriesPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mb-3">
-              {posts
+              {posts.length > 0 && posts
               .map(({ node: post }) => (
                 <Col xs={12} md={6} key={post.id}>
                   <Card className="bg-lightblue mt-5">

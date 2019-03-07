@@ -15,7 +15,10 @@ function encode(data) {
 export default class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      attachmentInProgress: false,
+      attachmentCompleted:false
+    };
   }
 
   handleChange = e => {
@@ -23,7 +26,10 @@ export default class Contact extends React.Component {
   };
 
   handleAttachment = e => {
-    this.setState({ [e.target.name]: e.target.files[0] });
+    this.setState({ [e.target.name]: e.target.files[0], attachmentInProgress:true });
+    setTimeout(() => {
+      this.setState({attachmentInProgress:false, attachmentCompleted:true})
+    }, 5000);
   };
 
   handleSubmit = e => {
@@ -80,10 +86,11 @@ export default class Contact extends React.Component {
               />
               <span className="file-cta">
                 <span className="file-label">
-                  Choose a file…
+                  {this.state.attachmentInProgress ? "Uploading…": "Choose a file…" }
                 </span>
               </span>
             </label>
+            {this.state.attachmentCompleted ? "Uploaded": ''}
           </div>
           </div>
           <div className="field">

@@ -20,7 +20,7 @@ export default class IndexPage extends React.Component {
                 <Col xs={12} sm={6}>
                   <h1 className="font-weight-bold section-header-main">WHAT WE DO</h1>
                 </Col>
-                <Col xs={12} sm={6} className="hidden-sm-down">
+                <Col xs={12} sm={6} className="hidden-sm-down flex-right">
                   <Link to="/services"><h2 className="section-header-link">SEE ALL SERVICES</h2></Link>
                 </Col>
               </Row>
@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
                   <br/>
                   <br/>
                 </Card.Text>
-                <p to="/services/auditing" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                <p to="/services/auditing" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
               </Card.Body>
             </Card>
           </Col>
@@ -52,11 +52,11 @@ export default class IndexPage extends React.Component {
                     <br/>
                     <br/>
                   </Card.Text>
-                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                 </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="px-0 hidden-sm-down">
+          <Col xs={12} md={4} className="px-0 hidden-sm-down flex-right">
             <Card>
                 <Card.Body className="py-4" style={{height:'250px'}}>
                   <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
@@ -65,7 +65,7 @@ export default class IndexPage extends React.Component {
                     <br/>
                     <br/>
                   </Card.Text>
-                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                 </Card.Body>
                 <Card.Img src="https://via.placeholder.com/420x250" style={{height:'250px'}} />
             </Card>
@@ -80,7 +80,7 @@ export default class IndexPage extends React.Component {
                     <br/>
                     <br/>
                   </Card.Text>
-                  <p to="/services/advisory" className="px-3 py-1 text-orange font-weight-bold">Read More </p>
+                  <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                 </Card.Body>
               </Card>
             </Col>
@@ -95,9 +95,9 @@ export default class IndexPage extends React.Component {
           <Container fluid={true} className="px-md-5">
             <Row className="mt-sm-3 mt-1 mb-sm-0 mb-2 mx-3">
                 <Col xs={12} sm={6}>
-                  <h2 className="font-weight-bold text-light">WHO WE SERVES</h2>
+                  <h2 className="font-weight-bold text-light mobile-header">WHO WE SERVES</h2>
                 </Col>
-                <Col xs={12} sm={6} className="hidden-sm-down">
+                <Col xs={12} sm={6} className="hidden-sm-down flex-right">
                 <Link to="/industries"><h2 className="section-header-link d-flex justify-content-end text-light">SEE ALL INDUSTRIES</h2></Link>
                 </Col>
               </Row>
@@ -134,7 +134,7 @@ export default class IndexPage extends React.Component {
               </Col>
               <Col xs={12} sm={3}>
               <Card className="bg-dark box-shadow-none">
-              <Link to="/industries/manufaturing">
+              <Link to="/industries/manufacturing">
                 <Card.Img src="https://via.placeholder.com/250x220" />
                 <Card.Body style={{"minHeight":"260px"}} className="my-2 px-0">
                   <Card.Title style={{minHeight:"44px"}} className="text-center">{TextContents.homepage.industries_card_title_3}</Card.Title>
@@ -172,18 +172,18 @@ export default class IndexPage extends React.Component {
           </div>
           <Container fluid={true} className="bg-white px-md-5 py-5">
             <Row className="m-sm-3">
-              <Col xs={12}>
+              <Col xs={12} className="mobile-header">
                 <h1 className="font-weight-bold">{TextContents.homepage.about_us}</h1>
               </Col>
               <Col xs={12} md={4} className="mt-4">
-                <Image src="https://via.placeholder.com/450x430" fluid />
+                <Image src="https://via.placeholder.com/450x500" fluid />
               </Col>
-              <Col xs={12} md={8}>
+              <Col xs={12} md={8} className="mobile-header">
                 <br/>
-                <h2>{TextContents.homepage.about_us_title}</h2>
+                <h6>{TextContents.homepage.about_us_title}</h6>
                 <p>{TextContents.homepage.about_us_text1}</p>
-                <h3>{TextContents.homepage.about_us_text2}</h3>
-                <p style={{ minHeight:'170px' }}>{TextContents.homepage.about_us_text3}</p>
+                <h6>{TextContents.homepage.about_us_text2}</h6>
+                <p>{TextContents.homepage.about_us_text3}</p>
                 <div className="float-right hidden-sm-down">
                   <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
                 </div>
@@ -198,7 +198,7 @@ export default class IndexPage extends React.Component {
           <div className="bg-darkblue px-lg-5 py-5 text-light">
           <Container fluid={false}>
               <Row>
-                <Col xs={12} sm={6}>
+                <Col xs={12} sm={6} className="mobile-header">
                   <h1 className="font-weight-bold">LATEST INSIGHTS</h1>
                 </Col>
                 <Col xs={12} sm={6} className="hidden-sm-down">
@@ -206,7 +206,7 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
             <Row className="mb-3">
-              {posts
+              {posts.length > 0 && posts
               .map(({ node: post }) => (
                 <Col xs={12} md={6} key={post.id}>
                   <Card className="bg-lightblue mt-5">

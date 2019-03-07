@@ -21,7 +21,7 @@ export const RealEstatePage = () => {
         src="https://via.placeholder.com/400x450" 
         alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>Manufaturing</h1></Card.Title>
+          <Card.Title className="page-image-card-header"><h1>manufacturing</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
@@ -37,14 +37,14 @@ export const RealEstatePage = () => {
       <Row className="mx-1 mx-sm-0 bg-white">        
         <Col className="py-5 px-sm-5 col-md-8">
           <h2 className="my-3">
-            {TextContents.industries_manufaturing.manufaturing}
+            {TextContents.industries_manufacturing.manufacturing}
           </h2>
           <p className="text-secondary">
-            {TextContents.industries_manufaturing.text1}
+            {TextContents.industries_manufacturing.text1}
           </p>
           <br/>
           <p className="text-secondary">
-          {TextContents.industries_manufaturing.text2}
+          {TextContents.industries_manufacturing.text2}
           </p>
         </Col>
         <IndustriesKeyNotes />

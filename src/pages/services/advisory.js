@@ -42,10 +42,6 @@ export const InformationTechnologyPage = () => {
           <p className="text-secondary">
             {TextContents.services_advisory.main_text1}
           </p>
-          <br/>
-          <p className="text-secondary">
-            {TextContents.services_advisory.main_text2}
-          </p>
           <Row>
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
             <h3>{TextContents.services_advisory.paragprah1_header}</h3>
@@ -59,6 +55,10 @@ export const InformationTechnologyPage = () => {
             <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
             <h3>{TextContents.services_advisory.paragprah3_header}</h3>
             <p>{TextContents.services_advisory.paragprah3_text1}</p>
+            </Col>
+            <Col xs={12} className="ml-0 ml-sm-4 bg-lightgray p-4 my-4">
+            <h3>{TextContents.services_advisory.paragprah4_header}</h3>
+            <p>{TextContents.services_advisory.paragprah4_text1}</p>
             </Col>
           </Row>
         </Col>

@@ -65,8 +65,111 @@ export const AboutPageTemplate = () => {
       </Col>
       </Row>
     </Container>
-      <Container fluid={true} className="bg-yellow">
-        <Row className="px-5 py-4 mx-sm-5 mb-sm-5">
+      <Container fluid={true} className="mt-3 px-0 px-sm-5">
+      <Row className="mx-0">
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_1}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_1}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_2}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_2}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_3}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_3}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_4}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_4}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+      </Row>
+      <Row className="mx-0">
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_5}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_5}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_6}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_6}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_7}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_7}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
+        <Card style={{minHeight:"350px"}}>
+          <Card.Body className="bg-lightgray">
+            <Card.Title className="text-center">
+              <h3>{TextContents.aboutpage.overview_header_8}</h3>
+            </Card.Title>
+            <Card.Text >
+              {TextContents.aboutpage.overview_text_8}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </Col>
+      </Row>
+    </Container>
+    </Container>
+    <Container fluid={true} className="bg-yellow mt-sm-5">
+        <Row className="px-5 py-4 mx-sm-5">
           <Col xs={12}>
             <h1>{TextContents.aboutpage.testimonials}</h1>
           </Col>
@@ -78,109 +181,6 @@ export const AboutPageTemplate = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid={true} className="mt-3 px-0 px-sm-5">
-      <Row className="mx-0">
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_1}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_2}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_3}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_4}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-      </Row>
-      <Row className="mx-0">
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_5}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_6}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_7}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-        <Col xs={12} sm={6} md={3} className="mb-3 mb-sm-3">
-        <Card style={{minHeight:"450px"}}>
-          <Card.Body className="bg-lightgray">
-            <Card.Title className="text-center">
-              <h3>Test1</h3>
-            </Card.Title>
-            <Card.Text >
-              {TextContents.aboutpage.overview_text_8}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        </Col>
-      </Row>
-    </Container>
-    </Container>
     </div>
   )
 }
