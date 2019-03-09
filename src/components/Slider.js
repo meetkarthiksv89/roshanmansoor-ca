@@ -1,5 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
+import Slider1 from '../img/slider1.jpg'
+import Slider2 from '../img/slider2.jpg'
+import Slider3 from '../img/slider3.png'
 
 const Slider = () => {
    return (
@@ -9,7 +12,7 @@ const Slider = () => {
         <div className="hidden-sm-down">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/1000x450"
+            src={Slider1}
             alt="First slide"
           />
         </div>
@@ -29,7 +32,7 @@ const Slider = () => {
         <div className="hidden-sm-down">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/1000x450"
+            src={Slider2}
             alt="Second slide"
           />
         </div>
@@ -49,7 +52,7 @@ const Slider = () => {
         <div className="hidden-sm-down">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/1000x450"
+            src={Slider3}
             alt="Third slide"
           />
         </div>
