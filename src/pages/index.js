@@ -49,7 +49,7 @@ export default class IndexPage extends React.Component {
                       <br />
                       <br />
                     </Card.Text>
-                    <p to="/services/auditing" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                    <p to="/services/auditing" className="px- py-1 text-orange-black font-weight-bold">Read More </p>
                   </Card.Body>
 
                 </Card>
@@ -78,9 +78,8 @@ export default class IndexPage extends React.Component {
                     <Card.Text className="text-black">
                       {TextContents.homepage.services_card_text_3}
                       <br />
-                      <br />
                     </Card.Text>
-                    <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                    <p to="/services/advisory" style={{ marginBottom: 20 }} className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                   </Card.Body>
                   <Card.Img src={TaxImage} style={{ height: '250px' }} />
 
@@ -111,9 +110,9 @@ export default class IndexPage extends React.Component {
           </div>
           <div className="pt-sm-5 pt-2 pb-2 bg-dark">
             <Container fluid={true} className="px-md-5">
-              <Row className="mt-sm-3 mt-1 mb-sm-0 mb-2 mx-3">
+              <Row className="mb-sm-0 mx-3">
                 <Col xs={12} sm={6}>
-                  <h2 className="font-weight-bold text-light mobile-header">WHO WE SERVES</h2>
+                  <h2 style={{ marginBottom: 20 }} className="font-weight-bold text-light mobile-header">WHO WE SERVE</h2>
                 </Col>
                 <Col xs={12} sm={6} className="hidden-sm-down flex-right">
                   <Link to="/industries"><h2 className="section-header-link d-flex justify-content-end text-light">SEE ALL INDUSTRIES</h2></Link>
@@ -199,10 +198,10 @@ export default class IndexPage extends React.Component {
               </Col>
               <Col xs={12} md={8} className="mobile-header">
                 <br />
-                <h6>{TextContents.homepage.about_us_title}</h6>
+                <h6 className="font-weight-bold" style={{ marginBottom: 20 }}>{TextContents.homepage.about_us_title}</h6>
                 <p>{TextContents.homepage.about_us_text1}</p>
-                <h6>{TextContents.homepage.about_us_text2}</h6>
-                <p>{TextContents.homepage.about_us_text3}</p>
+                <h6 className="font-weight-bold" style={{ marginBottom: 20 }}>{TextContents.homepage.about_us_text2}</h6>
+                <p style={{ marginBottom: 40 }}>{TextContents.homepage.about_us_text3}</p>
                 <div className="float-right hidden-sm-down">
                   <Link to="/about"><Button className="px-5 py-3 text-white font-weight-bold know-more-btn">KNOW MORE</Button></Link>
                 </div>
@@ -220,7 +219,7 @@ export default class IndexPage extends React.Component {
                 <Col xs={12} sm={6} className="mobile-header">
                   <h1 className="font-weight-bold">LATEST INSIGHTS</h1>
                 </Col>
-                <Col xs={12} sm={6} className="hidden-sm-down">
+                <Col xs={12} sm={6} className="hidden-sm-down justify-content-end">
                   <h4 className="d-flex justify-content-end">SEE ALL LATEST INSIGHTS</h4>
                 </Col>
               </Row>
