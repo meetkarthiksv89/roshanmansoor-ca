@@ -40,66 +40,66 @@ export default class IndexPage extends React.Component {
             <Row className="text-center mx-0">
               <Col xs={12} md={4} className="px-0">
                 <Card>
-                  <Link to="/services/auditing">
-                    <Card.Img src={AssuranceImage} style={{ height: '250px' }} />
-                    <Card.Body className="py-4" style={{ height: '250px' }}>
-                      <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_1}</Card.Title>
-                      <Card.Text className="text-black">
-                        {TextContents.homepage.services_card_text_1}
-                        <br />
-                        <br />
-                      </Card.Text>
-                      <p to="/services/auditing" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
-                    </Card.Body>
-                  </Link>
+
+                  <Card.Img src={AssuranceImage} style={{ height: '250px' }} />
+                  <Card.Body className="py-4" style={{ height: '250px' }}>
+                    <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_1}</Card.Title>
+                    <Card.Text className="text-black">
+                      {TextContents.homepage.services_card_text_1}
+                      <br />
+                      <br />
+                    </Card.Text>
+                    <p to="/services/auditing" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                  </Card.Body>
+
                 </Card>
               </Col>
               <Col xs={12} md={4} className="px-0 hidden-sm-up">
                 <Card>
-                  <Link to="/services/auditing">
-                    <Card.Img src={TaxImage} style={{ height: '250px' }} />
-                    <Card.Body className="py-4" style={{ height: '250px' }}>
-                      <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_2}</Card.Title>
-                      <Card.Text className="text-black">
-                        {TextContents.homepage.services_card_text_3}
-                        <br />
-                        <br />
-                      </Card.Text>
-                      <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
-                    </Card.Body>
-                  </Link>
+
+                  <Card.Img src={TaxImage} style={{ height: '250px' }} />
+                  <Card.Body className="py-4" style={{ height: '250px' }}>
+                    <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_2}</Card.Title>
+                    <Card.Text className="text-black">
+                      {TextContents.homepage.services_card_text_3}
+                      <br />
+                      <br />
+                    </Card.Text>
+                    <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                  </Card.Body>
+
                 </Card>
               </Col>
               <Col xs={12} md={4} className="px-0 hidden-sm-down flex-right">
                 <Card>
-                  <Link to="/services/taxation">
-                    <Card.Body className="py-4" style={{ height: '250px' }}>
-                      <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_2}</Card.Title>
-                      <Card.Text className="text-black">
-                        {TextContents.homepage.services_card_text_3}
-                        <br />
-                        <br />
-                      </Card.Text>
-                      <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
-                    </Card.Body>
-                    <Card.Img src={TaxImage} style={{ height: '250px' }} />
-                  </Link>
+
+                  <Card.Body className="py-4" style={{ height: '250px' }}>
+                    <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_2}</Card.Title>
+                    <Card.Text className="text-black">
+                      {TextContents.homepage.services_card_text_3}
+                      <br />
+                      <br />
+                    </Card.Text>
+                    <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                  </Card.Body>
+                  <Card.Img src={TaxImage} style={{ height: '250px' }} />
+
                 </Card>
               </Col>
               <Col xs={12} md={4} className="px-0 ">
                 <Card>
-                  <Link to="/services/advisory">
-                    <Card.Img src={AdvisoryImage} style={{ height: '250px' }} />
-                    <Card.Body className="py-4" style={{ height: '250px' }}>
-                      <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
-                      <Card.Text className="text-black">
-                        {TextContents.homepage.services_card_text_3}
-                        <br />
-                        <br />
-                      </Card.Text>
-                      <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
-                    </Card.Body>
-                  </Link>
+
+                  <Card.Img src={AdvisoryImage} style={{ height: '250px' }} />
+                  <Card.Body className="py-4" style={{ height: '250px' }}>
+                    <Card.Title className="font-weight-bold text-black">{TextContents.homepage.services_card_title_3}</Card.Title>
+                    <Card.Text className="text-black">
+                      {TextContents.homepage.services_card_text_3}
+                      <br />
+                      <br />
+                    </Card.Text>
+                    <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                  </Card.Body>
+
                 </Card>
               </Col>
               <Col xs={12} className="bg-white pb-3 hidden-sm-up">
@@ -167,16 +167,15 @@ export default class IndexPage extends React.Component {
                 </Col>
                 <Col xs={12} sm={3}>
                   <Card className="bg-dark box-shadow-none">
-
-                    <Card.Img src={Retail} />
-                    <Card.Body style={{ "minHeight": "260px" }} className="my-2 px-0">
-                      <Card.Title style={{ minHeight: "44px" }} className="text-center">{TextContents.homepage.industries_card_title_4}</Card.Title>
-                      <Card.Text>
-                        {TextContents.homepage.industries_card_text_4}
-                        <br />
-                      </Card.Text>
-                    </Card.Body>
                     <Link to="/industries/retail">
+                      <Card.Img src={Retail} />
+                      <Card.Body style={{ "minHeight": "260px" }} className="my-2 px-0">
+                        <Card.Title style={{ minHeight: "44px" }} className="text-center">{TextContents.homepage.industries_card_title_4}</Card.Title>
+                        <Card.Text>
+                          {TextContents.homepage.industries_card_text_4}
+                          <br />
+                        </Card.Text>
+                      </Card.Body>
                       <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                     </Link>
                   </Card>
