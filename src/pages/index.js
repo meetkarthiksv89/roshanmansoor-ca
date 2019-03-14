@@ -167,15 +167,16 @@ export default class IndexPage extends React.Component {
                 </Col>
                 <Col xs={12} sm={3}>
                   <Card className="bg-dark box-shadow-none">
+
+                    <Card.Img src={Retail} />
+                    <Card.Body style={{ "minHeight": "260px" }} className="my-2 px-0">
+                      <Card.Title style={{ minHeight: "44px" }} className="text-center">{TextContents.homepage.industries_card_title_4}</Card.Title>
+                      <Card.Text>
+                        {TextContents.homepage.industries_card_text_4}
+                        <br />
+                      </Card.Text>
+                    </Card.Body>
                     <Link to="/industries/retail">
-                      <Card.Img src={Retail} />
-                      <Card.Body style={{ "minHeight": "260px" }} className="my-2 px-0">
-                        <Card.Title style={{ minHeight: "44px" }} className="text-center">{TextContents.homepage.industries_card_title_4}</Card.Title>
-                        <Card.Text>
-                          {TextContents.homepage.industries_card_text_4}
-                          <br />
-                        </Card.Text>
-                      </Card.Body>
                       <p className="text-orange font-weight-bold px-sm-3 py-1 text-center">Read More </p>
                     </Link>
                   </Card>
