@@ -19,49 +19,49 @@ class Header extends React.Component {
   }
 
   onKeyPressed = e => {
-    if(e.key === "Enter"){
+    if (e.key === "Enter") {
       console.log('search')
       console.log(e.target.value)
     }
   }
 
-render() {
-  return (
-    <Navbar bg="white" expand="lg" className="p-0 font-weight-bold">
-      <div className="container">
-        <Navbar.Brand className="navbar-custom-brand py-0">
-          <Link to="/">
-          <img
-            src={logo}
-            height="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          />
-          <span className="ml-1">Roshan Mansoor & Co.</span>
-        </Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto text-center">
-            <Link className="navbar-item py-4" to="/">
-              HOME
+  render() {
+    return (
+      <Navbar bg="white" expand="lg" className="p-0 font-weight-bold">
+        <div className="container">
+          <Navbar.Brand className="navbar-custom-brand py-0">
+            <Link to="/">
+              <img
+                src={logo}
+                height="30"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+              />
+              <span className="ml-1">Roshan Mansoor & Co.</span>
             </Link>
-            <Link className="navbar-item py-4" to="/about">
-              ABOUT US
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto text-center">
+              <Link className="navbar-item py-4" to="/">
+                Home
             </Link>
-            <Link className="navbar-item py-4" to="/services">
-              SERVICES
+              <Link className="navbar-item py-4" to="/about">
+                About Us
             </Link>
-            <Link className="navbar-item py-4" to="/industries">
-              INDUSTRIES
+              <Link className="navbar-item py-4" to="/services">
+                Services
             </Link>
-            <Link className="navbar-item py-4" to="/career">
-              CAREERS
+              <Link className="navbar-item py-4" to="/industries">
+                Industries
             </Link>
-            <Link className="navbar-item py-4" to="/contact">
-              CONTACT US
+              <Link className="navbar-item py-4" to="/career">
+                Careers
             </Link>
-            {/* <div className="navbar-item py-4 search-icon">
+              <Link className="navbar-item py-4" to="/contact">
+                Contact Us
+            </Link>
+              {/* <div className="navbar-item py-4 search-icon">
               {!this.state.showInput && <span className="float-left mt-1" onClick={() => this.toggleSearch()}>Search btn</span> }
               {this.state.showInput && 
                 <form method = "get" title = "Search Form" action="https://cse.google.com/cse/publicurl" >
@@ -73,11 +73,12 @@ render() {
               }
               <h6 className="hidden-sm-up float-left ml-4 font-weight-bold">SEARCH</h6>
             </div> */}
-          </Nav>
-        </Navbar.Collapse>
-      </div>
-    </Navbar>
-  )}
+            </Nav>
+          </Navbar.Collapse>
+        </div>
+      </Navbar>
+    )
+  }
 }
 
 export default Header

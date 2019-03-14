@@ -1,15 +1,16 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
+import Slider1 from '../img/1.jpg';
 
 const Slider = () => {
-   return (
+  return (
     <Carousel
       controls={false}>
       <Carousel.Item>
         <div className="hidden-sm-down">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/1000x450"
+            src={Slider1}
             alt="First slide"
           />
         </div>
@@ -66,7 +67,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-   )
+  )
 }
 
 export default Slider
