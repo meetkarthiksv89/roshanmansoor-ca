@@ -49,7 +49,7 @@ export default class IndexPage extends React.Component {
                       <br />
                       <br />
                     </Card.Text>
-                    <p to="/services/auditing" className="px- py-1 text-orange-black font-weight-bold">Read More </p>
+                    <p to="/services/auditing" className="py-1 text-orange-black font-weight-bold">Read More </p>
                   </Card.Body>
 
                 </Card>
