@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
 import {Container, Row, Col, Card } from 'react-bootstrap'
 import TextContents from '../../TextContents';
+import BannerImage from '../../img/Industries_Banner.png'
 
 export default class IndustriesPage extends React.Component {
   render() {
@@ -14,7 +15,7 @@ export default class IndustriesPage extends React.Component {
           <Card className="bg-dark text-white text-center">
             <Card.Img 
             className="hidden-sm-down"
-            src="https://via.placeholder.com/1200x650" 
+            src={BannerImage}
             alt="Card image" />
             <Card.Img 
             className="hidden-sm-up"

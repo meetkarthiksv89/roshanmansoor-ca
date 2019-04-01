@@ -5,6 +5,7 @@ import { HTMLContent } from '../components/Content'
 import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
 import linkedinBlueImg from '../img/linkedin-blue.png'
 import TextContents from '../TextContents';
+import Banner_image from '../img/Aboutus_Banner_image.png';
 
 export const AboutPageTemplate = () => {
   return (
@@ -13,7 +14,8 @@ export const AboutPageTemplate = () => {
       <Card className="bg-dark text-white text-center">
       <Card.Img 
         className="hidden-sm-down"
-        src="https://via.placeholder.com/1200x400" 
+        style={{height:700}}
+        src={Banner_image} 
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
