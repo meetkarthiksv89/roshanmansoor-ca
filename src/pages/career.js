@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card, Button, Collapse, Modal} from 'react-bootstrap'
 import CarrerAds from '../careerAds';
 import TextContents from '../TextContents';
+import Career_Banner from '../img/Roshan_Mansoor_Career_Banner.png'
 
 
 function encode(data) {
@@ -132,7 +133,7 @@ class CareerPage extends React.Component{
           <Card className="bg-dark text-white text-center">
             <Card.Img 
             className="hidden-sm-down"
-            src="https://via.placeholder.com/1200x650" 
+            src={Career_Banner} 
             alt="Card image" />
             <Card.Img 
             className="hidden-sm-up"

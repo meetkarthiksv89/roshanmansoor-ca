@@ -4,6 +4,12 @@ import Layout from '../../components/Layout'
 import {Container, Row, Col, Card } from 'react-bootstrap'
 import TextContents from '../../TextContents';
 import BannerImage from '../../img/Industries_Banner.png'
+import Retail_Tile from '../../img/Roshan_Mansoor_Retail_Tile.png'
+import Bio_Tech_Tile from '../../img/Roshan_Mansoor_Bio_Tech_Tile.png'
+import Technology_Tile from '../../img/Roshan_Mansoor_Information_Technology_Tile.png'
+import Manufacturing_Tile from '../../img/Roshan_Mansoor_Manufacturing_Tile.png'
+import Media_Tile from '../../img/Roshan_Mansoor_Media_Tile.png'
+import Real_Estate_Tile from '../../img/Roshan_Mansoor_Real_Estate_Tile.png'
 
 export default class IndustriesPage extends React.Component {
   render() {
@@ -31,7 +37,7 @@ export default class IndustriesPage extends React.Component {
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/informationtechnology">
-                  <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                  <Card.Img variant="top" src={Technology_Tile} />
                   <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">INFORMATION TECHNOLOGY</Card.Title>
                     <Card.Text className="text-dark">
@@ -46,7 +52,7 @@ export default class IndustriesPage extends React.Component {
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/realestate">
-                  <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                  <Card.Img variant="top" src={Real_Estate_Tile} />
                   <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.real_estate}</Card.Title>
                     <Card.Text className="text-dark">
@@ -61,7 +67,7 @@ export default class IndustriesPage extends React.Component {
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
                 <Link to="/industries/manufacturing">
-                  <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                  <Card.Img variant="top" src={Manufacturing_Tile} />
                   <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.manufacturing}</Card.Title>
                     <Card.Text className="text-dark">
@@ -76,7 +82,7 @@ export default class IndustriesPage extends React.Component {
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
                   <Link to="/industries/retail">
-                  <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                  <Card.Img variant="top" src={Retail_Tile} />
                   <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.retail}</Card.Title>
                     <Card.Text className="text-dark">
@@ -91,7 +97,7 @@ export default class IndustriesPage extends React.Component {
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
                   <Link to="/industries/biotechnology">
-                  <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                  <Card.Img variant="top" src={Bio_Tech_Tile} />
                   <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.bio_technology}</Card.Title>
                     <Card.Text className="text-dark">
@@ -106,7 +112,7 @@ export default class IndustriesPage extends React.Component {
               <Col xs={12} sm={4} className="mb-5">
                 <Card>
                   <Link to="/industries/media">
-                  <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+                  <Card.Img variant="top" src={Media_Tile} />
                   <Card.Body style={{"minHeight":"260px"}} className="my-3 py-2">
                     <Card.Title className="font-weight-bold text-dark">{TextContents.industries_index.media}</Card.Title>
                     <Card.Text className="text-dark">

@@ -4,6 +4,10 @@ import Layout from '../../components/Layout'
 import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
 import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 import TextContents from '../../TextContents';
+import Retail_Banner from '../../img/Roshan_Mansoor_Retail_Services_Banner.png'
+import Manufacturing_Tile from '../../img/Roshan_Mansoor_Manufacturing_Tile.png'
+import Technology_Tile from '../../img/Roshan_Mansoor_Information_Technology_Tile.png'
+import Real_Estate_Tile from '../../img/Roshan_Mansoor_Real_Estate_Tile.png'
 
 export const RealEstatePage = () => {
   return (
@@ -13,11 +17,11 @@ export const RealEstatePage = () => {
       <Card className="bg-dark text-white text-center">
         <Card.Img 
         className="hidden-sm-down"
-        src="https://via.placeholder.com/1200x650" 
+        src={Retail_Banner} 
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
-        src="https://via.placeholder.com/400x450" 
+        src={Retail_Banner}
         alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Retails</h1></Card.Title>
@@ -72,6 +76,9 @@ export const RealEstatePage = () => {
       cardText1="We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives..."
       cardText2="Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical...."
       cardText3="Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry..."
+      cardImage1={Manufacturing_Tile}
+      cardImage2={Technology_Tile}
+      cardImage3={Real_Estate_Tile}
     />
     </Layout>
   )

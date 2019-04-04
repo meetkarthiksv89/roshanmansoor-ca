@@ -4,6 +4,11 @@ import Layout from '../../components/Layout'
 import { Container, Row, Col, Breadcrumb, Card } from 'react-bootstrap'
 import orangeArrow from '../../img/orange-arrow.png'
 import TextContents from '../../TextContents';
+import Services_Banner from '../../img/Roshan_Mansoor_Services_Banner.png'
+import Auditing_Tile from '../../img/Roshan_Mansoor_Auditing_Tile.png'
+import Advisory_Tile from '../../img/Roshan_Mansoor_Advisory_Tile.png'
+import OtherServices_Tile from '../../img/Roshan_Mansoor_OtherServices_Tile.png'
+import Taxation_Tile from '../../img/Roshan_Mansoor_Taxation_Tile.png'
 
 
 const OrangeArrowComp = (props) => (
@@ -18,7 +23,7 @@ export const ServicesPage = () => {
           <Card className="bg-dark text-white text-center">
             <Card.Img
               className="hidden-sm-down"
-              src="https://via.placeholder.com/1200x300"
+              src={Services_Banner}
               alt="Card image" />
             <Card.Img
               className="hidden-sm-up"
@@ -40,7 +45,7 @@ export const ServicesPage = () => {
           </Row>
           <Row className="mx-4 bg-white">
             <Col xs={12} sm={4} className="px-0">
-              <img src="https://via.placeholder.com/500x560" alt="" />
+              <img src={Auditing_Tile} alt="" />
             </Col>
             <Col xs={12} sm={5} className="px-3 px-sm-5 pt-5 service-link">
               <Link to="services/auditing">
@@ -78,7 +83,7 @@ export const ServicesPage = () => {
               <h6 className="font-weight-bold" style={{ "width": "150px" }}>{TextContents.services_index.taxation_opt2}  <span className="float-right"> <OrangeArrowComp width="18px" /></span></h6>
             </Col>
             <Col xs={12} sm={4} className="p-0">
-              <img src="https://via.placeholder.com/500x680" alt="" />
+              <img src={Taxation_Tile} alt="" />
             </Col>
           </Row>
           <Row className="mx-4 bg-white mt-5 hidden-sm-up">
@@ -103,7 +108,7 @@ export const ServicesPage = () => {
           </Row>
           <Row className="mx-4 bg-white mt-5">
             <Col xs={12} sm={4} className="p-0 col-md-4">
-              <img src="https://via.placeholder.com/500x400" alt="" />
+              <img src={Advisory_Tile} alt="" />
             </Col>
             <Col xs={12} sm={5} className="pl-3 pl-sm-5 py-5 service-link">
               <Link to="services/advisory">
@@ -139,7 +144,7 @@ export const ServicesPage = () => {
             <Col xs={12} sm={3} className="py-5 px-sm-0 px-3 mt-0 mt-sm-5">
             </Col>
             <Col xs={12} sm={4} className="p-0 col-md-4">
-              <img src="https://via.placeholder.com/500x400" alt="" />
+              <img src={OtherServices_Tile} alt="" />
             </Col>
           </Row>
           <Row className="mx-4 bg-white mt-5 hidden-sm-up">
