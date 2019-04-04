@@ -6,6 +6,7 @@ import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
 import linkedinBlueImg from '../img/linkedin-blue.png'
 import TextContents from '../TextContents';
 import Banner_image from '../img/Aboutus_Banner_image.png';
+import Roshan_Mansoor from '../img/Roshan_Mansoor.jpg';
 
 export const AboutPageTemplate = () => {
   return (
@@ -42,7 +43,7 @@ export const AboutPageTemplate = () => {
         <p className="mb-4 mx-5">{TextContents.aboutpage.meet_pillars_text}</p>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
-        <Image src="https://via.placeholder.com/300x300" roundedCircle />
+        <Image style={{height:300,width:300,resizeMode: 'contain'}} src={Roshan_Mansoor} roundedCircle />
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_1_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_1_title}</p>

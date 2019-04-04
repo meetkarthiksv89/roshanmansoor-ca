@@ -22,7 +22,7 @@ export const InformationTechnologyPage = () => {
         src="https://via.placeholder.com/400x450" 
         alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>Auditing</h1></Card.Title>
+          <Card.Title className="page-image-card-header"><h1>Advisory</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
