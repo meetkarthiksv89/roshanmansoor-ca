@@ -13,7 +13,6 @@ import ManufacturingImage from '../img/RoshanMansoor&Co_Manufacturing_Services.j
 import Retail from '../img/RoshanMansoor&Co_Retail_Services.jpg';
 import RealEstateImage from '../img/RoshanMansoor&Co_RealEstate_Services.jpg';
 import RoshanMansoorImage from '../img/Roshan_Mansoor.jpg';
-import BannerImage from '../img/Roshan_Mansoor&Co_Excellence.png';
 
 
 

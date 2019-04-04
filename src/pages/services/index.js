@@ -4,6 +4,7 @@ import Layout from '../../components/Layout'
 import { Container, Row, Col, Breadcrumb, Card } from 'react-bootstrap'
 import orangeArrow from '../../img/orange-arrow.png'
 import TextContents from '../../TextContents';
+import Services_Banner from '../../img/Roshan_Mansoor_Services_Banner.png';
 
 
 const OrangeArrowComp = (props) => (
@@ -18,7 +19,7 @@ export const ServicesPage = () => {
           <Card className="bg-dark text-white text-center">
             <Card.Img
               className="hidden-sm-down"
-              src="https://via.placeholder.com/1200x300"
+              src={Services_Banner}
               alt="Card image" />
             <Card.Img
               className="hidden-sm-up"
