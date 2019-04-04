@@ -7,6 +7,7 @@ import TextContents from '../../TextContents';
 import facebook from '../../img/facebook.png'
 import twitter from '../../img/twitter.png'
 import linkedin from '../../img/linkedin.png'
+import Reach_Us from '../../img/Roshan_Mansoor_ReachUs.png'
 
 function encode(data) {
   return Object.keys(data)
@@ -47,7 +48,7 @@ export default class Index extends React.Component {
             <Card className="bg-dark text-white text-center">
               <Card.Img 
               className="hidden-sm-down"
-              src="https://via.placeholder.com/1200x450" 
+              src={Reach_Us}
               alt="Card image" />
               <Card.Img 
               className="hidden-sm-up"
