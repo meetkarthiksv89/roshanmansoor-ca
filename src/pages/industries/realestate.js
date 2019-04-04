@@ -22,7 +22,7 @@ export const RealEstatePage = () => {
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
-        src="https://via.placeholder.com/400x450" 
+        src={Real_Estate_Banner} 
         alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Real Estate Engineering & Construction</h1></Card.Title>

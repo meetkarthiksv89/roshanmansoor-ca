@@ -23,7 +23,7 @@ export const InformationTechnologyPage = () => {
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
-        src="https://via.placeholder.com/400x450" 
+        src={Media_Banner} 
         alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Media</h1></Card.Title>
