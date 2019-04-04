@@ -5,6 +5,7 @@ import {Container, Row, Col, Breadcrumb, Card} from 'react-bootstrap'
 import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 import IndustriesKeyNotes from '../../components/IndustriesKeyNotes'
 import TextContents from '../../TextContents';
+import Information_Tech_Banner from '../../img/Roshan_Mansoor_Information_Technology_Banner.png'
 
 export const InformationTechnologyPage = () => {
   return (
@@ -14,7 +15,7 @@ export const InformationTechnologyPage = () => {
       <Card className="bg-dark text-white text-center">
         <Card.Img 
         className="hidden-sm-down"
-        src="https://via.placeholder.com/1200x650" 
+        src={Information_Tech_Banner} 
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
