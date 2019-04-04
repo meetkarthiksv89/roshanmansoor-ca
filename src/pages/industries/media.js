@@ -6,6 +6,10 @@ import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 import IndustriesKeyNotes from '../../components/IndustriesKeyNotes'
 import TextContents from '../../TextContents';
 import Media_Banner from '../../img/Roshan_Mansoor_Media_Banner.png'
+import Real_Estate_Tile from '../../img/Roshan_Mansoor_Real_Estate_Tile.png'
+import Manufacturing_Tile from '../../img/Roshan_Mansoor_Manufacturing_Tile.png'
+import Retail_Tile from '../../img/Roshan_Mansoor_Retail_Tile.png'
+
 
 export const InformationTechnologyPage = () => {
   return (
@@ -58,12 +62,15 @@ export const InformationTechnologyPage = () => {
       link2="/industries/manufacturing"
       link3="/industries/retail"
       cardHeader1="REAL ESTATE ENGINEERING & CONSTRUCTION"
-      cardHeader2="manufacturing"
+      cardHeader2="Manufacturing"
       cardHeader3="RETAIL"
       cardText1="Engineering and construction companies have a need for on-going audits to ascertain all aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated re- sources catering to the needs of this industry..."
       cardText2="We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives..."
       cardText3="Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
       and tax planning and better management of cash flow..."
+      cardImage1={Real_Estate_Tile}
+      cardImage2={Manufacturing_Tile}
+      cardImage3={Retail_Tile}
     />
     </Layout>
   )

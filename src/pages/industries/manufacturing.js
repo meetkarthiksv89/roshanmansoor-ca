@@ -6,6 +6,10 @@ import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 import IndustriesKeyNotes from '../../components/IndustriesKeyNotes'
 import TextContents from '../../TextContents';
 import Manufacturing_Banner from '../../img/Roshan_Mansoor_Manufacturing_Banner.png'
+import Real_Estate_Tile from '../../img/Roshan_Mansoor_Real_Estate_Tile.png'
+import Manufacturing_Tile from '../../img/Roshan_Mansoor_Manufacturing_Tile.png'
+import Retail_Tile from '../../img/Roshan_Mansoor_Retail_Tile.png'
+import Technology_Tile from '../../img/Roshan_Mansoor_Information_Technology_Tile.png'
 
 export const RealEstatePage = () => {
   return (
@@ -64,6 +68,9 @@ export const RealEstatePage = () => {
       cardText2="Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical...."
       cardText3="Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
       and tax planning and better management of cash flow..."
+      cardImage1={Real_Estate_Tile}
+      cardImage2={Technology_Tile}
+      cardImage3={Retail_Tile}
     />
     </Layout>
   )

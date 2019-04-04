@@ -6,6 +6,9 @@ import OtherStaticPagesRow from '../../components/OtherStaticPagesRow'
 import IndustriesKeyNotes from '../../components/IndustriesKeyNotes'
 import TextContents from '../../TextContents';
 import Real_Estate_Banner from '../../img/Roshan_Mansoor_Bio_Tech_Banner.png'
+import Real_Estate_Tile from '../../img/Roshan_Mansoor_Real_Estate_Tile.png'
+import Manufacturing_Tile from '../../img/Roshan_Mansoor_Manufacturing_Tile.png'
+import Retail_Tile from '../../img/Roshan_Mansoor_Retail_Tile.png'
 
 export const InformationTechnologyPage = () => {
   return (
@@ -64,6 +67,9 @@ export const InformationTechnologyPage = () => {
       cardText2="We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives..."
       cardText3="Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
       and tax planning and better management of cash flow..."
+      cardImage1={Real_Estate_Tile}
+      cardImage2={Manufacturing_Tile}
+      cardImage3={Retail_Tile}
     />
     </Layout>
   )

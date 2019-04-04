@@ -13,10 +13,10 @@ const OtherStaticPagesRow = (props) => {
         <Col xs={12} sm={4}>
         <Card className="bg-dark box-shadow-none">
         <Link to={props.link1}>
-          <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+          <Card.Img variant="top" src={props.cardImage1} />
           <Card.Body style={{"minHeight":"290px"}} className="my-4 py-4">
-            <Card.Title className="font-weight-bold">{props.cardHeader1}</Card.Title>
-            <Card.Text>
+            <Card.Title className="font-weight-bold text-white">{props.cardHeader1}</Card.Title>
+            <Card.Text className="text-white">
               {props.cardText1}
               <br/>
               <span className="text-orange font-weight-bold px-sm-3 py-1 float-right" to={props.link1}>Read More </span>
@@ -28,10 +28,10 @@ const OtherStaticPagesRow = (props) => {
         <Col xs={12} sm={4}>
         <Card className="bg-dark box-shadow-none">
         <Link to={props.link2}>
-          <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+          <Card.Img variant="top" src={props.cardImage2} />
           <Card.Body style={{"minHeight":"290px"}} className="my-4 py-4">
-            <Card.Title className="font-weight-bold">{props.cardHeader2}</Card.Title>
-            <Card.Text>
+            <Card.Title className="font-weight-bold text-white">{props.cardHeader2}</Card.Title>
+            <Card.Text className="text-white">
               {props.cardText2}
               <br/>
               <span className="text-orange font-weight-bold px-sm-3 py-1 float-right" to={props.link2}>Read More </span>
@@ -43,10 +43,10 @@ const OtherStaticPagesRow = (props) => {
         <Col xs={12} sm={4}>
         <Card className="bg-dark box-shadow-none">
           <Link to={props.link3}>
-          <Card.Img variant="top" src="https://via.placeholder.com/250x220" />
+          <Card.Img variant="top" src={props.cardImage3} />
           <Card.Body style={{"minHeight":"290px"}} className="my-4 py-4">
-            <Card.Title className="font-weight-bold">{props.cardHeader3}</Card.Title>
-            <Card.Text>
+            <Card.Title className="font-weight-bold text-white">{props.cardHeader3}</Card.Title>
+            <Card.Text className="text-white">
               {props.cardText3}
               <br/>
               <span className="text-orange font-weight-bold px-sm-3 py-1 float-right" to={props.link3}>Read More </span>
