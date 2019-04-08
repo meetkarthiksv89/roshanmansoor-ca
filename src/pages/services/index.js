@@ -88,7 +88,7 @@ export const ServicesPage = () => {
           </Row>
           <Row className="mx-4 bg-white mt-5 hidden-sm-up">
             <Col xs={12} sm={4} className="p-0">
-              <img src="https://via.placeholder.com/500x420" alt="" />
+              <img src={Taxation_Tile} alt="" />
             </Col>
             <Col xs={12} sm={5} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
               <Link to="services/taxation">
@@ -149,7 +149,7 @@ export const ServicesPage = () => {
           </Row>
           <Row className="mx-4 bg-white mt-5 hidden-sm-up">
             <Col xs={12} sm={4} className="p-0">
-              <img src="https://via.placeholder.com/500x400" alt="" />
+              <img src={OtherServices_Tile} alt="" />
             </Col>
             <Col xs={12} sm={3} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
               <Link to="services/otherservices">
