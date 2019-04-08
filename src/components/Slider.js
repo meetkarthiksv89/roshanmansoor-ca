@@ -6,6 +6,12 @@ import Confidentiality_Banner from '../img/Roshan_Mansoor_Confidentiality.png';
 import Objectivity_Banner from '../img/Roshan_Mansoor_Objectivity.png';
 import Trust_Banner from '../img/Roshan_Mansoor_Trust.png';
 import Diligence_Banner from '../img/Roshan_Mansoor_Diligence.png';
+import Excellence_Banner_Mobile from '../img/Roshan_Mansoor&Co_Excellence_Mobile.png';
+import Growth_Banner_Mobile from '../img/Roshan_Mansoor_Growth_Banner_Mobile.png';
+import Confidentiality_Banner_Mobile from '../img/Roshan_Mansoor_Confidentiality_Mobile.png';
+import Objectivity_Banner_Mobile from '../img/Roshan_Mansoor_Objectivity_Mobile.png';
+import Trust_Banner_Mobile from '../img/Roshan_Mansoor_Trust_Mobile.png';
+import Diligence_Banner_Mobile from '../img/Roshan_Mansoor_Diligence_Mobile.png';
 
 const Slider = () => {
   return (
@@ -22,7 +28,7 @@ const Slider = () => {
         <div className="hidden-sm-up">
           <img
             className="d-block w-100"
-            src={Excellence_Banner}
+            src={Excellence_Banner_Mobile}
             alt="First slide"
           />
         </div>
@@ -42,7 +48,7 @@ const Slider = () => {
         <div className="hidden-sm-up">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/400x450"
+            src={Growth_Banner_Mobile}
             alt="Second slide"
           />
         </div>
@@ -62,7 +68,7 @@ const Slider = () => {
         <div className="hidden-sm-up">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/400x450"
+            src={Confidentiality_Banner_Mobile}
             alt="Third slide"
           />
         </div>
@@ -82,7 +88,7 @@ const Slider = () => {
         <div className="hidden-sm-up">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/400x450"
+            src={Trust_Banner_Mobile}
             alt="Third slide"
           />
         </div>
@@ -102,7 +108,7 @@ const Slider = () => {
         <div className="hidden-sm-up">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/400x450"
+            src={Objectivity_Banner_Mobile}
             alt="Third slide"
           />
         </div>
@@ -122,7 +128,7 @@ const Slider = () => {
         <div className="hidden-sm-up">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/400x450"
+            src={Diligence_Banner_Mobile}
             alt="Third slide"
           />
         </div>

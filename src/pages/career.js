@@ -137,7 +137,7 @@ class CareerPage extends React.Component{
             alt="Card image" />
             <Card.Img 
             className="hidden-sm-up"
-            src="https://via.placeholder.com/400x450" 
+            src={Career_Banner}  
             alt="Card image" />
             <Card.ImgOverlay>
               <Card.Title className="page-image-card-header"><h1>Join our team!</h1></Card.Title>

@@ -26,7 +26,7 @@ export const RealEstatePage = () => {
         src={Manufacturing_Banner}
         alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>manufacturing</h1></Card.Title>
+          <Card.Title className="page-image-card-header"><h1>Manufacturing</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
@@ -40,8 +40,8 @@ export const RealEstatePage = () => {
         </Col>
       </Row>
       <Row className="mx-1 mx-sm-0 bg-white">        
-        <Col className="py-5 px-sm-5 col-md-8">
-          <h2 className="my-3">
+        <Col className="py-3 px-sm-5 col-md-8">
+          <h2 className="py-3 my-3">
             {TextContents.industries_manufacturing.manufacturing}
           </h2>
           <p className="text-secondary">

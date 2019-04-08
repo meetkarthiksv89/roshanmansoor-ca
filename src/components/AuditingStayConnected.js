@@ -2,11 +2,12 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import SocialMediaImages from '../components/SocialMediaImages'
 import TextContents from '../TextContents';
+import RoshanImage from '../img/Roshan_Mansoor.jpg'
 
 export default () => (
   <Col className="col-md-5 p-3 p-sm-5">
     <h4 className="my-sm-5">{TextContents.auditing_stay_connected.stay_connected_us}</h4>
-    <img src="https://via.placeholder.com/400x300" alt=""/>
+    <img src={RoshanImage} alt=""/>
     <div className="m-4">
     <h5>{TextContents.auditing_stay_connected.name}</h5>
     <p>{TextContents.auditing_stay_connected.title}</p>

@@ -25,7 +25,7 @@ export const RealEstatePage = () => {
         src={Real_Estate_Banner} 
         alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>Real Estate Engineering & Construction</h1></Card.Title>
+          <Card.Title className="page-image-card-header"><h1>Real Estate & Construction</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>

@@ -27,10 +27,10 @@ export const ServicesPage = () => {
               alt="Card image" />
             <Card.Img
               className="hidden-sm-up"
-              src="https://via.placeholder.com/400x450"
+              src={Services_Banner}
               alt="Card image" />
             <Card.ImgOverlay>
-              <Card.Title className="page-image-card-header"><h1>SERVICES</h1></Card.Title>
+              <Card.Title className="page-image-card-header"><h1>Services</h1></Card.Title>
             </Card.ImgOverlay>
           </Card>
         </Container>
@@ -88,7 +88,7 @@ export const ServicesPage = () => {
           </Row>
           <Row className="mx-4 bg-white mt-5 hidden-sm-up">
             <Col xs={12} sm={4} className="p-0">
-              <img src="https://via.placeholder.com/500x420" alt="" />
+              <img src={Taxation_Tile} alt="" />
             </Col>
             <Col xs={12} sm={5} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
               <Link to="services/taxation">
@@ -149,7 +149,7 @@ export const ServicesPage = () => {
           </Row>
           <Row className="mx-4 bg-white mt-5 hidden-sm-up">
             <Col xs={12} sm={4} className="p-0">
-              <img src="https://via.placeholder.com/500x400" alt="" />
+              <img src={OtherServices_Tile} alt="" />
             </Col>
             <Col xs={12} sm={3} className="py-5 px-3 pr-sm-0 pl-sm-5 pr-0 service-link">
               <Link to="services/otherservices">

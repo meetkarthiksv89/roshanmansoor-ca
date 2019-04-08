@@ -25,10 +25,10 @@ export default class IndustriesPage extends React.Component {
             alt="Card image" />
             <Card.Img 
             className="hidden-sm-up"
-            src="https://via.placeholder.com/400x450" 
+            src={BannerImage} 
             alt="Card image" />
             <Card.ImgOverlay>
-              <Card.Title className="page-image-card-header"><h1>INDUSTRIES</h1></Card.Title>
+              <Card.Title className="page-image-card-header"><h1>Industries</h1></Card.Title>
             </Card.ImgOverlay>
           </Card>
           <div>
