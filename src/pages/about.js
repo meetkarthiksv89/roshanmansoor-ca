@@ -7,6 +7,9 @@ import linkedinBlueImg from '../img/linkedin-blue.png'
 import TextContents from '../TextContents';
 import Banner_image from '../img/Aboutus_Banner_image.png';
 import Roshan_Mansoor from '../img/Roshan_Mansoor.jpg';
+import Founder_1 from '../img/1.png'
+import Founder_2 from '../img/2.png'
+import Founder_3 from '../img/3.png'
 
 export const AboutPageTemplate = () => {
   return (
@@ -20,7 +23,7 @@ export const AboutPageTemplate = () => {
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
-        src="https://via.placeholder.com/400x450" 
+        src={Banner_image}  
         alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>ABOUT US</h1></Card.Title>
@@ -43,7 +46,7 @@ export const AboutPageTemplate = () => {
         <p className="mb-4 mx-5">{TextContents.aboutpage.meet_pillars_text}</p>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
-        <Image style={{height:300,width:300,resizeMode: 'contain'}} src={Roshan_Mansoor} roundedCircle />
+        <Image src={Founder_3} roundedCircle />
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_1_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_1_title}</p>
@@ -51,7 +54,7 @@ export const AboutPageTemplate = () => {
         </div>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
-        <Image src="https://via.placeholder.com/300x300" roundedCircle />
+        <Image src={Founder_1} roundedCircle />
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_2_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_2_title}</p>
@@ -59,7 +62,7 @@ export const AboutPageTemplate = () => {
         </div>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
-        <Image src="https://via.placeholder.com/300x300" roundedCircle />
+        <Image src={Founder_2} roundedCircle />
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_3_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_3_title}</p>
@@ -171,7 +174,7 @@ export const AboutPageTemplate = () => {
       </Row>
     </Container>
     </Container>
-    <Container fluid={true} className="bg-yellow mt-sm-5">
+    <Container fluid={true} className="bg-white mt-sm-5">
         <Row className="px-5 py-4 mx-sm-5">
           <Col xs={12}>
             <h1>{TextContents.aboutpage.testimonials}</h1>
