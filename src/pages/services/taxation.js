@@ -19,7 +19,7 @@ export const InformationTechnologyPage = () => {
         alt="Card image" />
         <Card.Img 
         className="hidden-sm-up"
-        src="https://via.placeholder.com/400x450" 
+        src={Banner_image} 
         alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="page-image-card-header"><h1>Taxation</h1></Card.Title>
@@ -36,8 +36,8 @@ export const InformationTechnologyPage = () => {
         </Col>
       </Row>
       <Row className="bg-white mx-3">        
-        <Col className="py-5 pl-sm-5 pr-sm-4">
-          <h1 className="my-3">
+        <Col className="py-3 pl-sm-5 pr-sm-4">
+          <h1 className="py-3 my-3">
             {TextContents.services_taxation.taxation}
           </h1>
           <p className="text-secondary">

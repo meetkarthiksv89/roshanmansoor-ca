@@ -27,10 +27,10 @@ export const ServicesPage = () => {
               alt="Card image" />
             <Card.Img
               className="hidden-sm-up"
-              src="https://via.placeholder.com/400x450"
+              src={Services_Banner}
               alt="Card image" />
             <Card.ImgOverlay>
-              <Card.Title className="page-image-card-header"><h1>SERVICES</h1></Card.Title>
+              <Card.Title className="page-image-card-header"><h1>Services</h1></Card.Title>
             </Card.ImgOverlay>
           </Card>
         </Container>

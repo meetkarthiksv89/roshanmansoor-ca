@@ -74,7 +74,7 @@ export default {
     "other_services_opt3": "Incorporation of entities (Companies/LLP)",
   },
   "services_auditing": {
-    "auditing": "AUDITING",
+    "auditing": "Auditing",
     "main_text1": "We are committed to serving our clients with the highest possible assurance through our systematic approach. Our relentless endeavor is to deploy newer methods and approaches to enhance the quality of our audit.",
     "main_text2": "We focus on deciphering comprehensive and pertinent audit findings that not only help streamline but also create a far-reaching impact for our client businesses. We touch upon Internal audit, GST audit, Bank audit, Forensic audit, Statutory and Tax audits.",
     "main_text3": "We have so far completed statutory audits of 25+ companies and tax audits of 100+ companies in the last 6 years.",
@@ -91,7 +91,7 @@ export default {
     "paragprah5_text1": "Our GST Audit service helps with the company’s GST ( Goods & Service Tax ) registrations, consultation, and audit under GST laws and filling GST returns.",
   },
   "services_advisory": {
-    "advisory": "ADVISORY",
+    "advisory": "Advisory",
     "main_text1": "We provide consultation and advisory services in relation to domestic and international taxation, restructuring and reorganization of companies, acquisitions, and foreign exchange laws.",
     "main_text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "paragprah1_header": "Due Diligence",
@@ -105,7 +105,7 @@ export default {
     "paragprah4_text1": "We provide Foreign Exchange Management Act Consultation that encompasses the complete gamut of foreign exchange laws.",
   },
   "services_taxation": {
-    "taxation": "TAXATION",
+    "taxation": "Taxation",
     "main_text1": "We offer end-to-end solutions for all taxation needs from tax planning, documentation to representations. We have previously represented tax matters from Assessing Officer (Scrutiny) till ITAT level. We have handled cases with respect to search, survey and tax dispute cases. We also help foreign subsidiaries and PE's in India for their remittance certificates and transfer pricing.",
     "main_text2": "We represent our clients at various offices including that of the Assessing Officer, Appellate Authorities and Tribunal. Our tax planning and assistance services span across personal and corporate entities in terms of acquiring Permanent Account Number (PAN), Tax Deduction Account Number, TDS or withholding taxes, the filing of e-Income tax and e-TDS returns.",
     "paragprah1_header": "Income Tax",
@@ -114,7 +114,7 @@ export default {
     "paragprah2_text1": "Our all-inclusive consulting takes care of all your GST compliance needs from registrations, returns, to advice. We have Assisted in GST implementation for a manufacturing concern and its subsidiaries from start to end including hand-holding assistance.",
   },
   "other_services": {
-    "other_services": "OTHER SERVICES",
+    "other_services": "Other Services",
     "paragprah1_header": "Project finance-Debt & Equity",
     "paragprah1_text1": "We are proud of our very well-established network in the areas of banking and financial institutions across the country. An edge that will facilitate easier and quicker approvals for all the financing needs.",
     "paragprah1_text2": "Our tailor-made solutions cater to different kinds of financing – from seed funding, venture capital, to private equity funding or debt syndications from Banks/ NBFCs.",
@@ -124,7 +124,7 @@ export default {
     "paragprah3_text1": "Our team has incorporated about 50+ private companies and 10+ public companies under the Companies Act, 2013. We have also done 20+ LLP incorporation across the country.",
   },
   "auditing_stay_connected": {
-    "stay_connected_us": "STAY CONNECTED WITH US",
+    "stay_connected_us": "Stay Connected with us",
     "name": "Roshan Mansoor",
     "title": "Managing Partner",
     "list1": "Qualified Chartered Accountant in 2010 and Fellow Chartered Accountant in 2017",
