@@ -32,7 +32,7 @@ const Slider = () => {
             alt="First slide"
           />
         </div>
-        <Carousel.Caption className="custom-carousel-caption">
+        <Carousel.Caption className="custom-carousel-caption fadeIn">
           <h1>First slide label</h1>
           <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
         </Carousel.Caption>
@@ -52,7 +52,7 @@ const Slider = () => {
             alt="Second slide"
           />
         </div>
-        <Carousel.Caption className="custom-carousel-caption">
+        <Carousel.Caption className="custom-carousel-caption fadeIn">
           <h1>Second slide label</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
         </Carousel.Caption>
@@ -72,7 +72,7 @@ const Slider = () => {
             alt="Third slide"
           />
         </div>
-        <Carousel.Caption className="custom-carousel-caption">
+        <Carousel.Caption className="custom-carousel-caption fadeIn">
           <h1>Third slide label</h1>
           <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
         </Carousel.Caption>
@@ -92,7 +92,7 @@ const Slider = () => {
             alt="Third slide"
           />
         </div>
-        <Carousel.Caption className="custom-carousel-caption">
+        <Carousel.Caption className="custom-carousel-caption fadeIn">
           <h1>Third slide label</h1>
           <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
         </Carousel.Caption>
@@ -112,7 +112,7 @@ const Slider = () => {
             alt="Third slide"
           />
         </div>
-        <Carousel.Caption className="custom-carousel-caption">
+        <Carousel.Caption className="custom-carousel-caption fadeIn">
           <h1>Third slide label</h1>
           <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
         </Carousel.Caption>
@@ -132,7 +132,7 @@ const Slider = () => {
             alt="Third slide"
           />
         </div>
-        <Carousel.Caption className="custom-carousel-caption">
+        <Carousel.Caption className="custom-carousel-caption fadeIn">
           <h1>Third slide label</h1>
           <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
         </Carousel.Caption>
