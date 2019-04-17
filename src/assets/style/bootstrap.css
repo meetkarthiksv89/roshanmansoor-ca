@@ -9054,6 +9054,7 @@ a.text-dark:hover, a.text-dark:focus {
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 
