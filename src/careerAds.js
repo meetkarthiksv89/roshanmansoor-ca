@@ -25,5 +25,15 @@ export default [
       "Assist the junior colleagues in completing their tasks."
     ],
     location: "Bengaluru"
+  },
+  {
+    id:3,
+    name:"Cleared CPT and/ or IPCC and eligible for articleship as per ICAI guidelines",
+    requirements:[
+      "Good academic background with exposure to extra-curricular activities.",
+      "Basic knowledge of MS-Office.",
+      " Self-motivated and proactive approach to work.",
+    ],
+    location: "Bengaluru"
   }
 ]
