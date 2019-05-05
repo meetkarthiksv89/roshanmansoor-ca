@@ -10,6 +10,7 @@ import Roshan_Mansoor from '../img/Roshan_Mansoor.jpg';
 import Founder_1 from '../img/1.png'
 import Founder_2 from '../img/2.png'
 import Founder_3 from '../img/3.png'
+import Testinomials from '../components/TestimonialsSlider'
 
 export const AboutPageTemplate = () => {
   return (
@@ -174,19 +175,7 @@ export const AboutPageTemplate = () => {
       </Row>
     </Container>
     </Container>
-    <Container fluid={true} className="bg-white mt-sm-5">
-        <Row className="px-5 py-4 mx-sm-5">
-          <Col xs={12}>
-            <h1>{TextContents.aboutpage.testimonials}</h1>
-          </Col>
-          <Col xs={12} sm={3}>
-            <img src="https://via.placeholder.com/240x200" alt=""/>
-          </Col>
-          <Col xs={12} sm={9}>
-            {TextContents.aboutpage.testimonials_text}
-          </Col>
-        </Row>
-      </Container>
+    <Testinomials/>
     </div>
   )
 }
