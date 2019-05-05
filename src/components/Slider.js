@@ -33,8 +33,8 @@ const Slider = () => {
           />
         </div>
         <Carousel.Caption className="custom-carousel-caption fadeIn">
-          <h1>First slide label</h1>
-          <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
+          <h1 style={{color:"black"}}>Excellence</h1>
+          <h4 style={{color:"black"}}>We strive towards building a large team of finance enthusiasts who are equally passionate and qualified as our firm’s current strong team of Chartered Accountants, Company Secretaries, and Certified Management Accountants.</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -53,8 +53,8 @@ const Slider = () => {
           />
         </div>
         <Carousel.Caption className="custom-carousel-caption fadeIn">
-          <h1>Second slide label</h1>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <h1>Growth</h1>
+          <h3>To broaden our horizons towards growing our team exponentially in different spheres of financial services.</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -73,8 +73,8 @@ const Slider = () => {
           />
         </div>
         <Carousel.Caption className="custom-carousel-caption fadeIn">
-          <h1>Third slide label</h1>
-          <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
+          <h1>Confidentiality</h1>
+          <h3>We uphold high standards of honesty and promise to handle all our client interactions with 100% confidentiality.</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -93,8 +93,8 @@ const Slider = () => {
           />
         </div>
         <Carousel.Caption className="custom-carousel-caption fadeIn">
-          <h1>Third slide label</h1>
-          <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
+          <h1 style={{color:"black"}}>Trust</h1>
+          <h3 style={{color:"black"}}>To build trust with customers through excellent products and services and ethical practices in all our client interactions. </h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -113,8 +113,8 @@ const Slider = () => {
           />
         </div>
         <Carousel.Caption className="custom-carousel-caption fadeIn">
-          <h1>Third slide label</h1>
-          <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
+          <h1>Diligence</h1>
+          <h3>At Roshan Mansoor & Co, our well-qualified team has an excellent eye for details and we take genuine responsibility to conduct every financial service with due diligence. </h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -133,8 +133,8 @@ const Slider = () => {
           />
         </div>
         <Carousel.Caption className="custom-carousel-caption fadeIn">
-          <h1>Third slide label</h1>
-          <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
+          <h1>Objectivity</h1>
+          <h4>Our approach towards all financial advices and services is solely based on the book of accounts and solid unbiased evidence and not based on our perception, emotion or imagination. </h4>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

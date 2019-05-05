@@ -52,10 +52,10 @@ export default class Index extends React.Component {
               alt="Card image" />
               <Card.Img 
               className="hidden-sm-up"
-              src="https://via.placeholder.com/400x450" 
+              src={Reach_Us} 
               alt="Card image" />
               <Card.ImgOverlay>
-                <Card.Title className="page-image-card-header"><h1>REACH US</h1></Card.Title>
+                <Card.Title className="page-image-card-header"><h1 style={{color:"black"}}>Reach Us</h1></Card.Title>
               </Card.ImgOverlay>
             </Card>
           </Container>
