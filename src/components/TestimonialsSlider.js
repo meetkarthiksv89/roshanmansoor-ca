@@ -1,18 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
-import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
-import Excellence_Banner from '../img/Roshan_Mansoor&Co_Excellence.png';
-import Growth_Banner from '../img/Roshan_Mansoor_Growth_Banner.png';
-import Confidentiality_Banner from '../img/Roshan_Mansoor_Confidentiality.png';
-import Objectivity_Banner from '../img/Roshan_Mansoor_Objectivity.png';
-import Trust_Banner from '../img/Roshan_Mansoor_Trust.png';
-import Diligence_Banner from '../img/Roshan_Mansoor_Diligence.png';
-import Excellence_Banner_Mobile from '../img/Roshan_Mansoor&Co_Excellence_Mobile.png';
-import Growth_Banner_Mobile from '../img/Roshan_Mansoor_Growth_Banner_Mobile.png';
-import Confidentiality_Banner_Mobile from '../img/Roshan_Mansoor_Confidentiality_Mobile.png';
-import Objectivity_Banner_Mobile from '../img/Roshan_Mansoor_Objectivity_Mobile.png';
-import Trust_Banner_Mobile from '../img/Roshan_Mansoor_Trust_Mobile.png';
-import Diligence_Banner_Mobile from '../img/Roshan_Mansoor_Diligence_Mobile.png';
+import {Container, Row, Col} from 'react-bootstrap'
 
 const Slider = () => {
   return (

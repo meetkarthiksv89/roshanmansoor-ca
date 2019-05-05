@@ -6,7 +6,6 @@ import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
 import linkedinBlueImg from '../img/linkedin-blue.png'
 import TextContents from '../TextContents';
 import Banner_image from '../img/Aboutus_Banner_image.png';
-import Roshan_Mansoor from '../img/Roshan_Mansoor.jpg';
 import Founder_1 from '../img/1.png'
 import Founder_2 from '../img/2.png'
 import Founder_3 from '../img/3.png'
