@@ -50,7 +50,7 @@ export const AboutPageTemplate = () => {
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_1_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_1_title}</p>
-          <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
+          <a href="https://www.linkedin.com/in/roshan-mansoor-b706859/"><img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/></a>
         </div>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
@@ -58,7 +58,7 @@ export const AboutPageTemplate = () => {
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_2_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_2_title}</p>
-          <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
+          <a href="https://www.linkedin.com/in/rajani-chakravarthy-27a46b56/"><img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/></a>
         </div>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
@@ -66,7 +66,7 @@ export const AboutPageTemplate = () => {
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_3_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_3_title}</p>
-          <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
+          <a href="https://www.linkedin.com/in/rajani-chakravarthy-27a46b56/"><img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/></a>
         </div>
       </Col>
       </Row>
