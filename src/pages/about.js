@@ -6,10 +6,10 @@ import {Container, Row, Col, Breadcrumb, Card, Image} from 'react-bootstrap'
 import linkedinBlueImg from '../img/linkedin-blue.png'
 import TextContents from '../TextContents';
 import Banner_image from '../img/Aboutus_Banner_image.png';
-import Roshan_Mansoor from '../img/Roshan_Mansoor.jpg';
 import Founder_1 from '../img/1.png'
 import Founder_2 from '../img/2.png'
 import Founder_3 from '../img/3.png'
+import Testinomials from '../components/TestimonialsSlider'
 
 export const AboutPageTemplate = () => {
   return (
@@ -50,7 +50,7 @@ export const AboutPageTemplate = () => {
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_1_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_1_title}</p>
-          <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
+          <a href="https://www.linkedin.com/in/roshan-mansoor-b706859/"><img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/></a>
         </div>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
@@ -58,7 +58,7 @@ export const AboutPageTemplate = () => {
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_2_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_2_title}</p>
-          <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
+          <a href="https://www.linkedin.com/in/rajani-chakravarthy-27a46b56/"><img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/></a>
         </div>
       </Col>
       <Col xs={12} sm={4} className="mb-4 mb-xs-0">
@@ -66,7 +66,7 @@ export const AboutPageTemplate = () => {
         <div>
           <h4 className="mt-2">{TextContents.aboutpage.pillar_3_name}</h4>
           <p className="font-weight-bold">{TextContents.aboutpage.pillar_3_title}</p>
-          <img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/>
+          <a href="https://www.linkedin.com/in/rajani-chakravarthy-27a46b56/"><img width="30px" src={linkedinBlueImg} alt="linkedin-profile"/></a>
         </div>
       </Col>
       </Row>
@@ -174,19 +174,7 @@ export const AboutPageTemplate = () => {
       </Row>
     </Container>
     </Container>
-    <Container fluid={true} className="bg-white mt-sm-5">
-        <Row className="px-5 py-4 mx-sm-5">
-          <Col xs={12}>
-            <h1>{TextContents.aboutpage.testimonials}</h1>
-          </Col>
-          <Col xs={12} sm={3}>
-            <img src="https://via.placeholder.com/240x200" alt=""/>
-          </Col>
-          <Col xs={12} sm={9}>
-            {TextContents.aboutpage.testimonials_text}
-          </Col>
-        </Row>
-      </Container>
+    <Testinomials/>
     </div>
   )
 }

@@ -1,38 +1,39 @@
 export default [
   {
     id:1,
-    name:"RESEARCH ASSOCIATE",
-    type:"FULL TIME",
+    name:"Qualified Chartered Accountant with zero / 1 year experience",
     requirements:[
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
+      "Technically sound in the fields of direct and indirect taxes, accounting and auditing standards and international taxation",
+      "Lead statutory and tax audits.",
+      "Review completed work of junior colleagues and manage them efficiently.",
+      "Guide and direct the team members in undertaking the tasks assigned to them.",
+      "Train and update the junior colleagues on the technical front.",
+      "Accountable for the work of their team members.",
+      "Work closely with the tax department in the matters of assessments and appeals.",
+      "Proactive in identifying the needs of the clients and resolving issues."
     ],
-    location: "Berlin"
+    location: "Bengaluru"
   },
   {
     id:2,
-    name:"SOFTWARE DEVELOPER",
-    type:"FREELANCER",
+    name:"Semi-qualified Chartered Accountant having completed articleship in a reputed firm",
     requirements:[
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
+      "Good knowledge of direct and indirect taxes, accounting and auditing standards.",
+      "Good soft skills required to perform the work.",
+      "Undertake statutory and tax audits.",
+      "Assume higher responsibilities while undertaking any work assigned.",
+      "Assist the junior colleagues in completing their tasks."
     ],
-    location: "Seattle"
+    location: "Bengaluru"
   },
   {
     id:3,
-    name:"MANAGER",
-    type:"PART TIME",
+    name:"Cleared CPT and/ or IPCC and eligible for articleship as per ICAI guidelines",
     requirements:[
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-      "There are many variations of passages of Lorem Ipsum available",
+      "Good academic background with exposure to extra-curricular activities.",
+      "Basic knowledge of MS-Office.",
+      " Self-motivated and proactive approach to work.",
     ],
-    location: "California"
+    location: "Bengaluru"
   }
 ]

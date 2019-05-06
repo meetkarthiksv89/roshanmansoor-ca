@@ -52,10 +52,10 @@ export default class Index extends React.Component {
               alt="Card image" />
               <Card.Img 
               className="hidden-sm-up"
-              src="https://via.placeholder.com/400x450" 
+              src={Reach_Us} 
               alt="Card image" />
               <Card.ImgOverlay>
-                <Card.Title className="page-image-card-header"><h1>REACH US</h1></Card.Title>
+                <Card.Title className="page-image-card-header"><h1 style={{color:"black"}}>Reach Us</h1></Card.Title>
               </Card.ImgOverlay>
             </Card>
           </Container>
@@ -168,28 +168,34 @@ export default class Index extends React.Component {
               <h5 className="py-3 text-light mt-4">{TextContents.contact.stay_connected}</h5>
               <Row className="text-center">
               <Col>
+              <a href="https://www.facebook.com/Roshan-Mansoor-Co-Chartered-Accountants-103625909820460/">
                 <img
                   src={facebook}
                   style={{width:'60px', height:'60px'}}
                   className="d-inline-block align-top float-right"
                   alt="Facebook"
                 />
+                </a>
               </Col>
               <Col>
+              <a href="https://twitter.com/CaroshanR">
                 <img
                   src={twitter}
                   style={{width:'60px', height:'60px'}}
                   className="d-inline-block align-top"
                   alt="Twitter"
                 />
+                </a>
               </Col>
               <Col>
+              <a href="https://www.linkedin.com/in/roshan-mansoor-b706859/">
               <img
                 src={linkedin}
                 style={{width:'60px', height:'60px'}}
                 className="d-inline-block align-top float-left"
                 alt="Linkedin"
               />
+              </a>
               </Col>
           </Row>
             </div>
