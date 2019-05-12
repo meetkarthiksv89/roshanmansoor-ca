@@ -45,9 +45,9 @@ export default {
     "meet_pillars_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     "pillar_1_name": "Roshan Mansoor",
     "pillar_1_title": "Founder and Managing Partner",
-    "pillar_2_name": "Prashant Bansal",
+    "pillar_2_name": "Rajani Chakravarthy",
     "pillar_2_title": "Has previously worked for E&Y",
-    "pillar_3_name": "Shahid Rokadiya",
+    "pillar_3_name": "Prashanth Bansal",
     "pillar_3_title": "Partner - Hyderabad",
   },
   "services_index": {
