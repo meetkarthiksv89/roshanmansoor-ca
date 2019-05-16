@@ -60,9 +60,9 @@ export const RealEstatePage = () => {
       link1="/industries/manufacturing"
       link2="/industries/informationtechnology"
       link3="/industries/retail"
-      cardHeader1="manufacturing"
-      cardHeader2="INFORMATION TECHNOLOGY"
-      cardHeader3="RETAIL"
+      cardHeader1="Manufacturing"
+      cardHeader2="Information Technology"
+      cardHeader3="Retail"
       cardText1="We undertake financial manage- ment for business operating in diverse industries. Our goal is to provide effective solutions that enable our clients to to accom- plish their objectives..."
       cardText2="Information Technology is the most dynamic industry of today with constant transformations, growth, mergers and acquisi- tions. Our expert team caters to this industry by keeping in mind the constantly changing dynam- ics of the companies operating in this vertical...."
       cardText3="Retail industry has gone through enormous changes after E-Com- merce disrupted the industry as a whole, which enabled as to in- troduce better ERP system with our clients which results in better accounting system, financial
