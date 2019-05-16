@@ -30,8 +30,8 @@ export default {
     "overview_text_3": "At Roshan Mansoor & Co, we approach each task with commitment and perseverance.  We believe in putting our best foot forward and delivering our best practices in all our endeavours so as to exceed and excel in whatever we do.  We seek to be the Best and provide quality services to all our clients. Our passion to be abreast with the current happenings and technical advancements across industry verticals help us in achieving our mission, vision and Excellence.",
     "overview_text_4": "To broaden our horizons towards growing our team exponentially in different spheres of financial services. And also, forge new business relations and invest equal effort in sustaining this, by truly understanding our clients’ businesses and making genuine efforts to grow them.",
     "overview_text_5": "We uphold high standards of honesty and promise to handle all our client interactions with 100% confidentiality.",
-    "overview_text_6": "At Roshan Mansoor & Co, our well-qualified team has an excellent eye for details and we take genuine responsibility to conduct every financial service with due diligence.",
-    "overview_text_7": "Our approach towards the financial advice and services is solely based on the book of accounts of the client and unbiased evidence obtained during the course of our service engagement. Further, our work is driven by our ethical practices and the guidelines and framework prescribed by various Authorities nwhich helps us in being objective while dealing with our clients’ business and client engagements.",
+    "overview_text_6": "At Roshan Mansoor & Co, our well-qualified team has an excellent eye for detail and we take genuine responsibility to conduct every financial service with due diligence.",
+    "overview_text_7": "Our approach towards the financial advice and services is solely based on the book of accounts of the client and unbiased evidence obtained during the course of our service engagement. Further, our work is driven by our ethical practices and the guidelines and framework prescribed by various Authorities which helps us in being objective while dealing with our clients’ business and client engagements.",
     "overview_text_8": "Grow to become one of the best places to work at, with gender neutral and dynamic team of Chartered Accountants.",
     "overview_header_1": "Innovation",
     "overview_header_2": "Trust",
@@ -42,13 +42,13 @@ export default {
     "overview_header_7": "Objectivity",
     "overview_header_8": "Gender Neutral Work Place",
     "meet_pillars": "MEET THE PILLARS OF OUR COMPANY",
-    "meet_pillars_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "meet_pillars_text": "asdfLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     "pillar_1_name": "Roshan Mansoor",
     "pillar_1_title": "Founder and Managing Partner",
     "pillar_2_name": "Rajani Chakravarthy",
     "pillar_2_title": "Has previously worked for E&Y",
     "pillar_3_name": "Prashanth Bansal",
-    "pillar_3_title": "Partner - Hyderabad",
+    "pillar_3_title": "Partner",
   },
   "services_index": {
     "auditing": "Auditing & Assurance",
@@ -150,34 +150,34 @@ export default {
     "latest_insights_header": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
   },
   "industries_information_tech": {
-    "information_technology": "INFORMATION TECHNOLOGY",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    "information_technology": "Information Technology",
+    "text1": "Information Technology is the most dynamic industry of today with constant transformations, growth, mergers, and acquisitions. Our expert team caters to this industry by keeping in mind the constantly changing dynamics of the companies operating in this vertical.",
+    "text2": ""
   },
   "industries_bio_tech": {
     "bio_technology": "Bio Technology",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    "text1": "New horizons are emerging from the discoveries and achievements in biotechnology, but the industry is highly volatile and unpredictable sector due to the scientifically intensive operations of companies that reside here. We have undertaken Financial Modeling and Financial Structuring for companies in the biotechnology sector.",
+    "text2": ""
   },
   "industries_media": {
     "media": "Media",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    "text1": "With high rising consumer demand, the Media industry has a strong growth rate. At Roshan Mansoor & Co, we have provided valuation services for a share acquisition deal for companies in the media sector.",
+    "text2": ""
   },
   "industries_manufacturing": {
     "manufacturing": "Manufacturing",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    "text1": "Another highly complex sector, especially from auditing and accounting viewpoint, is Manufacturing. With this sector being a mix of organized and unorganized players, our focus for our manufacturing clients is to device customized solutions for each of the unique issues they come up with.",
+    "text2": ""
   },
   "industries_retail": {
     "retail": "Retail",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    "text1": "The retail industry has undergone enormous change after e-Commerce has disrupted the industry as a whole. This has enabled us to introduce robust ERP systems with our clients resulting in more efficient accounting and reliable data for financial and tax planning and better management of cash flows.",
+    "text2": ""
   },
   "industries_real_estate": {
     "real_estate": "Real Estate Engineering & Construction",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, writ- ten in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    "text2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    "text1": " Engineering and construction companies have a need for on-going audits to ascertain if all the aspects of internal operations meet the standards set by the statutory bodies. We understand this and have dedicated resources catering to the needs of this industry ",
+    "text2": ""
   },
   "industries_key_notes": {
     "key_notes": "KEY NOTES",
