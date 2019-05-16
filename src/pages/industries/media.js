@@ -40,7 +40,7 @@ export const InformationTechnologyPage = () => {
         </Col>
       </Row>
       <Row className="mx-1 mx-sm-0 bg-white">        
-        <Col className="py-5 px-sm-5 col-md-8">
+        <Col className="py-5 px-sm-5">
           <h2 className="my-3">
             {TextContents.industries_media.media}
           </h2>
@@ -52,7 +52,6 @@ export const InformationTechnologyPage = () => {
           {TextContents.industries_media.text2}
           </p>
         </Col>
-        <IndustriesKeyNotes />
       </Row>
     </Container>
     </div>

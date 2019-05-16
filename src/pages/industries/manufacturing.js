@@ -40,7 +40,7 @@ export const RealEstatePage = () => {
         </Col>
       </Row>
       <Row className="mx-1 mx-sm-0 bg-white">        
-        <Col className="py-3 px-sm-5 col-md-8">
+        <Col className="py-3 px-sm-5">
           <h2 className="py-3 my-3">
             {TextContents.industries_manufacturing.manufacturing}
           </h2>
@@ -52,7 +52,6 @@ export const RealEstatePage = () => {
           {TextContents.industries_manufacturing.text2}
           </p>
         </Col>
-        <IndustriesKeyNotes />
       </Row>
     </Container>
     </div>

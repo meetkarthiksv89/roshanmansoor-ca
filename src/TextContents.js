@@ -150,7 +150,7 @@ export default {
     "latest_insights_header": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a"
   },
   "industries_information_tech": {
-    "information_technology": "INFORMATION TECHNOLOGY",
+    "information_technology": "Information Technology",
     "text1": "Information Technology is the most dynamic industry of today with constant transformations, growth, mergers, and acquisitions. Our expert team caters to this industry by keeping in mind the constantly changing dynamics of the companies operating in this vertical.",
     "text2": ""
   },

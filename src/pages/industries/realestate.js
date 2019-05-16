@@ -51,7 +51,6 @@ export const RealEstatePage = () => {
             {TextContents.industries_real_estate.text2}
           </p>
         </Col>
-        <IndustriesKeyNotes />
       </Row>
     </Container>
     </div>

@@ -25,7 +25,7 @@ export const InformationTechnologyPage = () => {
         src={Real_Estate_Banner}  
         alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title className="page-image-card-header"><h1>Bio Technology</h1></Card.Title>
+          <Card.Title className="page-image-card-header text-center"><h1>Bio Technology</h1></Card.Title>
         </Card.ImgOverlay>
       </Card>
     </Container>
@@ -39,7 +39,7 @@ export const InformationTechnologyPage = () => {
         </Col>
       </Row>
       <Row className="mx-1 mx-sm-0 bg-white">        
-        <Col className="py-5 px-sm-5 col-md-8">
+        <Col className="py-5 px-sm-5">
           <h2 className="my-3">
             {TextContents.industries_bio_tech.bio_technology}
           </h2>
@@ -51,7 +51,6 @@ export const InformationTechnologyPage = () => {
           {TextContents.industries_bio_tech.text2}
           </p>
         </Col>
-        <IndustriesKeyNotes />
       </Row>
     </Container>
     </div>

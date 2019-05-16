@@ -49,9 +49,9 @@ export default class IndexPage extends React.Component {
                       <br />
                     </Card.Text>
                     <Link to="/services/auditing">
-                    <p to="/services/auditing" className="py-1 text-orange-black font-weight-bold">Read More </p>
+                      <p to="/services/auditing" className="py-1 text-orange-black font-weight-bold">Read More </p>
                     </Link>
-                    
+
                   </Card.Body>
 
                 </Card>
@@ -68,7 +68,7 @@ export default class IndexPage extends React.Component {
                       <br />
                     </Card.Text>
                     <Link to="/services/taxation">
-                    <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More123 </p>
+                      <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More123 </p>
                     </Link>
                   </Card.Body>
 
@@ -84,7 +84,7 @@ export default class IndexPage extends React.Component {
                       <br />
                     </Card.Text>
                     <Link to="/services/taxation">
-                    <p to="/services/advisory" style={{ marginBottom: 20 }} className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                      <p to="/services/advisory" style={{ marginBottom: 20 }} className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                     </Link>
                   </Card.Body>
                   <Card.Img src={TaxImage} style={{ height: '250px' }} />
@@ -103,7 +103,7 @@ export default class IndexPage extends React.Component {
                       <br />
                     </Card.Text>
                     <Link to="/services/advisory">
-                    <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
+                      <p to="/services/advisory" className="px-3 py-1 text-orange-black font-weight-bold">Read More </p>
                     </Link>
                   </Card.Body>
 
