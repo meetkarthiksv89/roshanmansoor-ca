@@ -14,7 +14,7 @@ import Real_Estate_Tile from '../../img/Roshan_Mansoor_Real_Estate_Tile.png'
 export default class IndustriesPage extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    // const { edges: posts } = data.allMarkdownRemark
     return (
       <Layout>
         <section>
@@ -138,7 +138,7 @@ export default class IndustriesPage extends React.Component {
                 </Col>
               </Row>
               <Row className="mb-3">
-              {posts.length > 0 && posts
+              {/* {posts.length > 0 && posts
               .map(({ node: post }) => (
                 <Col xs={12} md={6} key={post.id}>
                   <Card className="bg-lightblue mt-5">
@@ -155,7 +155,7 @@ export default class IndustriesPage extends React.Component {
                     </Link>
                   </Card>
                 </Col>
-              ))}
+              ))} */}
               </Row>
             </Container>
           </div>
@@ -165,26 +165,26 @@ export default class IndustriesPage extends React.Component {
   }
 }
 
-export const pageQuery = graphql`
-  query IndexQuery2 {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`
+// export const pageQuery = graphql`
+//   query IndexQuery2 {
+//     allMarkdownRemark(
+//       sort: { order: DESC, fields: [frontmatter___date] },
+//       filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+//     ) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 400)
+//           id
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             title
+//             templateKey
+//             date(formatString: "MMMM DD, YYYY")
+//           }
+//         }
+//       }
+//     }
+//   }
+// `

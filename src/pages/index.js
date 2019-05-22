@@ -18,7 +18,7 @@ import RoshanMansoorImage from '../img/Roshan_Mansoor.jpg';
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    // const { edges: posts } = data.allMarkdownRemark
     return (
       <Layout>
         <Slider />
@@ -223,7 +223,7 @@ export default class IndexPage extends React.Component {
           </Container>
           <div className="bg-darkblue px-lg-5 py-5 text-light">
             <Container fluid={false}>
-              <Row>
+              {/* <Row>
                 <Col xs={12} sm={6} className="mobile-header">
                   <h1 className="font-weight-bold">LATEST INSIGHTS</h1>
                 </Col>
@@ -250,7 +250,7 @@ export default class IndexPage extends React.Component {
                       </Card>
                     </Col>
                   ))}
-              </Row>
+              </Row> */}
               <Row>
                 <Col xs={12} className="bg-darkblue pt-3 hidden-sm-up">
                   <div className="mobile-section-button px-0">
@@ -300,26 +300,26 @@ IndexPage.propTypes = {
   }),
 }
 
-export const pageQuery = graphql`
-  query IndexQuery {
-            allMarkdownRemark(
-              sort: {order: DESC, fields: [frontmatter___date] },
-      filter: {frontmatter: {templateKey: {eq: "blog-post" } }}
-    ) {
-            edges {
-          node {
-            excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-          date(formatString: "MMMM DD, YYYY")
-        }
-      }
-    }
-  }
-}
-`
+// export const pageQuery = graphql`
+//   query IndexQuery {
+//             allMarkdownRemark(
+//               sort: {order: DESC, fields: [frontmatter___date] },
+//       filter: {frontmatter: {templateKey: {eq: "blog-post" } }}
+//     ) {
+//             edges {
+//           node {
+//             excerpt(pruneLength: 400)
+//           id
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             title
+//             templateKey
+//           date(formatString: "MMMM DD, YYYY")
+//         }
+//       }
+//     }
+//   }
+// }
+// `
