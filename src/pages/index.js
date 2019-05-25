@@ -221,7 +221,9 @@ export default class IndexPage extends React.Component {
               </Col>
             </Row>
           </Container>
-          <div className="bg-darkblue px-lg-5 py-5 text-light">
+
+          {/* Uncomment this when you need to add blogs */}
+          {/* <div className="bg-darkblue px-lg-5 py-5 text-light">
             <Container fluid={false}>
               <Row>
                 <Col xs={12} sm={6} className="mobile-header">
@@ -259,7 +261,9 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </div>
+          </div> */}
+
+          {/* Uncomment till here */}
           {/* <div className="container">  
             {posts
               .map(({ node: post }) => (
