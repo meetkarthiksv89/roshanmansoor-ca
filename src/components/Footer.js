@@ -22,7 +22,7 @@ export default () => (
             <div className="border-bottom hidden-sm-up mb-5"></div>
             <h5 className="mb-4 font-weight-bold ml-sm-3">LOCATE US</h5>
             <h6 className="ml-sm-3">
-              Roshan Mansoor & Co.,
+              Karthik Roshan & Co.,
               <br/>
               Chartered Accountants,
               <br/>
